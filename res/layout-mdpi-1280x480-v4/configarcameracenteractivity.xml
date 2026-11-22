@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A000C" android:layout_width="1280.000000px" android:layout_height="480.000000px">
+  <RelativeLayout android:id="@7F0A00FF" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-2" android:layout_alignParentBottom="true">
+    <RelativeLayout android:id="@7F0A0100" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="37.000000px" android:paddingRight="24.000000px" android:layout_width="-1" android:layout_height="50.000000px">
+      <TextView android:textSize="@7F09024A" android:textColor="@color/lg_text_primary" android:id="@7F0A0101" android:layout_width="-2" android:layout_height="-2" android:text="카메라 중심점 설정" android:textScaleX="1.600000" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0102" android:layout_width="1280.000000px" android:layout_height="322.000000px" android:layout_below="@7F0A0100">
+      <RelativeLayout android:id="@7F0A0106" android:background="@7F020064" android:layout_width="600.000000px" android:layout_height="295.000000px" android:layout_marginLeft="27.000000px" android:layout_marginTop="14.000000px"/>
+      <RelativeLayout android:id="@7F0A010C" android:background="@android:0106000D" android:layout_width="581.000000px" android:layout_height="50.000000px" android:layout_marginLeft="662.000000px">
+        <View android:id="@7F0A010D" android:background="@7F080033" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginTop="50.000000px"/>
+        <Button android:textSize="23.000000px" android:textColor="@7F020D3B" android:id="@7F0A010E" android:background="@drawable/lg_glass_button_selector" android:layout_width="290.000000px" android:layout_height="50.000000px" android:text="사용자 도움말" android:textScaleX="1.600000"/>
+        <View android:id="@7F0A010F" android:background="@drawable/lg_glass_panel_light" android:layout_width="2.000000px" android:layout_height="16.000000px" android:layout_marginTop="16.000000px" android:layout_toRightOf="@7F0A010E"/>
+        <Button android:textSize="23.000000px" android:textColor="@7F020D3B" android:id="@7F0A0110" android:background="@drawable/lg_glass_button_selector" android:layout_width="290.000000px" android:layout_height="50.000000px" android:text="장착점 도움말" android:textScaleX="1.600000" android:layout_toRightOf="@7F0A010E"/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A0103" android:background="@7F020064" android:layout_width="581.000000px" android:layout_height="233.000000px" android:layout_marginTop="18.000000px" android:layout_below="@7F0A010C" android:layout_alignLeft="@7F0A010C">
+        <TextView android:textSize="17.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0104" android:layout_width="501.000000px" android:layout_height="25.000000px" android:layout_marginLeft="40.000000px" android:layout_marginTop="27.000000px" android:text="단계 1)" android:textScaleX="1.600000"/>
+        <TextView android:textSize="17.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0105" android:layout_width="501.000000px" android:layout_height="25.000000px" android:text="두 영상이 겹치도록 카메라를" android:textScaleX="1.600000" android:layout_below="@7F0A0104" android:layout_alignLeft="@7F0A0104"/>
+        <TextView android:textSize="17.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0111" android:layout_width="501.000000px" android:layout_height="25.000000px" android:text="잡고 조절하십시오." android:textScaleX="1.600000" android:layout_below="@7F0A0105" android:layout_alignLeft="@7F0A0104"/>
+        <TextView android:textSize="17.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0112" android:layout_width="501.000000px" android:layout_height="25.000000px" android:text="(반드시 정차 후에 조작하십시오.)" android:textScaleX="1.600000" android:layout_below="@7F0A0111" android:layout_alignLeft="@7F0A0104"/>
+        <TextView android:textSize="17.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0113" android:layout_width="501.000000px" android:layout_height="25.000000px" android:layout_marginTop="25.000000px" android:text="단계 2)" android:textScaleX="1.600000" android:layout_below="@7F0A0112" android:layout_alignLeft="@7F0A0104"/>
+        <TextView android:textSize="17.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0114" android:layout_width="504.000000px" android:layout_height="25.000000px" android:text="확인 버튼을 눌러 설정을 완료해주십시오." android:textScaleX="1.600000" android:layout_below="@7F0A0113" android:layout_alignLeft="@7F0A0104"/>
+      </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A010A" android:background="@7F020065" android:layout_width="-1" android:layout_height="61.000000px" android:layout_below="@7F0A0102">
+      <Button android:textSize="20.000000px" android:textColor="#FFCCEAFA" android:id="@7F0A010B" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="433.000000px" android:layout_height="47.000000px" android:layout_marginLeft="195.000000px" android:layout_marginTop="8.000000px" android:text="취소" android:textScaleX="1.600000"/>
+      <Button android:textSize="20.000000px" android:textColor="#FFCCEAFA" android:id="@7F0A00D7" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="433.000000px" android:layout_height="47.000000px" android:layout_marginLeft="21.000000px" android:text="확인" android:textScaleX="1.600000" android:layout_toRightOf="@7F0A010B" android:layout_alignTop="@7F0A010B"/>
+    </RelativeLayout>
+  </RelativeLayout>
+</RelativeLayout>

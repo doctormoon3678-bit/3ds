@@ -1,0 +1,4 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-2" android:layout_height="-2">
+  <ImageView android:id="@7F0A00BC" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentTop="true" android:layout_centerVertical="true"/>
+  <TextView android:textSize="@7F090244" android:textColor="#FF88A1B6" android:id="@7F0A00BD" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentBottom="true" android:layout_centerVertical="true"/>
+</RelativeLayout>

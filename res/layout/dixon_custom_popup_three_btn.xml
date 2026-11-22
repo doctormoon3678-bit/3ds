@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:layout_width="662.000000px" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <LinearLayout android:orientation="1" android:id="@7F0A030D" android:background="@drawable/lg_glass_popup" android:layout_width="-1" android:layout_height="245.000000px">
+      <TextView android:textSize="@7F090151" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:layout_gravity="0x00000010" android:id="@7F0A030E" android:layout_width="-1" android:layout_height="-1" android:text="POPUP TITLE" android:layout_alignParentTop="true"/>
+    </LinearLayout>
+    <LinearLayout android:id="@7F0A030F" android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="-1" android:layout_height="84.000000px" android:layout_below="@7F0A0310">
+      <Button android:textSize="@7F090150" android:textColor="#FF808080" android:gravity="0x00000011" android:id="@7F0A0311" android:background="#00FFFFFF" android:layout_width="0.000000px" android:layout_height="-1" android:text="MBC TPEG 서비스" android:layout_weight="1.000000"/>
+      <View android:id="@7F0A0312" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <View android:id="@7F0A0313" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <Button android:textSize="@7F090150" android:textColor="#FF808080" android:gravity="0x00000011" android:id="@7F0A0314" android:background="#00FFFFFF" android:layout_width="0.000000px" android:layout_height="-1" android:text="YTN TPEG 서비스" android:layout_weight="1.000000"/>
+      <View android:id="@7F0A0312" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <View android:id="@7F0A0313" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <Button android:textSize="@7F090150" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A0315" android:background="#00FFFFFF" android:layout_width="0.000000px" android:layout_height="-1" android:text="취소" android:layout_weight="1.000000"/>
+    </LinearLayout>
+  </LinearLayout>
+</RelativeLayout>

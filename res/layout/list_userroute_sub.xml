@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="@7F0A02F1" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="80.000000px" android:minHeight="80.000000px">
+  <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="80.000000px">
+    <ImageView android:id="@7F0A05C4" android:layout_width="-2" android:layout_height="-2" android:src="@7F0207C6"/>
+    <CheckBox android:id="@7F0A05C5" android:focusable="false" android:clickable="true" android:layout_width="40.000000px" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:button="@7F0205C8"/>
+    <LinearLayout android:gravity="0x00000010" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+      <TextView android:textSize="28.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0307" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.000000px" android:text="TITLE"/>
+      <TextView android:textSize="18.000000px" android:textColor="#FF8E8E93" android:id="@7F0A0308" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.000000px" android:text="SUB TITLE" android:layout_below="@7F0A05BF"/>
+    </LinearLayout>
+  </LinearLayout>
+  <View android:id="@7F0A0193" android:background="@drawable/lg_glass_divider" android:visibility="0" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

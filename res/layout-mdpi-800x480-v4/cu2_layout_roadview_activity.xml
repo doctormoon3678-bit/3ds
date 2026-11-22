@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="800.000000px" android:layout_height="480.000000px">
+  <RelativeLayout android:id="@7F0A0161" android:layout_width="800.000000px" android:layout_height="435.000000px" android:layout_alignParentBottom="true">
+    <RelativeLayout android:id="@7F0A0162" android:layout_width="-1" android:layout_height="-1">
+      <ImageView android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="210.000000px" android:layout_marginTop="11.000000px" android:src="@7F0206EB"/>
+      <RelativeLayout android:id="@7F0A0163" android:visibility="2" android:layout_width="273.000000px" android:layout_height="163.000000px" android:layout_marginLeft="214.000000px" android:layout_marginTop="15.000000px">
+        <WebView android:id="@7F0A0164" android:layout_width="-1" android:layout_height="-1"/>
+        <Button android:id="@7F0A0165" android:layout_width="-1" android:layout_height="-1"/>
+      </RelativeLayout>
+      <ImageView android:id="@7F0A0166" android:layout_width="281.000000px" android:layout_height="171.000000px" android:layout_marginLeft="487.000000px" android:layout_marginTop="11.000000px" android:src="@7F0206EB"/>
+      <RelativeLayout android:id="@7F0A0167" android:layout_width="273.000000px" android:layout_height="159.000000px" android:layout_marginLeft="491.000000px" android:layout_marginTop="17.000000px">
+        <WebView android:id="@7F0A0168" android:layout_width="-1" android:layout_height="-1"/>
+        <Button android:id="@7F0A0169" android:layout_width="-1" android:layout_height="-1"/>
+      </RelativeLayout>
+    </RelativeLayout>
+    <Button android:id="@7F0A016A" android:background="@drawable/lg_glass_button_selector" android:layout_width="57.000000px" android:layout_height="58.000000px" android:layout_marginLeft="737.000000px" android:layout_marginTop="67.000000px"/>
+    <ImageView android:id="@7F0A016B" android:background="@7F020EA1" android:focusable="false" android:focusableInTouchMode="false" android:visibility="2" android:layout_width="57.000000px" android:layout_height="58.000000px" android:layout_marginLeft="737.000000px" android:layout_marginTop="67.000000px"/>
+    <Button android:id="@7F0A016C" android:background="@drawable/lg_glass_button_selector" android:layout_width="57.000000px" android:layout_height="58.000000px" android:layout_marginLeft="737.000000px" android:layout_marginTop="5.000000px"/>
+  </RelativeLayout>
+</RelativeLayout>

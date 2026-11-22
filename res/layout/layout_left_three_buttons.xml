@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0480" android:background="@7F020432" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+  <com.thinkware.sundo.inavi3d.ui.component.FlexibleMenuButton android:textSize="@7F090250" android:textColor="@color/lg_text_secondary" android:id="@7F0A0481" android:background="@7F020439" android:paddingLeft="20.000000px" android:layout_width="135.000000px" android:layout_height="158.000000px" android:text="ⓘ 정보"/>
+  <View android:background="#E6141416" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="32.000000px" android:layout_marginRight="10.000000px"/>
+  <View android:background="#26C0C9E7" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="32.000000px" android:layout_marginRight="10.000000px"/>
+  <com.thinkware.sundo.inavi3d.ui.component.FlexibleMenuButton android:textSize="@7F090250" android:textColor="@color/lg_text_secondary" android:textColorLink="@7F0800AA" android:id="@7F0A0482" android:background="@7F02043C" android:paddingLeft="20.000000px" android:layout_width="135.000000px" android:layout_height="156.000000px" android:text="위치보기"/>
+  <View android:background="#E6141416" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="32.000000px" android:layout_marginRight="10.000000px"/>
+  <View android:background="#26C0C9E7" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="32.000000px" android:layout_marginRight="10.000000px"/>
+  <com.thinkware.sundo.inavi3d.ui.component.FlexibleMenuButton android:textSize="@7F090250" android:textColor="@color/lg_text_secondary" android:id="@7F0A0483" android:background="@7F02043F" android:paddingLeft="20.000000px" android:layout_width="135.000000px" android:layout_height="158.000000px" android:text="경로탐색"/>
+</LinearLayout>

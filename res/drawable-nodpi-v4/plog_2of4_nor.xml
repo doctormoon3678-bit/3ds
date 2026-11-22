@@ -1,0 +1,3 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:gravity="0x00000011" android:drawable="@7F02044F"/>
+</layer-list>

@@ -1,0 +1,6 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@android:0106000D" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_gravity="0x00000050" android:id="@7F0A07F4" android:background="@android:0106000D" android:layout_width="390.000000px" android:layout_height="-1" android:layout_marginTop="63.000000px" android:onClick="dummyClick">
+    <com.thinkware.sundo.inavi3d.ui.component.GpsButton android:id="@7F0A07F5" android:background="@drawable/lg_glass_search_bar" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F09005F" android:layout_marginTop="21.000000px" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <Button android:textSize="@7F09024C" android:textColor="@7F0203DB" android:gravity="0x00000011" android:id="@7F0A07F6" android:background="@drawable/lg_glass_button_selector" android:layout_width="118.000000px" android:layout_height="70.000000px" android:layout_marginLeft="266.000000px" android:layout_marginTop="404.000000px" android:layout_marginRight="5.000000px" android:layout_marginBottom="5.000000px" android:text="탐색시작"/>
+  </RelativeLayout>
+</RelativeLayout>

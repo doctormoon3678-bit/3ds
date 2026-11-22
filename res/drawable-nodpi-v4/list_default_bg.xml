@@ -1,0 +1,15 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <layer-list>
+      <item>
+        <shape android:shape="rectangle">
+          <solid android:color="#1AFFFFFF"/>
+          <corners android:radius="12dp"/>
+        </shape>
+      </item>
+      <item>
+        <nine-patch android:gravity="0x00000073" android:src="@7F02037D"/>
+      </item>
+    </layer-list>
+  </item>
+</selector>

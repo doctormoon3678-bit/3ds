@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A014C" android:background="@android:0106000D" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_width="-1" android:layout_height="543.000000px" android:layout_alignParentBottom="true">
+    <LinearLayout android:orientation="0" android:id="@7F0A014D" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="63.000000px">
+      <Button android:textSize="30.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A014E" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="전체경로" android:layout_weight="1.000000"/>
+      <ImageView android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel" android:focusable="false" android:clickable="false" android:layout_width="1.000000px" android:layout_height="-1" android:src="@7F020C03"/>
+      <Button android:textSize="26.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A014F" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="상세경로" android:layout_weight="1.000000"/>
+      <ImageView android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel" android:focusable="false" android:clickable="false" android:layout_width="1.000000px" android:layout_height="-1" android:src="@7F020C03"/>
+      <Button android:textSize="26.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A0150" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="경로편집" android:layout_weight="1.000000"/>
+      <ImageView android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel" android:focusable="false" android:clickable="false" android:layout_width="1.000000px" android:layout_height="-1" android:src="@7F020C03"/>
+      <Button android:textSize="26.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A0151" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="지점관리" android:layout_weight="1.000000"/>
+    </LinearLayout>
+    <Button android:gravity="0x00000031" android:orientation="1" android:id="@7F0A0152" android:background="@drawable/lg_glass_divider" android:focusable="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="788.000000px" android:layout_marginTop="63.000000px"/>
+  </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A03D6" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@7F0A03D7" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+    <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A03D8" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:text="Title" android:layout_centerVertical="true"/>
+  </LinearLayout>
+  <RelativeLayout android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:layout_below="@7F0A03D7">
+    <ImageButton android:id="@7F0A03D9" android:layout_width="554.000000px" android:layout_height="398.000000px" android:layout_marginLeft="139.000000px" android:layout_marginTop="41.000000px"/>
+    <ImageButton android:id="@7F0A03DA" android:background="@drawable/lg_glass_button_selector" android:padding="0.000000px" android:layout_width="178.000000px" android:layout_height="128.000000px" android:layout_marginLeft="5.000000px" android:layout_marginTop="41.000000px" android:src="@7F020BB4" android:layout_toRightOf="@7F0A03D9"/>
+    <ImageButton android:id="@7F0A03DB" android:background="@drawable/lg_glass_button_selector" android:padding="0.000000px" android:layout_width="178.000000px" android:layout_height="128.000000px" android:layout_marginLeft="5.000000px" android:layout_marginTop="5.000000px" android:src="@7F020BB4" android:layout_toRightOf="@7F0A03D9" android:layout_below="@7F0A03DA"/>
+    <ImageButton android:id="@7F0A03DC" android:background="@drawable/lg_glass_button_selector" android:padding="0.000000px" android:layout_width="178.000000px" android:layout_height="128.000000px" android:layout_marginLeft="5.000000px" android:layout_marginTop="5.000000px" android:src="@7F020BB4" android:layout_toRightOf="@7F0A03D9" android:layout_below="@7F0A03DB"/>
+  </RelativeLayout>
+</RelativeLayout>

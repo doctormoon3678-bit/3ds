@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Liquid Glass Theme -->
+    <style name="LiquidGlassTheme" parent="@android:style/Theme.DeviceDefault.NoActionBar">
+        <item name="android:windowBackground">@color/lg_glass_surface</item>
+        <item name="android:colorBackground">@color/lg_glass_surface</item>
+        <item name="android:textColorPrimary">@color/lg_label</item>
+        <item name="android:textColorSecondary">@color/lg_label_secondary</item>
+        <item name="android:windowAnimationStyle">@style/LiquidGlassWindowAnim</item>
+    </style>
+
+    <!-- Glass Panel Style -->
+    <style name="LiquidGlass.Panel">
+        <item name="android:background">@drawable/lg_glass_panel</item>
+        <item name="android:padding">16dp</item>
+    </style>
+
+    <!-- Glass Card Style -->
+    <style name="LiquidGlass.Card">
+        <item name="android:background">@drawable/lg_glass_card_selector</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Glass Button Style -->
+    <style name="LiquidGlass.Button">
+        <item name="android:background">@drawable/lg_glass_button_selector</item>
+        <item name="android:textColor">@color/lg_label</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">24dp</item>
+        <item name="android:paddingRight">24dp</item>
+        <item name="android:paddingTop">12dp</item>
+        <item name="android:paddingBottom">12dp</item>
+        <item name="android:minHeight">44dp</item>
+    </style>
+
+    <!-- Glass Primary Button Style -->
+    <style name="LiquidGlass.Button.Primary">
+        <item name="android:background">@drawable/lg_glass_button_primary_selector</item>
+        <item name="android:textColor">#FFFFFFFF</item>
+    </style>
+
+    <!-- Glass Title Bar Style -->
+    <style name="LiquidGlass.TitleBar">
+        <item name="android:background">@drawable/lg_glass_titlebar</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:minHeight">48dp</item>
+    </style>
+
+    <!-- Glass Popup Style -->
+    <style name="LiquidGlass.Popup">
+        <item name="android:background">@drawable/lg_glass_popup</item>
+        <item name="android:padding">20dp</item>
+    </style>
+
+    <!-- Glass Text Styles -->
+    <style name="LiquidGlass.Text.Title">
+        <item name="android:textColor">@color/lg_label</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:shadowColor">#4DFFFFFF</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">4</item>
+    </style>
+
+    <style name="LiquidGlass.Text.Body">
+        <item name="android:textColor">@color/lg_label</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="LiquidGlass.Text.Caption">
+        <item name="android:textColor">@color/lg_label_secondary</item>
+        <item name="android:textSize">13sp</item>
+    </style>
+
+    <!-- Glass List Item Style -->
+    <style name="LiquidGlass.ListItem">
+        <item name="android:background">@drawable/lg_glass_list_item_selector</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+        <item name="android:minHeight">56dp</item>
+    </style>
+
+    <!-- Glass Tab Style -->
+    <style name="LiquidGlass.Tab">
+        <item name="android:background">@drawable/lg_glass_tab_selector</item>
+        <item name="android:textColor">@color/lg_label</item>
+        <item name="android:gravity">center</item>
+        <item name="android:paddingLeft">16dp</item>
+        <item name="android:paddingRight">16dp</item>
+    </style>
+
+    <!-- Glass Input Style -->
+    <style name="LiquidGlass.Input">
+        <item name="android:background">@drawable/lg_glass_input_selector</item>
+        <item name="android:textColor">@color/lg_label</item>
+        <item name="android:textColorHint">@color/lg_label_secondary</item>
+        <item name="android:padding">12dp</item>
+    </style>
+
+    <!-- Window Animations -->
+    <style name="LiquidGlassWindowAnim" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/lg_fade_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/lg_fade_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/lg_fade_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/lg_fade_out</item>
+    </style>
+
+    <!-- Glass Popup Animation -->
+    <style name="LiquidGlass.PopupAnim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/lg_popup_enter</item>
+        <item name="android:windowExitAnimation">@anim/lg_popup_exit</item>
+    </style>
+
+    <!-- Glass Slide Animation -->
+    <style name="LiquidGlass.SlideAnim" parent="@android:style/Animation">
+        <item name="android:windowEnterAnimation">@anim/lg_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/lg_slide_down</item>
+    </style>
+</resources>

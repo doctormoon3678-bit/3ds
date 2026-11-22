@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0291" android:background="@drawable/lg_glass_chip" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="15.000000px">
+    <TextView android:textSize="@7F09024E" android:textColor="#FFFFFFFF" android:id="@7F0A0292" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.000000dip" android:layout_marginRight="10.000000dip" android:text="[새그룹] 그룹명:"/>
+    <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.000000">
+      <EditText android:textSize="@7F09024E" android:textColor="#FFFFFFFF" android:id="@7F0A0293" android:background="@7F020BE1" android:paddingLeft="15.000000px" android:longClickable="false" android:layout_width="-1" android:layout_height="-2" android:hint="신규 그룹 명칭을 입력하세요" android:singleLine="true" android:selectAllOnFocus="true" android:capitalize="3" android:privateImeOptions="defaultInputmode=kor;" android:imeOptions="0x10000000"/>
+      <Button android:layout_gravity="0x00000015" android:id="@7F0A0294" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.000000dip"/>
+    </FrameLayout>
+    <Button android:textSize="@7F09024C" android:textColor="@7F0800B3" android:id="@7F0A0295" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="100.000000dip" android:layout_height="-2" android:layout_marginLeft="10.000000dip" android:layout_marginRight="10.000000dip" android:text="등록"/>
+  </LinearLayout>
+  <RelativeLayout android:gravity="0x00000050" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+    <RelativeLayout android:id="@7F0A003C" android:layout_width="-1" android:layout_height="252.000000px"/>
+  </RelativeLayout>
+</LinearLayout>

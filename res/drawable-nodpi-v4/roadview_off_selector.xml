@@ -1,0 +1,20 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="true">
+    <layer-list>
+      <item android:drawable="@7F02049C"/>
+      <item android:drawable="@7F020541"/>
+    </layer-list>
+  </item>
+  <item android:state_focused="true">
+    <layer-list>
+      <item android:drawable="@7F02049A"/>
+      <item android:drawable="@7F020541"/>
+    </layer-list>
+  </item>
+  <item>
+    <layer-list>
+      <item android:drawable="@7F02049B"/>
+      <item android:drawable="@7F020541"/>
+    </layer-list>
+  </item>
+</selector>

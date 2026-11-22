@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:theme="@android:01030006" android:id="@7F0A0752" android:layout_width="-2" android:layout_height="-2">
+  <LinearLayout android:orientation="1" android:id="@7F0A0753" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="543.000000px" android:layout_alignParentBottom="true">
+    <RelativeLayout android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:gravity="0x00000013" android:id="@7F0A0754" android:layout_width="-2" android:layout_height="-2" android:text="지리산휴게소(무안방향)" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+      <RadioGroup android:gravity="0x00000015" android:orientation="0" android:id="@7F0A0755" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true">
+        <ImageView android:layout_gravity="0x00000010" android:id="@7F0A0756" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px"/>
+        <RadioButton android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0757" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:button="@00000000" android:text="약도" android:drawableLeft="@7F0205F8" android:drawablePadding="@7F09014C"/>
+        <ImageView android:layout_gravity="0x00000010" android:id="@7F0A0758" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px"/>
+        <RadioButton android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0759" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:button="@00000000" android:text="목록" android:drawableLeft="@7F0205F8" android:drawablePadding="@7F09014C"/>
+      </RadioGroup>
+    </RelativeLayout>
+    <LinearLayout android:orientation="0" android:id="@7F0A075A" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+      <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:id="@7F0A075B" android:focusable="false" android:layout_width="-1" android:layout_height="-1">
+          <ImageView android:id="@7F0A075C" android:focusable="false" android:clickable="false" android:layout_width="800.000000px" android:layout_height="480.000000px"/>
+          <ImageView android:id="@7F0A075D" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="800.000000px" android:layout_height="480.000000px"/>
+          <ImageView android:id="@7F0A075E" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="800.000000px" android:layout_height="480.000000px"/>
+          <ImageView android:id="@7F0A075F" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="800.000000px" android:layout_height="480.000000px"/>
+          <ImageView android:id="@7F0A0760" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="800.000000px" android:layout_height="480.000000px"/>
+          <ImageView android:id="@7F0A0761" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="800.000000px" android:layout_height="480.000000px"/>
+          <LinearLayout android:orientation="1" android:id="@7F0A0762" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:layout_marginTop="8.000000px">
+            <Button android:textSize="@7F090250" android:id="@7F0A0763" android:background="@drawable/lg_glass_button_selector" android:layout_width="73.000000px" android:layout_height="72.000000px" android:text="2F"/>
+            <Button android:textSize="@7F090250" android:id="@7F0A0764" android:background="@drawable/lg_glass_button_selector" android:layout_width="73.000000px" android:layout_height="72.000000px" android:layout_marginTop="5.000000px" android:text="1F" android:layout_below="@7F0A0763"/>
+          </LinearLayout>
+          <Button android:id="@7F0A0765" android:background="@drawable/lg_glass_button_selector" android:visibility="2" android:layout_width="57.000000px" android:layout_height="78.000000px" android:layout_marginLeft="16.000000px" android:layout_marginTop="161.000000px"/>
+          <Button android:id="@7F0A0766" android:background="@drawable/lg_glass_button_selector" android:visibility="2" android:layout_width="57.000000px" android:layout_height="78.000000px" android:layout_marginLeft="729.000000px" android:layout_marginTop="161.000000px"/>
+          <RelativeLayout android:orientation="0" android:background="@7F020D07" android:layout_width="244.000000px" android:layout_height="480.000000px" android:layout_marginLeft="800.000000px" android:layout_marginTop="0.000000px">
+            <ListView android:id="@7F0A0767" android:focusable="false" android:clickable="false" android:layout_width="196.000000px" android:layout_height="438.000000px" android:layout_marginLeft="14.000000px" android:layout_marginTop="2.000000px" android:listSelector="@7F020CDF" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+          </RelativeLayout>
+        </RelativeLayout>
+      </LinearLayout>
+      <RelativeLayout android:gravity="0x00000011" android:orientation="1" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="@7F0A0768" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+      <LinearLayout android:orientation="1" android:layout_width="210.000000px" android:layout_height="-1">
+        <ListView android:id="@7F0A032D" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CCB" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px" android:layout_weight="1.000000"/>
+      </LinearLayout>
+      <View android:background="@7F02037D" android:layout_width="5.000000px" android:layout_height="-1"/>
+      <RelativeLayout android:gravity="0x00000011" android:orientation="1" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+        <ListView android:id="@7F0A0769" android:background="@7F0800A1" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CDF" android:cacheColorHint="@7F0800A1" android:divider="@00000000" android:dividerHeight="0.000000px" android:choiceMode="0"/>
+        <RelativeLayout android:id="@7F0A00A0" android:background="@drawable/lg_glass_card" android:layout_width="-2" android:layout_height="-2"/>
+      </RelativeLayout>
+    </LinearLayout>
+  </LinearLayout>
+</RelativeLayout>

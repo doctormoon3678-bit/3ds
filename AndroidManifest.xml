@@ -1,0 +1,216 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="14949" android:versionName="4.0.B14949" android:installLocation="0" android:compileSdkVersion="23" android:compileSdkVersionCodename="6.0-2438415" package="com.thinkware.inavi3ds" platformBuildVersionCode="23" platformBuildVersionName="6.0-2438415">
+  <uses-sdk android:minSdkVersion="8" android:targetSdkVersion="23"/>
+  <application android:theme="@android:01030006" android:label="@7F070004" android:icon="@7F020ADE" android:debuggable="false" android:largeHeap="true">
+    <activity android:label="@7F070004" android:name="com.thinkware.sundo.inavi3d.INavi3DActivity" android:excludeFromRecents="false" android:launchMode="1" android:screenOrientation="0" android:configChanges="0x00000FA0" android:alwaysRetainTaskState="true">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.thinkware.sundo.inavi3d.BackGroundInaviActivity" android:excludeFromRecents="false" android:screenOrientation="0" android:configChanges="0x00000DA0">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+      </intent-filter>
+    </activity>
+    <receiver android:name="com.thinkware.sundo.inavi3d.BackGroundReceiver">
+      <intent-filter>
+        <action android:name="com.thinkware.sdcard.popup.close"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.thinkware.sdcard.unmount"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.MEDIA_EJECT"/>
+        <data android:scheme="file"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+        <data android:scheme="file"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.thinkware.system.lowmemory"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PLUG_REAR_CAM"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.thinkware.inavi.restartstep1"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.thinkware.inavi.restartstep2"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="tw.intent.action.NIP_DIXIE.POWER_ON"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="tw.intent.action.NIP_DIXIE.POWER_OFF"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.android.setting.arcamera.notused"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.thinkware.inavi.dppause"/>
+      </intent-filter>
+    </receiver>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.MainActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.GPSViewActivity" android:screenOrientation="0" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.RouteInfoMainActivity" android:screenOrientation="0" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.RouteSummaryActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.RestAreaInfoGuideActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.EntireRouteActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.RegisterRouteActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.CompareRouteActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.EditRouteActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.RoutePointManageActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.GoalPointAddType" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.UserRouteSummaryActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.MainMenuActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.ThemeSrchImageInfoActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.ThemeSrchInfoActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.ThemeSrchResultActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.ThemeSrchActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.SrchMainActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.AroundSrchActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.AroundSrchResultActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.MapPopup.RouteInfoMapPopup" android:screenOrientation="0" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.MapPopup.GuideConfigSetting" android:screenOrientation="0" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.TrafficTconUpdateActivity" android:configChanges="0x00000DA0">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.TrafficTconMapUpdateActivity" android:configChanges="0x00000DA0">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.TrafficInfoAccidentActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.AddressSearch" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="listitem" android:name=".listitem" android:configChanges="0x00000DA0"/>
+    <service android:name="com.thinkware.sundo.inavi3dservice.Inavi3dservice">
+      <intent-filter>
+        <action android:name="com.thinkware.sundo.remoteTBT.IRemoteTBTInterface"/>
+        <action android:name="com.thinkware.sundo.inavi3dservice"/>
+        <action android:name="com.tw.mapmatch.remote.mapmatch.IRemoteMMInterface"/>
+        <action android:name="com.thinkware.sundo.remoteHUD.IRemoteHUDInterface"/>
+      </intent-filter>
+    </service>
+    <service android:name="com.thinkware.sundo.inavi3dservice.AdasService">
+      <intent-filter>
+        <action android:name="com.thinkware.sundo.inavi3dservice"/>
+      </intent-filter>
+    </service>
+    <service android:name="com.thinkware.sundo.inavi3dservice.KillNotificationService"/>
+    <receiver android:name="com.thinkware.sundo.TCONStatus.Inavi3dbroadcastreceiver"/>
+    <activity android:theme="@android:01030009" android:label="사용자 정보" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserDataMainActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="사용자 정보 - 등록지점" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserPointActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="사용자 정보 - 등록지점 추가" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserPointAddActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:label="사용자 정보 - 등록지점  그룹명 변경" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserPointAddGroup" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:label="사용자 정보 - 등록지점검색" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserPointSearchActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:label="사용자 정보 - 등록지점편집" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserPointEditActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="사용자 정보 - 최근목적지" android:name="com.thinkware.sundo.inavi3d.ui.userdata.RecentGoalActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="사용자 정보 - 최근목적지편집" android:name="com.thinkware.sundo.inavi3d.ui.userdata.RecentGoalEditActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="사용자 정보 - 집/ 자주가는 곳" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserPointHomeActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.RouteinfoActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="사용자 정보 - 교통관심구간" android:name="com.thinkware.sundo.inavi3d.ui.userdata.TrafficFavoriteActivity" android:configChanges="0x00000DA0"/>
+    <provider android:name="com.thinkware.sundo.inavi3d.provider.INaviDataProvider" android:authorities="com.thinkware.dixon.userdata;com.thinkware.dixon.trafficdata"/>
+    <activity android:theme="@android:01030009" android:label="교통정보 - TPEG 뉴스" android:name="com.thinkware.sundo.inavi3d.ui.userdata.TrafficTPEGNewsActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="검색 - 아이코드" android:name="com.thinkware.sundo.inavi3d.ui.ICodeSearchActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:label="검색 - 통합검색" android:name="com.thinkware.sundo.inavi3d.ui.UnitedSearchActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000023"/>
+    <activity android:theme="@android:01030009" android:label="검색 - 통합검색 - 결과" android:name="com.thinkware.sundo.inavi3d.ui.UnitedSearchResultActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="검색 - 시설물검색 - 결과" android:name="com.thinkware.sundo.inavi3d.ui.UnitedSearchFacilityActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="검색 - 통합검색 -브랜드지정점" android:name="com.thinkware.sundo.inavi3d.ui.UnitedSearchBrandBranchActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="검색 - 통합검색 -브랜드상세정보" android:name="com.thinkware.sundo.inavi3d.ui.UnitedSearchBrandInfoActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="지역/반경 설정" android:name="com.thinkware.sundo.inavi3d.ui.SetRegionRadiusActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="검색 - 상호/전화번호" android:name="com.thinkware.sundo.inavi3d.ui.SetSanghoTelActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="통합검색-상세정보" android:name="com.thinkware.sundo.inavi3d.ui.UnitedSearchInfoActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="검색 - 명칭검색" android:name="com.thinkware.sundo.inavi3d.ui.NameSearchActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.config.ConfigMainActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="검색 - 라이브 검색 결과" android:name="com.thinkware.sundo.inavi3d.ui.LiveSrchResultActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="검색 - 아이코드 검색 결과" android:name="com.thinkware.sundo.inavi3d.ui.ICodeSearchResultActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="교통 - 요약맵  리스트" android:name="com.thinkware.sundo.inavi3d.ui.TrafficMapPageActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="교통 - 요약맵  지도 페이지" android:name="com.thinkware.sundo.inavi3d.ui.TrafficMapViewPageActivity" android:configChanges="0x00000DA0">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+      </intent-filter>
+    </activity>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.TrafficInfoMainMenuActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.AddressSearchResultActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.AddressInstantSearch" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.TrafficInfoSetConfigActivity" android:configChanges="0x00000DA0">
+      <action android:name="android.intent.action.MAIN"/>
+    </activity>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.TrafficInfoAccidentDetailActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="교통 - 요약맵 검색" android:name="com.thinkware.sundo.inavi3d.ui.TrafficMapSrchActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:label="교통 - TPEG 가입창" android:name="com.thinkware.sundo.inavi3d.ui.TrafficTpegJoinActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000024"/>
+    <activity android:theme="@android:01030009" android:label="교통 - 요약맵 검색 결과" android:name="com.thinkware.sundo.inavi3d.ui.TrafficMapSrchResultAcitivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:label="교통 - CCTV 검색 결과" android:name="com.thinkware.sundo.inavi3d.ui.TrafficCCTVSrchResultAcitivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:label="교통 - CCTV 검색" android:name="com.thinkware.sundo.inavi3d.ui.TrafficCCTVSrchActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserPointAddType" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:label="GPS정보" android:name="com.thinkware.sundo.inavi3d.ui.config.ConfigGPSInfoActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="GSensor정보" android:name="com.thinkware.sundo.inavi3d.ui.config.ConfigGsensorInfoActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:label="Config리스트정보" android:name="com.thinkware.sundo.inavi3d.ui.config.ConfigListInfoActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.TrafficInfoCCTVListActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.TrafficInfoCCTVViewListActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserRouteAddActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserRouteAddGroupActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserRouteSearchActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000003"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.AddressSearchJibeonResult" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.roadview.RoadViewActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserPointHomeEditActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.TrafficTPEGNewsContentsActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserCameraPointEditActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.userdata.UserRegistRouteEditActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.WeatherInfoActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.TrafficInfoCCTVFullViewActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.DR.DRServiceActivity" android:configChanges="0x00000DA0"/>
+    <activity android:name="com.thinkware.sundo.inavi3d.DR.DRServiceLogActivity" android:configChanges="0x00000DA0" android:windowSoftInputMode="0x00000002"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.config.ConfigARCameraCenterActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.config.ConfigARCameraBonnetActivity" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.ui.config.ConfigARCamearInstallGuide" android:configChanges="0x00000DA0"/>
+    <activity android:theme="@android:01030009" android:name="com.thinkware.sundo.inavi3d.fivepin.PLogWebActivity" android:launchMode="1" android:configChanges="0x00000DA0" android:hardwareAccelerated="true"/>
+    <activity android:theme="@android:01030011" android:label="@7F070004" android:name="com.thinkware.sundo.inavi3d.PermLauncherActivity" android:taskAffinity="" android:excludeFromRecents="true" android:screenOrientation="6" android:configChanges="0x00000DA0">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+  </application>
+  <supports-screens android:anyDensity="true" android:smallScreens="false" android:normalScreens="true" android:largeScreens="true" android:resizeable="false"/>
+  <uses-feature android:glEsVersion="0x00020000"/>
+  <uses-feature android:name="android.hardware.camera"/>
+  <uses-feature android:name="android.hardware.camera.autofocus" android:required="true"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+  <uses-permission android:name="android.permission.ACCESS_SURFACE_FLINGER"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.WRITE_MEDIA_STORAGE"/>
+  <uses-permission android:name="android.permission.WRITE_INTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="android.permission.GET_TASKS"/>
+  <uses-permission android:name="android.permission.READ_OWNER_DATA"/>
+  <uses-permission android:name="android.permission.WRITE_OWNER_DATA"/>
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="android.permission.CAMERA.AutoFocusCallback"/>
+  <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+  <uses-permission android:name="android.permission.INTERNAL_SYSTEM_WINDOW"/>
+  <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+  <uses-permission android:name="android.permission.TW_WRITE_SECONDARY_STORAGE"/>
+  <uses-permission android:name="com.thinkware.ivy.launcher.simple.LauncherSimpleProvider.READ_DATABASE"/>
+  <uses-permission android:name="android.permission.REORDER_TASKS"/>
+  <uses-permission android:name="android.permission.STOP_APP_SWITCHES"/>
+</manifest>

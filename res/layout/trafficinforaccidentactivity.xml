@@ -1,0 +1,7 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="@7F08001F" android:visibility="2" android:layout_width="834.000000px" android:layout_height="480.000000px" android:layout_weight="1.000000">
+  <LinearLayout android:orientation="0" android:layout_width="834.000000px" android:layout_height="480.000000px">
+    <ListView android:id="@7F0A09C7" android:background="@drawable/lg_glass_card" android:layout_width="187.000000px" android:layout_height="-1" android:listSelector="@7F020CC3" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px"/>
+    <View android:id="@7F0A0268" android:background="#FF4A5662" android:layout_width="2.000000px" android:layout_height="-1" android:layout_marginTop="4.000000px" android:layout_marginBottom="4.000000px"/>
+    <ListView android:id="@7F0A09C8" android:background="@drawable/lg_glass_divider" android:layout_width="645.000000px" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px"/>
+  </LinearLayout>
+</LinearLayout>

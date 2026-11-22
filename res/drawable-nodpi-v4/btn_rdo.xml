@@ -1,0 +1,6 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_enabled="false" android:state_checked="true" android:drawable="@7F0205FB"/>
+  <item android:state_enabled="false" android:state_checked="false" android:drawable="@7F0205F9"/>
+  <item android:state_checked="false" android:drawable="@7F0205FA"/>
+  <item android:state_checked="true" android:drawable="@7F0205FC"/>
+</selector>

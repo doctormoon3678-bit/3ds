@@ -1,0 +1,8 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/lg_glass_input_selector" android:layout_width="-1" android:layout_height="-2">
+  <RelativeLayout android:id="@7F0A052E" android:visibility="0" android:layout_width="-2" android:layout_height="80.000000px">
+    <RelativeLayout android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="@7F0900F8" android:layout_marginRight="10.000000px" android:layout_alignParentBottom="true"/>
+    <RadioButton android:textColor="@color/lg_button_text" android:id="@7F0A035F" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.000000px" android:button="@7F0205F8" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@7F090152" android:textColor="#FFFFFFFF" android:id="@7F0A00E1" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25.000000px" android:text="아이콘 없음" android:layout_centerVertical="true"/>
+    <ImageView android:id="@7F0A0673" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25.000000px" android:src="@7F020E87" android:layout_centerVertical="true"/>
+  </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x00000010" android:background="@7F020CC9" android:layout_width="-1" android:layout_height="67.000000px">
+  <RadioButton android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0305" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="5.000000px" android:paddingRight="2.000000px" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-2" android:button="@00000000" android:text="체크아이템" android:drawableLeft="@7F0205F8" android:drawablePadding="3.000000px"/>
+</LinearLayout>

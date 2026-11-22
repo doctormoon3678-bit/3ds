@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A000C" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:id="@7F0A05C7" android:background="@drawable/lg_glass_chip" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <TextView android:textSize="@7F090250" android:textColor="#FF8E8E93" android:gravity="0x00000013" android:id="@7F0A05C8" android:layout_width="-2" android:layout_height="-2" android:text="검색어:" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+      <TextView android:textSize="@7F090246" android:textColor="@color/lg_text_primary" android:gravity="0x00000013" android:id="@7F0A009C" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.000000px" android:layout_marginBottom="2.000000px" android:text="검색건수:" android:layout_toRightOf="@7F0A05C8" android:layout_alignBottom="@7F0A05C8"/>
+      <ImageView android:id="@7F0A05C9" android:paddingLeft="15.000000px" android:paddingRight="15.000000px" android:visibility="1" android:layout_width="-2" android:layout_height="63.000000px" android:src="@7F0207E5" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+      <RelativeLayout android:id="@7F0A05CA" android:background="@drawable/lg_glass_card" android:layout_width="-2" android:layout_height="-2">
+        <com.thinkware.sundo.inavi3d.INaviExpandableListView android:id="@7F0A05CB" android:focusable="true" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@android:0106000D" android:childDivider="@7F0206BB" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+      </RelativeLayout>
+    </LinearLayout>
+  </LinearLayout>
+  <include android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="889.000000px" android:layout_marginTop="65.000000px" layout="@7F03007B"/>
+  <include android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="889.000000px" android:layout_marginTop="65.000000px" layout="@7F03007D"/>
+  <include android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="889.000000px" android:layout_marginTop="65.000000px" layout="@7F03007E"/>
+</RelativeLayout>

@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A08D3" android:layout_width="952.000000px" android:layout_height="-1">
+    <com.thinkware.sundo.inavi3d.ui.guidecomponent.CSWSViewAR android:id="@7F0A08B3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F0901A6" android:layout_marginTop="@7F0901A7"/>
+    <RelativeLayout android:id="@7F0A08B4" android:layout_width="-1" android:layout_height="-1">
+      <RelativeLayout android:gravity="0x00000001" android:id="@7F0A08B5" android:layout_width="-1" android:layout_height="62.000000px" android:layout_marginTop="@7F0901B5" android:layout_alignParentBottom="true">
+        <com.thinkware.sundo.inavi3d.ui.guidecomponent.LaneInfoViewAR android:id="@7F0A08B6" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@7F0901B6"/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A08B7" android:layout_width="224.000000px" android:layout_height="64.000000px" android:layout_marginTop="62.000000px" android:layout_centerHorizontal="true">
+        <RelativeLayout android:id="@7F0A08B8" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+          <View android:id="@7F0A08B9" android:background="@7F0202F0" android:focusable="false" android:clickable="true" android:layout_width="-1" android:layout_height="-1"/>
+          <TextView android:textSize="@7F090252" android:textColor="#FFFFFFFF" android:id="@7F0A08BA" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000px" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+      </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true">
+      <com.thinkware.sundo.inavi3d.ui.guidecomponent.TurnAreaViewAR android:layout_gravity="0x00000050" android:id="@7F0A08C0" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="@7F090182"/>
+      <RelativeLayout android:gravity="0x00000005" android:id="@7F0A08D4" android:paddingTop="5.000000px" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="16777211.000000px" android:layout_marginRight="0.000000px">
+        <RelativeLayout android:layout_width="32.000000px" android:layout_height="-1">
+          <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@7F020318"/>
+          <com.thinkware.sundo.inavi3d.ui.guidecomponent.TrafficProgressBar android:id="@7F0A08D5" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2"/>
+          <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@7F020AC7"/>
+        </RelativeLayout>
+      </RelativeLayout>
+    </LinearLayout>
+    <com.thinkware.sundo.inavi3d.ui.guidecomponent.HighwayTurnAreaViewAR android:id="@7F0A08C1" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="60.000000px" android:layout_centerHorizontal="true"/>
+    <LinearLayout android:id="@7F0A08C4" android:visibility="2" android:layout_width="-2" android:layout_height="30.000000px" android:layout_marginLeft="@7F09019E" android:layout_marginTop="@7F09019F">
+      <View android:id="@7F0A08C5" android:background="@7F020317" android:layout_width="37.000000px" android:layout_height="30.000000px"/>
+      <View android:id="@7F0A08C6" android:background="@7F02030C" android:layout_width="23.000000px" android:layout_height="30.000000px"/>
+      <View android:id="@7F0A08C7" android:background="@7F02030C" android:layout_width="23.000000px" android:layout_height="30.000000px"/>
+      <View android:id="@7F0A08C8" android:background="@7F020316" android:layout_width="10.000000px" android:layout_height="30.000000px"/>
+      <View android:id="@7F0A08C9" android:background="@7F02030B" android:layout_width="23.000000px" android:layout_height="30.000000px"/>
+      <View android:id="@7F0A08CA" android:background="@7F02030E" android:layout_width="23.000000px" android:layout_height="30.000000px"/>
+    </LinearLayout>
+    <com.thinkware.sundo.inavi3d.ui.guidecomponent.OBD2ViewAR android:id="@7F0A08CB" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F09019C" android:layout_marginBottom="@7F09019D" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+    <include android:id="@7F0A08CC" android:layout_width="-1" android:layout_height="-2" layout="@7F030084"/>
+    <RelativeLayout android:id="@7F0A08CD" android:background="@android:0106000D" android:visibility="0" android:layout_width="258.000000px" android:layout_height="108.000000px" android:layout_marginLeft="0.000000px" android:layout_marginTop="251.000000px">
+      <com.thinkware.sundo.inavi3d.ui.guidecomponent.HalfPointViewAR android:id="@7F0A08CE" android:background="@7F0202EA" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0.000000px" android:layout_marginTop="0.000000px"/>
+      <com.thinkware.sundo.inavi3d.ui.guidecomponent.SafeZoneMiniViewAR android:id="@7F0A08CF" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="0.000000px" android:layout_marginTop="0.000000px"/>
+    </RelativeLayout>
+  </RelativeLayout>
+  <ImageView android:id="@7F0A08C2" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F0901A8" android:layout_marginTop="@7F0901A9" android:src="@7F020202"/>
+  <ImageView android:id="@7F0A08C3" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F0901AA" android:layout_marginTop="@7F0901AB" android:src="@7F020202"/>
+  <RelativeLayout android:id="@7F0A08BB" android:layout_width="-1" android:layout_height="@7F090170" android:layout_alignParentBottom="true">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="@7F090170" android:layout_alignParentBottom="true">
+      <ImageButton android:id="@7F0A08BC" android:background="@drawable/lg_glass_button_selector" android:layout_width="86.000000px" android:layout_height="-2" android:src="@7F0204BD" android:scaleType="0" android:adjustViewBounds="false"/>
+      <RelativeLayout android:background="@7F020346" android:layout_width="-2" android:layout_height="-2">
+        <com.thinkware.sundo.inavi3d.ui.guidecomponent.DriveCourseViewAR android:id="@7F0A08BD" android:focusable="true" android:nextFocusLeft="@7F0A08BE" android:clickable="true" android:layout_width="-2" android:layout_height="-2"/>
+        <Button android:id="@7F0A08BE" android:background="@drawable/lg_glass_button_selector" android:visibility="2" android:nextFocusRight="@7F0A08BF" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.000000px" android:layout_marginTop="5.000000px"/>
+      </RelativeLayout>
+      <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+        <com.thinkware.sundo.inavi3d.ui.guidecomponent.DriveCourseCurrentViewAR android:id="@7F0A08BF" android:background="@7F020023" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-2"/>
+      </RelativeLayout>
+    </LinearLayout>
+  </RelativeLayout>
+  <include android:id="@7F0A08D2" android:layout_width="-2" android:layout_height="57.000000px" layout="@7F030086"/>
+</RelativeLayout>

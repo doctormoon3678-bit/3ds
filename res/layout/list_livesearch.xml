@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:id="@7F0A057F" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="80.000000px">
+    <ImageView android:id="@7F0A0580" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:src="@7F020AB2" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+    <ImageView android:layout_gravity="0x00000011" android:id="@7F0A0581" android:paddingLeft="2.000000px" android:focusable="false" android:layout_width="45.000000px" android:layout_height="45.000000px" android:layout_marginLeft="6.000000px" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+      <TextView android:textSize="@7F090250" android:textColor="#FFE5E5EA" android:id="@7F0A0582" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.000000px" android:layout_marginTop="8.000000px" android:text="타이틀" android:layout_toRightOf="@7F0A0581"/>
+      <TextView android:textSize="@7F090249" android:textColor="#FF8E8E93" android:id="@7F0A0583" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.000000px" android:text="서브타이틀" android:layout_toRightOf="@7F0A0581" android:layout_below="@7F0A0582" android:layout_centerVertical="true"/>
+    </LinearLayout>
+    <ImageView android:layout_gravity="0x00000011" android:id="@7F0A0584" android:focusable="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000px" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+  </LinearLayout>
+  <View android:id="@7F0A0193" android:background="@drawable/lg_glass_divider" android:visibility="0" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

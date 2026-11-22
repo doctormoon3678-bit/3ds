@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A000C" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:id="@7F0A014D" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="63.000000px">
+    <Button android:textSize="26.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A014E" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="전체경로" android:layout_weight="1.000000"/>
+    <ImageView android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel" android:focusable="false" android:clickable="false" android:layout_width="1.000000px" android:layout_height="-1" android:src="@7F020C03"/>
+    <Button android:textSize="30.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A014F" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="상세경로" android:layout_weight="1.000000">
+      <requestFocus/>
+    </Button>
+    <ImageView android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel" android:focusable="false" android:clickable="false" android:layout_width="1.000000px" android:layout_height="-1" android:src="@7F020C03"/>
+    <Button android:textSize="26.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A0150" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="경로편집" android:layout_weight="1.000000"/>
+    <ImageView android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel" android:focusable="false" android:clickable="false" android:layout_width="1.000000px" android:layout_height="-1" android:src="@7F020C03"/>
+    <Button android:textSize="26.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A0151" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="지점관리" android:layout_weight="1.000000"/>
+  </LinearLayout>
+  <LinearLayout android:id="@7F0A0487" android:layout_width="-1" android:layout_height="-1" android:soundEffectsEnabled="false">
+    <RelativeLayout android:id="@7F0A0463" android:layout_width="-2" android:layout_height="-2">
+      <com.thinkware.sundo.inavi3d.INaviExpandableListView android:id="@7F0A0464" android:background="@drawable/lg_glass_card" android:layout_width="788.000000px" android:layout_height="-1" android:cacheColorHint="#00000000" android:groupIndicator="@android:0106000D" android:childDivider="@7F0206BB" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0488" android:layout_width="236.000000px" android:layout_height="-1">
+      <com.thinkware.sundo.inavi3d.ui.component.RouteSummaryView android:id="@7F0A0489" android:layout_width="236.000000px" android:layout_height="-1" android:layout_marginLeft="1.000000px"/>
+      <Button android:textSize="26.000000px" android:textColor="@7F0203DB" android:id="@7F0A048A" android:background="@drawable/lg_glass_menu_item_selector" android:visibility="1" android:layout_width="217.000000px" android:layout_height="77.000000px" android:layout_marginLeft="10.000000px" android:layout_marginTop="398.000000px" android:text="표시설정(속도)"/>
+    </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>

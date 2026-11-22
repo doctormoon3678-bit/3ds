@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0171" android:background="@drawable/lg_glass_chip" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:id="@7F0A0172" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:layout_marginTop="20.000000px" android:layout_marginRight="20.000000px">
+    <FrameLayout android:layout_width="0.000000px" android:layout_height="-2" android:layout_weight="1.000000">
+      <EditText android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0173" android:background="@7F020BE1" android:paddingLeft="15.000000px" android:longClickable="false" android:layout_width="-1" android:layout_height="58.000000px" android:hint="도로 명칭 또는 IC, JC 명칭을 입력하세요" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="17" android:inputType="0x00001001" android:privateImeOptions="defaultInputmode=kor;" android:imeOptions="0x10000000"/>
+      <Button android:layout_gravity="0x00000015" android:id="@7F0A0174" android:background="@drawable/lg_glass_button_selector" android:layout_width="42.000000px" android:layout_height="42.000000px" android:layout_marginRight="93.000000px"/>
+      <View android:layout_gravity="0x00000015" android:id="@7F0A0050" android:background="@drawable/lg_glass_panel" android:layout_width="1.000000px" android:layout_height="30.000000px" android:layout_marginRight="75.000000px"/>
+      <Button android:layout_gravity="0x00000015" android:id="@7F0A0175" android:background="@drawable/lg_glass_button_selector" android:layout_width="42.000000px" android:layout_height="42.000000px" android:layout_marginRight="21.000000px"/>
+    </FrameLayout>
+  </LinearLayout>
+  <RelativeLayout android:gravity="0x00000050" android:layout_width="-1" android:layout_height="0.000000px" android:layout_weight="1.000000">
+    <LinearLayout android:orientation="1" android:id="@7F0A0176" android:background="@drawable/lg_glass_divider" android:visibility="1" android:layout_width="-1" android:layout_height="-2">
+      <View android:background="#FF545C72" android:layout_width="-1" android:layout_height="1.000000px"/>
+      <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+        <ImageView android:id="@7F0A0177" android:layout_width="-2" android:layout_height="-2" android:src="@7F020C40"/>
+        <HorizontalScrollView android:scrollbars="0x00000000" android:layout_width="0.000000px" android:layout_height="-1" android:layout_weight="1.000000">
+          <LinearLayout android:orientation="0" android:id="@7F0A0178" android:layout_width="0.000000px" android:layout_height="-1"/>
+        </HorizontalScrollView>
+        <Button android:gravity="0x00000011" android:layout_gravity="0x00000010" android:id="@7F0A0179" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2"/>
+      </LinearLayout>
+      <View android:background="#FF545C72" android:layout_width="-1" android:layout_height="1.000000px"/>
+    </LinearLayout>
+    <RelativeLayout android:id="@7F0A003C" android:layout_width="-1" android:layout_height="252.000000px" android:layout_below="@7F0A0176"/>
+  </RelativeLayout>
+</LinearLayout>

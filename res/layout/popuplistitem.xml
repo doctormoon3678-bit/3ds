@@ -1,0 +1,8 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="80.000000px">
+  <RelativeLayout android:id="@7F0A052E" android:visibility="0" android:layout_width="-2" android:layout_height="80.000000px">
+    <RadioButton android:textSize="@7F090152" android:textColor="#FFFFFFFF" android:id="@7F0A0680" android:paddingLeft="15.000000px" android:paddingRight="18.000000px" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="80.000000px" android:button="@00000000" android:text="RADIO" android:drawableRight="@7F0205F8" android:layout_centerVertical="true"/>
+    <CheckBox android:textSize="@7F090152" android:textColor="#FFFFFFFF" android:id="@7F0A0337" android:paddingLeft="15.000000px" android:paddingRight="18.000000px" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="80.000000px" android:button="@00000000" android:text="Check" android:drawableRight="@7F0205C8" android:layout_centerVertical="true"/>
+  </RelativeLayout>
+  <View android:id="@7F0A0193" android:background="@drawable/lg_glass_divider" android:visibility="2" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+  <View android:id="@7F0A0681" android:background="@7F020CB5" android:visibility="2" android:layout_width="-1" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

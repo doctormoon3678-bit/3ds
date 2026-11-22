@@ -1,0 +1,103 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:orientation="1" android:background="@7F020693" android:visibility="0" android:layout_width="862.000000px" android:layout_height="479.000000px" android:layout_centerHorizontal="true">
+    <RelativeLayout android:orientation="1" android:id="@7F0A0214" android:layout_width="862.000000px" android:layout_height="77.000000px" android:layout_centerHorizontal="true">
+      <RelativeLayout android:gravity="0x00000013" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="3.000000px">
+        <TextView android:textSize="26.000000px" android:textColor="#FF0A84FF" android:gravity="0x00000013" android:id="@7F0A0684" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000px" android:text="" android:singleLine="true"/>
+      </RelativeLayout>
+      <RelativeLayout android:gravity="0x00000015" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="3.000000px">
+        <Button android:gravity="0x00000010" android:id="@7F0A06C3" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="30.000000px"/>
+      </RelativeLayout>
+    </RelativeLayout>
+    <View android:id="@7F0A079C" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="5.000000px" android:layout_marginRight="5.000000px" android:layout_below="@7F0A0214"/>
+    <RelativeLayout android:id="@7F0A079D" android:layout_width="440.000000px" android:layout_height="-1" android:layout_marginTop="81.000000px" android:layout_alignParentLeft="true">
+      <ImageView android:background="@drawable/lg_glass_divider" android:layout_width="432.000000px" android:layout_height="387.000000px" android:layout_marginLeft="10.000000px" android:layout_alignParentTop="true"/>
+      <ImageView android:id="@7F0A068A" android:background="@7F020D45" android:layout_width="432.000000px" android:layout_height="387.000000px" android:layout_marginLeft="10.000000px" android:layout_alignParentTop="true"/>
+      <ProgressBar android:id="@7F0A00F9" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true"/>
+      <Button android:textSize="@7F09024C" android:textColor="@7F0203DB" android:gravity="0x00000011" android:id="@7F0A079E" android:background="@drawable/lg_glass_button_selector" android:layout_width="144.000000px" android:layout_height="65.000000px" android:layout_marginRight="5.000000px" android:layout_marginBottom="18.000000px" android:text="안내시작" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A079F" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5.000000px" android:layout_marginTop="8.000000px" android:layout_toRightOf="@7F0A079D" android:layout_below="@7F0A079C">
+      <RelativeLayout android:gravity="0x00000010" android:orientation="1" android:id="@7F0A068C" android:background="@7F0203F9" android:focusable="true" android:clickable="true" android:layout_width="406.000000px" android:layout_height="89.000000px">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+          <RelativeLayout android:id="@7F0A07A0" android:layout_width="160.000000px" android:layout_height="-1">
+            <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A068E" android:background="@7F0206A5" android:layout_width="-1" android:layout_height="-2" android:text="--회 주행"/>
+            <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="@7F0A068E">
+              <TextView android:textSize="@7F090246" android:textColor="#FFFFFFFF" android:layout_width="-2" android:layout_height="22.000000px" android:layout_marginLeft="14.000000px" android:layout_marginTop="24.000000px" android:text="평균"/>
+              <TextView android:textSize="@7F09025E" android:textStyle="0x00000001" android:textColor="#FF37E9D2" android:id="@7F0A07A1" android:layout_width="-2" android:layout_height="46.000000px" android:layout_marginTop="4.000000px" android:text="--:--" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+          </RelativeLayout>
+          <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="26.000000px" android:layout_toRightOf="@7F0A07A0">
+            <RelativeLayout android:id="@7F0A07A2" android:layout_width="-1" android:layout_height="44.000000px">
+              <TextView android:textSize="@7F090244" android:textColor="#FFA2A5AC" android:id="@7F0A07A3" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.000000px" android:text="주요도로"/>
+              <TextView android:textSize="@7F09024A" android:textColor="#FFFFFFFF" android:ellipsize="3" android:id="@7F0A0692" android:layout_width="134.000000px" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:layout_marginTop="12.000000px" android:text="" android:singleLine="true" android:layout_toRightOf="@7F0A07A3"/>
+            </RelativeLayout>
+            <View android:id="@7F0A07A4" android:background="#FF5A5F71" android:layout_width="200.000000px" android:layout_height="1.000000px" android:layout_below="@7F0A07A2"/>
+            <RelativeLayout android:id="@7F0A07A5" android:layout_width="-1" android:layout_height="44.000000px" android:layout_below="@7F0A07A4">
+              <TextView android:textSize="@7F090244" android:textColor="#FFA2A5AC" android:id="@7F0A07A6" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.000000px" android:text="지금출발"/>
+              <TextView android:textSize="@7F090250" android:textStyle="0x00000001" android:textColor="#FFFFFFFF" android:ellipsize="3" android:gravity="0x00000005" android:id="@7F0A07A7" android:layout_width="134.000000px" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:layout_marginTop="5.000000px" android:text="--:--" android:singleLine="true" android:layout_toRightOf="@7F0A07A6"/>
+            </RelativeLayout>
+          </RelativeLayout>
+        </RelativeLayout>
+      </RelativeLayout>
+      <RelativeLayout android:gravity="0x00000010" android:orientation="1" android:id="@7F0A069B" android:background="@7F0203F9" android:focusable="true" android:clickable="true" android:layout_width="406.000000px" android:layout_height="89.000000px" android:layout_marginTop="3.000000px" android:layout_below="@7F0A068C">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+          <RelativeLayout android:id="@7F0A07A8" android:layout_width="160.000000px" android:layout_height="-1">
+            <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A069D" android:background="@7F0206A6" android:layout_width="-1" android:layout_height="-2" android:text="--회 주행"/>
+            <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="@7F0A069D">
+              <TextView android:textSize="@7F090246" android:textColor="#FFFFFFFF" android:layout_width="-2" android:layout_height="22.000000px" android:layout_marginLeft="14.000000px" android:layout_marginTop="24.000000px" android:text="평균"/>
+              <TextView android:textSize="@7F09025E" android:textStyle="0x00000001" android:textColor="#FFC495FF" android:id="@7F0A07A9" android:layout_width="-2" android:layout_height="46.000000px" android:layout_marginTop="4.000000px" android:text="--:--" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+          </RelativeLayout>
+          <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="26.000000px" android:layout_toRightOf="@7F0A07A8">
+            <RelativeLayout android:id="@7F0A07AA" android:layout_width="-1" android:layout_height="44.000000px">
+              <TextView android:textSize="@7F090244" android:textColor="#FFA2A5AC" android:id="@7F0A07AB" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.000000px" android:text="주요도로"/>
+              <TextView android:textSize="@7F09024A" android:textColor="#FFFFFFFF" android:ellipsize="3" android:id="@7F0A06A1" android:layout_width="134.000000px" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:layout_marginTop="12.000000px" android:text="" android:singleLine="true" android:layout_toRightOf="@7F0A07AB"/>
+            </RelativeLayout>
+            <View android:id="@7F0A07AC" android:background="#FF5A5F71" android:layout_width="200.000000px" android:layout_height="1.000000px" android:layout_below="@7F0A07AA"/>
+            <RelativeLayout android:id="@7F0A07AD" android:layout_width="-1" android:layout_height="44.000000px" android:layout_below="@7F0A07AC">
+              <TextView android:textSize="@7F090244" android:textColor="#FFA2A5AC" android:id="@7F0A07AE" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.000000px" android:text="지금출발"/>
+              <TextView android:textSize="@7F090250" android:textStyle="0x00000001" android:textColor="#FFFFFFFF" android:ellipsize="3" android:gravity="0x00000005" android:id="@7F0A07AF" android:layout_width="134.000000px" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:layout_marginTop="5.000000px" android:text="--:--" android:singleLine="true" android:layout_toRightOf="@7F0A07AE"/>
+            </RelativeLayout>
+          </RelativeLayout>
+        </RelativeLayout>
+      </RelativeLayout>
+      <RelativeLayout android:gravity="0x00000010" android:orientation="1" android:id="@7F0A06AA" android:background="@7F0203F9" android:focusable="true" android:clickable="true" android:layout_width="406.000000px" android:layout_height="89.000000px" android:layout_marginTop="3.000000px" android:layout_below="@7F0A069B">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+          <RelativeLayout android:id="@7F0A07B0" android:layout_width="160.000000px" android:layout_height="-1">
+            <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A06AC" android:background="@7F0206A4" android:layout_width="-1" android:layout_height="-2" android:text="--회 주행"/>
+            <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="@7F0A06AC">
+              <TextView android:textSize="@7F090246" android:textColor="#FFFFFFFF" android:layout_width="-2" android:layout_height="22.000000px" android:layout_marginLeft="14.000000px" android:layout_marginTop="24.000000px" android:text="평균"/>
+              <TextView android:textSize="@7F09025E" android:textStyle="0x00000001" android:textColor="#FF69BAFF" android:id="@7F0A07B1" android:layout_width="-2" android:layout_height="46.000000px" android:layout_marginTop="4.000000px" android:text="--:--" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+          </RelativeLayout>
+          <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="26.000000px" android:layout_toRightOf="@7F0A07B0">
+            <RelativeLayout android:id="@7F0A07B2" android:layout_width="-1" android:layout_height="44.000000px">
+              <TextView android:textSize="@7F090244" android:textColor="#FFA2A5AC" android:id="@7F0A07B3" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.000000px" android:text="주요도로"/>
+              <TextView android:textSize="@7F09024A" android:textColor="#FFFFFFFF" android:ellipsize="3" android:id="@7F0A06B0" android:layout_width="134.000000px" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:layout_marginTop="12.000000px" android:text="" android:singleLine="true" android:layout_toRightOf="@7F0A07B3"/>
+            </RelativeLayout>
+            <View android:id="@7F0A07B4" android:background="#FF5A5F71" android:layout_width="200.000000px" android:layout_height="1.000000px" android:layout_below="@7F0A07B2"/>
+            <RelativeLayout android:id="@7F0A07B5" android:layout_width="-1" android:layout_height="44.000000px" android:layout_below="@7F0A07B4">
+              <TextView android:textSize="@7F090244" android:textColor="#FFA2A5AC" android:id="@7F0A07B6" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.000000px" android:text="지금출발"/>
+              <TextView android:textSize="@7F090250" android:textStyle="0x00000001" android:textColor="#FFFFFFFF" android:ellipsize="3" android:gravity="0x00000005" android:id="@7F0A07B7" android:layout_width="134.000000px" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:layout_marginTop="5.000000px" android:text="--:--" android:singleLine="true" android:layout_toRightOf="@7F0A07B6"/>
+            </RelativeLayout>
+          </RelativeLayout>
+        </RelativeLayout>
+      </RelativeLayout>
+      <RelativeLayout android:gravity="0x00000010" android:orientation="1" android:id="@7F0A06B9" android:background="@7F0203F9" android:focusable="true" android:clickable="true" android:layout_width="406.000000px" android:layout_height="89.000000px" android:layout_marginTop="18.000000px" android:layout_below="@7F0A06AA">
+        <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+          <RelativeLayout android:id="@7F0A07B8" android:layout_width="160.000000px" android:layout_height="-1">
+            <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A07B9" android:background="@7F0206A3" android:layout_width="-1" android:layout_height="-2" android:text="실시간"/>
+            <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_below="@7F0A07B9">
+              <TextView android:textSize="@7F09025E" android:textStyle="0x00000001" android:textColor="#FFFF5C5C" android:id="@7F0A07BA" android:layout_width="-2" android:layout_height="46.000000px" android:layout_marginTop="4.000000px" android:text="--:--" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+          </RelativeLayout>
+          <RelativeLayout android:gravity="0x00000010" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="26.000000px" android:layout_toRightOf="@7F0A07B8">
+            <RelativeLayout android:id="@7F0A07BB" android:layout_width="-1" android:layout_height="-2">
+              <TextView android:textSize="@7F090244" android:textColor="#FFA2A5AC" android:id="@7F0A07BC" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.000000px" android:text="주요도로"/>
+              <TextView android:textSize="@7F09024A" android:textColor="#FFFFFFFF" android:ellipsize="3" android:id="@7F0A06BC" android:layout_width="134.000000px" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:layout_marginTop="9.000000px" android:text="" android:singleLine="true" android:layout_toRightOf="@7F0A07BC"/>
+            </RelativeLayout>
+          </RelativeLayout>
+        </RelativeLayout>
+      </RelativeLayout>
+    </RelativeLayout>
+  </RelativeLayout>
+</RelativeLayout>

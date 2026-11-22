@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A03A5" android:background="@7F02039F" android:visibility="2" android:layout_width="@7F0900B8" android:layout_height="@7F0900B9" android:layout_marginLeft="@7F0900AB" android:layout_marginTop="@7F0900AC">
+  <LinearLayout android:orientation="0" android:id="@7F0A03A6" android:background="@7F02035C" android:layout_width="-1" android:layout_height="@7F0900AF">
+    <RelativeLayout android:background="@android:0106000D" android:clickable="true" android:layout_width="346.000000px" android:layout_height="@7F0900AF">
+      <ImageButton android:id="@7F0A03A7" android:background="@drawable/lg_glass_badge" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F020479"/>
+      <ImageButton android:id="@7F0A03A8" android:background="@drawable/lg_glass_badge" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F02047A" android:layout_alignParentRight="true"/>
+      <TextView android:textSize="30.000000px" android:textColor="@7F080026" android:id="@7F0A03A9" android:layout_width="-2" android:layout_height="-2" android:text="전체" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <ImageButton android:id="@7F0A03AA" android:background="@drawable/lg_glass_badge" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F020474" android:layout_alignParentRight="true"/>
+  </LinearLayout>
+  <RelativeLayout android:id="@7F0A03AB" android:focusable="false" android:visibility="0" android:clickable="false" android:layout_width="-1" android:layout_height="@7F0900B3" android:layout_below="@7F0A03A6">
+    <ListView android:id="@7F0A03AC" android:paddingLeft="8.000000px" android:focusable="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="1.000000px" android:listSelector="@android:0106000D" android:cacheColorHint="#00000000" android:divider="@android:0106000D" android:headerDividersEnabled="false" android:footerDividersEnabled="true"/>
+    <RelativeLayout android:id="@7F0A03AD" android:paddingLeft="8.000000px" android:focusable="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="1.000000px" android:cacheColorHint="#00000000" android:divider="@android:0106000D">
+      <Button android:id="@7F0A03AE" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="7.000000px"/>
+      <TextView android:textSize="26.000000px" android:textColor="#FFC1C5C8" android:id="@7F0A03AF" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:layout_marginTop="7.000000px" android:text="강릉(강릉방향)휴게소" android:layout_toRightOf="@7F0A03AE"/>
+      <TextView android:textSize="26.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A03B0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:layout_marginTop="7.000000px" android:text="1.9 km" android:layout_toRightOf="@7F0A03AF"/>
+      <ImageView android:id="@7F0A03B1" android:focusable="true" android:clickable="true" android:layout_width="354.000000px" android:layout_height="210.000000px" android:layout_marginLeft="5.000000px" android:layout_marginTop="52.000000px"/>
+      <ImageButton android:id="@7F0A03B2" android:background="@drawable/lg_glass_button_selector" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="330.000000px" android:layout_marginTop="50.000000px"/>
+      <Button android:id="@7F0A03B3" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="294.000000px"/>
+      <TextView android:textSize="26.000000px" android:textColor="#FFC1C5C8" android:id="@7F0A03B4" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:layout_marginTop="294.000000px" android:text="주유소 정보 : 알뜰주유소/LPG" android:layout_toRightOf="@7F0A03B3"/>
+      <Button android:id="@7F0A03B5" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="337.000000px"/>
+      <TextView android:textSize="26.000000px" android:textColor="#FFC1C5C8" android:id="@7F0A03B6" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:layout_marginTop="337.000000px" android:text="제공서비스:정비소" android:layout_toRightOf="@7F0A03B5"/>
+    </RelativeLayout>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A03B7" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="@7F0900B3" android:layout_below="@7F0A03A6">
+    <ImageView android:background="@7F020BCB" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="181.000000px" android:layout_marginTop="149.000000px"/>
+    <TextView android:textSize="24.000000px" android:textColor="#FFE5E5EA" android:gravity="0x00000001" android:id="@7F0A03B8" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="0.000000px" android:layout_marginTop="230.000000px" android:text="더 이상 휴게소/TG가 없습니다."/>
+  </RelativeLayout>
+  <Button android:id="@7F0A03B9" android:background="@drawable/lg_glass_button_selector" android:nextFocusUp="@7F0A03AA" android:layout_width="-1" android:layout_height="69.000000px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

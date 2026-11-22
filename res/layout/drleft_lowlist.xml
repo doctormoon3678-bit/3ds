@@ -1,0 +1,3 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:focusable="false" android:visibility="0" android:layout_width="76.000000px" android:layout_height="90.000000px">
+  <TextView android:textSize="32.000000px" android:gravity="0x00000011" android:id="@7F0A032F" android:focusable="false" android:layout_width="76.000000px" android:layout_height="90.000000px" android:text="B1"/>
+</RelativeLayout>

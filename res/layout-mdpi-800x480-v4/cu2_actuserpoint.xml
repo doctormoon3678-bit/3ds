@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x00000050" android:id="@7F0A000C" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:id="@7F0A000D" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="544.000000px">
+    <LinearLayout android:orientation="0" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <RelativeLayout android:id="@7F0A000E" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+        <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A000F" android:layout_width="-2" android:layout_height="-2" android:text="등록 정보" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <com.thinkware.sundo.inavi3d.ui.component.DropDownButton android:textSize="@7F09024E" android:id="@7F0A0010" android:background="@drawable/lg_glass_sidebar" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:text="지역설정" android:layout_toLeftOf="@7F0A0011" android:layout_centerVertical="true"/>
+        <View android:id="@7F0A0011" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px" android:layout_toLeftOf="@7F0A0012" android:layout_centerVertical="true"/>
+        <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:gravity="0x00000015" android:id="@7F0A0012" android:background="@drawable/lg_glass_button_selector" android:paddingLeft="25.000000px" android:paddingTop="8.000000px" android:paddingRight="55.000000px" android:layout_width="-2" android:layout_height="-1" android:text="검색" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+      </RelativeLayout>
+      <LinearLayout android:orientation="0" android:id="@7F0A0013" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+        <LinearLayout android:gravity="0x00000010" android:layout_width="-2" android:layout_height="-1">
+          <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:layout_width="-2" android:layout_height="-2" android:text="등록 정보" android:layout_alignParentLeft="true"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000015" android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+          <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0014" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:text="그룹 변경"/>
+          <View android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px"/>
+          <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0015" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:text="삭제"/>
+          <View android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px"/>
+          <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0016" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:text="편집 완료"/>
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+      <LinearLayout android:orientation="1" android:id="@7F0A0017" android:layout_width="-2" android:layout_height="-2" android:layout_weight="4.000000">
+        <ListView android:id="@7F0A0018" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CCB" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+        <View android:background="@7F02037D" android:visibility="2" android:layout_width="5.000000px" android:layout_height="-1"/>
+      </LinearLayout>
+      <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+          <LinearLayout android:orientation="0" android:id="@7F0A0019" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+            <ListView android:id="@7F0A001A" android:background="@drawable/lg_glass_card" android:scrollbars="0x00000000" android:layout_width="95.000000px" android:layout_height="-1" android:listSelector="@7F020CC3" android:cacheColorHint="@android:0106000D"/>
+            <View android:id="@7F0A001B" android:background="#FF4A5662" android:layout_width="2.000000px" android:layout_height="-1" android:layout_marginTop="@7F09014D" android:layout_marginBottom="@7F09014D"/>
+            <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+              <ListView android:id="@7F0A001C" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px" android:layout_alignParentRight="true"/>
+              <com.thinkware.sundo.inavi3d.ui.SrchListIndexBar android:id="@7F0A001D" android:background="@7F020366" android:layout_width="34.000000px" android:layout_height="-1" android:layout_marginTop="5.000000px" android:layout_marginRight="1.000000px" android:layout_marginBottom="5.000000px" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <ExpandableListView android:id="@7F0A001E" android:background="@drawable/lg_glass_card" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@android:0106000D" android:childDivider="@7F0206BB" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+          </LinearLayout>
+          <TextView android:textSize="72.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A001F" android:background="@7F020367" android:visibility="2" android:layout_width="134.000000px" android:layout_height="134.000000px" android:text="ㅌ" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <LinearLayout android:orientation="0" android:id="@7F0A0020" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+          <ListView android:id="@7F0A0021" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CC3" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px"/>
+        </LinearLayout>
+        <LinearLayout android:orientation="0" android:id="@7F0A0022" android:background="@drawable/lg_glass_card" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+          <ListView android:id="@7F0A0023" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CC3" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px" android:layout_weight="8.000000"/>
+          <View android:background="#FF4A5662" android:layout_width="2.000000px" android:layout_height="-1" android:layout_marginTop="4.000000px" android:layout_marginBottom="4.000000px"/>
+          <ListView android:id="@7F0A0024" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px" android:layout_weight="2.000000"/>
+        </LinearLayout>
+        <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+          <LinearLayout android:orientation="0" android:id="@7F0A0025" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+            <ListView android:id="@7F0A0026" android:background="@drawable/lg_glass_card" android:scrollbars="0x00000000" android:layout_width="95.000000px" android:layout_height="-1" android:listSelector="@7F020CC3" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px"/>
+            <View android:id="@7F0A0027" android:background="#FF4A5662" android:layout_width="2.000000px" android:layout_height="-1" android:layout_marginTop="@7F09014D" android:layout_marginBottom="@7F09014D"/>
+            <RelativeLayout android:layout_width="-2" android:layout_height="-2">
+              <ListView android:id="@7F0A0028" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px" android:layout_alignParentRight="true"/>
+              <com.thinkware.sundo.inavi3d.ui.SrchListIndexBar android:id="@7F0A0029" android:background="@7F020366" android:layout_width="34.000000px" android:layout_height="-1" android:layout_marginTop="5.000000px" android:layout_marginRight="1.000000px" android:layout_marginBottom="5.000000px" android:layout_alignParentRight="true"/>
+            </RelativeLayout>
+            <ExpandableListView android:id="@7F0A002A" android:background="@drawable/lg_glass_card" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@android:0106000D" android:childDivider="@7F0206BB" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+          </LinearLayout>
+          <TextView android:textSize="72.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A002B" android:background="@7F020367" android:visibility="2" android:layout_width="134.000000px" android:layout_height="134.000000px" android:text="ㅌ" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+  <include android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="889.000000px" android:layout_marginTop="65.000000px" layout="@7F03007E"/>
+  <include android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="889.000000px" android:layout_marginTop="65.000000px" layout="@7F03007D"/>
+</RelativeLayout>

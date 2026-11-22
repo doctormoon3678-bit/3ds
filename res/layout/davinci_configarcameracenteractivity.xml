@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A000C" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A00FF" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@7F0A0100" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A0101" android:layout_width="-2" android:layout_height="-2" android:text="카메라 중심점 설정 (장착점용)" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0102" android:layout_width="1024.000000px" android:layout_height="403.000000px" android:layout_below="@7F0A0100">
+      <RelativeLayout android:id="@7F0A0106" android:background="@7F020064" android:layout_width="643.000000px" android:layout_height="369.000000px" android:layout_marginLeft="22.000000px" android:layout_marginTop="18.000000px"/>
+      <ScrollView android:id="@7F0A02EF" android:background="@7F020064" android:layout_width="304.000000px" android:layout_height="355.000000px" android:layout_marginLeft="691.000000px" android:layout_marginTop="18.000000px">
+        <LinearLayout android:orientation="1" android:id="@7F0A02F0" android:layout_width="-1" android:layout_height="-2">
+          <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:layout_marginTop="34.000000px" android:text="단계 1)"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="카메라 우측 다이얼 하단에"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="물방울 수평계를 끼워주세요."/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:layout_marginTop="30.000000px" android:text="단계 2)"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="다이얼 중앙에 L렌치를 끼운"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="후, 수평계의 두 개의 세로줄"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="안에 물방울이 위치하도록"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="카메라 각도를 조정해 주세요."/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:layout_marginTop="30.000000px" android:text="선택 사항)"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="더 정밀한 설치를 원하시면,"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="표적 원의 중심과 화면의"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="중심점이 겹치도록 다시 한번"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="카메라 각도를 조정해주세요."/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="(표적 설치는 '카메라 설치"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="가이드'를 참고 해 주세요.)"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:layout_marginTop="30.000000px" android:text="단계 3)"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="카메라 각도 설정이 완료되면"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="L렌치를 빼고 다이얼 뚜껑을"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="닫아 주세요."/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:layout_marginTop="30.000000px" android:text="단계 4)"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="L렌치를 이용해 카메라 후방"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="부의 나사 두개를 모두 조인"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="후 뚜껑을 닫아 주세요."/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:layout_marginTop="30.000000px" android:text="단계 5)"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:text="화면의 확인 버튼을 누르면"/>
+          <TextView android:textSize="@7F090248" android:textColor="#FFB0C4DE" android:layout_width="-1" android:layout_height="30.000000px" android:layout_marginLeft="32.000000px" android:layout_marginBottom="34.000000px" android:text="설정이 완료 됩니다."/>
+        </LinearLayout>
+      </ScrollView>
+      <RelativeLayout android:id="@7F0A010C" android:background="@android:0106000D" android:visibility="2" android:layout_width="465.000000px" android:layout_height="63.000000px" android:layout_marginLeft="530.000000px">
+        <View android:id="@7F0A010D" android:background="@7F080033" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginTop="62.000000px"/>
+        <Button android:textSize="30.000000px" android:textColor="@7F020D3B" android:id="@7F0A010E" android:background="@drawable/lg_glass_button_selector" android:layout_width="232.000000px" android:layout_height="63.000000px" android:text="사용자 도움말"/>
+        <View android:id="@7F0A010F" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px" android:layout_marginTop="21.000000px" android:layout_toRightOf="@7F0A010E"/>
+        <Button android:textSize="30.000000px" android:textColor="@7F020D3B" android:id="@7F0A0110" android:background="@drawable/lg_glass_button_selector" android:layout_width="232.000000px" android:layout_height="63.000000px" android:text="장착점 도움말" android:layout_toRightOf="@7F0A010F"/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A0103" android:background="@7F020064" android:visibility="2" android:layout_width="465.000000px" android:layout_height="292.000000px" android:layout_marginTop="23.000000px" android:layout_below="@7F0A010C" android:layout_alignLeft="@7F0A010C">
+        <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0104" android:layout_width="401.000000px" android:layout_height="32.000000px" android:layout_marginLeft="32.000000px" android:layout_marginTop="34.000000px" android:text="단계 1)"/>
+        <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0105" android:layout_width="401.000000px" android:layout_height="32.000000px" android:text="두 영상이 겹치도록 카메라를" android:layout_below="@7F0A0104" android:layout_alignLeft="@7F0A0104"/>
+        <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0111" android:layout_width="401.000000px" android:layout_height="32.000000px" android:text="잡고 조절하십시오." android:layout_below="@7F0A0105" android:layout_alignLeft="@7F0A0104"/>
+        <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0112" android:layout_width="401.000000px" android:layout_height="32.000000px" android:text="(반드시 정차 후에 조작하십시오.)" android:layout_below="@7F0A0111" android:layout_alignLeft="@7F0A0104"/>
+        <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0113" android:layout_width="401.000000px" android:layout_height="32.000000px" android:layout_marginTop="32.000000px" android:text="단계 2)" android:layout_below="@7F0A0112" android:layout_alignLeft="@7F0A0104"/>
+        <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0114" android:layout_width="404.000000px" android:layout_height="32.000000px" android:text="확인 버튼을 눌러 설정을 완료해주십시오." android:layout_below="@7F0A0113" android:layout_alignLeft="@7F0A0104"/>
+      </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A010A" android:background="@7F020065" android:layout_width="-1" android:layout_height="77.000000px" android:layout_below="@7F0A0102">
+      <Button android:textSize="26.000000px" android:textColor="#FFCCEAFA" android:id="@7F0A010B" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="347.000000px" android:layout_height="59.000000px" android:layout_marginLeft="156.000000px" android:layout_marginTop="10.000000px" android:text="취소"/>
+      <Button android:textSize="26.000000px" android:textColor="#FFCCEAFA" android:id="@7F0A00D7" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="347.000000px" android:layout_height="59.000000px" android:layout_marginLeft="17.000000px" android:text="확인" android:layout_toRightOf="@7F0A010B" android:layout_alignTop="@7F0A010B"/>
+    </RelativeLayout>
+  </RelativeLayout>
+</RelativeLayout>

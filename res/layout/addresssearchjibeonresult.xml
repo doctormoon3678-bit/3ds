@@ -1,0 +1,11 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A008B" android:background="@drawable/lg_glass_chip" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+    <ImageView android:layout_gravity="0x00000010" android:id="@7F0A008C" android:layout_width="-2" android:layout_height="-2" android:src="@7F0207AD"/>
+    <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:gravity="0x00000010" android:id="@7F0A008D" android:paddingLeft="8.000000px" android:layout_width="-1" android:layout_height="-1" android:text="TITLE"/>
+  </LinearLayout>
+  <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+    <View android:background="@7F02037D" android:layout_width="-2" android:layout_height="-1" android:layout_toLeftOf="@7F0A008E"/>
+    <ListView android:id="@7F0A008E" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CC3" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+    <include android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true" layout="@7F03007E"/>
+  </RelativeLayout>
+</LinearLayout>

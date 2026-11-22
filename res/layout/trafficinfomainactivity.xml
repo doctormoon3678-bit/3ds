@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="30.000000dip">
+    <TextView android:textSize="20.000000px" android:id="@7F0A00C7" android:layout_width="-2" android:layout_height="-2" android:text="교통 정보"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:background="#FF66CCFF" android:layout_width="-1" android:layout_height="30.000000dip">
+    <Button android:textSize="16.000000px" android:textColor="@7F0800B3" android:gravity="0x00000005" android:id="@7F0A09C1" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-1" android:text="OFF"/>
+    <Button android:textSize="16.000000px" android:textColor="@7F0800B3" android:gravity="0x00000005" android:id="@7F0A025F" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-1" android:text="업데이트"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.000000">
+    <Button android:textSize="16.000000px" android:gravity="0x00000005" android:id="@7F0A09C2" android:layout_width="-2" android:layout_height="-2" android:text="요약맵"/>
+    <Button android:textSize="16.000000px" android:gravity="0x00000005" android:id="@7F0A09C3" android:layout_width="-2" android:layout_height="-2" android:text="유고정보"/>
+    <Button android:textSize="16.000000px" android:gravity="0x00000005" android:id="@7F0A09C4" android:layout_width="-2" android:layout_height="-2" android:text="뉴스"/>
+  </LinearLayout>
+</LinearLayout>

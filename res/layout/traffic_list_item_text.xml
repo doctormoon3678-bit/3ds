@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-1" android:minHeight="82.000000px">
+  <LinearLayout android:id="@7F0A00BE" android:layout_width="-1" android:layout_height="80.000000px">
+    <TextView android:textSize="@7F09024E" android:textColor="#FFE5E5EA" android:layout_gravity="0x00000013" android:id="@7F0A00BF" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="18.000000px" android:text="TITLE"/>
+  </LinearLayout>
+  <LinearLayout android:layout_width="-1" android:layout_height="2.000000px">
+    <View android:id="@7F0A0193" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px"/>
+  </LinearLayout>
+</LinearLayout>

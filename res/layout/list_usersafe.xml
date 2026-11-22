@@ -1,0 +1,8 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="@7F0A02F1" android:layout_width="-1" android:layout_height="80.000000px" android:minHeight="80.000000px">
+  <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+    <View android:id="@7F0A00DA" android:background="@drawable/lg_glass_list_item_pressed" android:visibility="2" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="80.000000px"/>
+    <CheckBox android:layout_gravity="0x00000010" android:id="@7F0A0567" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:layout_marginRight="4.000000px" android:button="@7F0205C8" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_accent" android:id="@7F0A00BF" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="77.000000px" android:layout_marginTop="8.000000px" android:text="TEXT"/>
+    <TextView android:textSize="@7F090249" android:textColor="#FF8E8E93" android:id="@7F0A05C6" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="77.000000px" android:text="SUB TEXT" android:layout_below="@7F0A00BF"/>
+  </RelativeLayout>
+</FrameLayout>

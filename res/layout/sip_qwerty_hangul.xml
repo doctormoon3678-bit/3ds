@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0939" android:layout_width="-2" android:layout_height="-2">
+  <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="23.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="72.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+    <com.thinkware.sundo.inavi3d.ui.SIPImageButton android:id="@7F0A0942" android:background="@7F020EB4" android:layout_width="117.000000px" android:layout_height="56.000000px" android:layout_marginLeft="23.000000px" android:layout_marginTop="6.000000px" android:src="@7F020A94"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPImageButton android:id="@7F0A0240" android:background="@7F020EB4" android:layout_width="117.000000px" android:layout_height="56.000000px" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px" android:src="@7F020A99"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:id="@7F0A0943" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="23.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:id="@7F0A0944" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPImageButton android:id="@7F0A0945" android:background="@7F020EB4" android:layout_width="90.000000px" android:layout_height="56.000000px" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px" android:src="@7F020A98"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPImageButton android:id="@7F0A093E" android:background="@7F020EB4" android:layout_width="389.000000px" android:layout_height="56.000000px" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px" android:src="@7F020A9D"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPButton android:id="@7F0A0946" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.SIPImageButton android:id="@7F0A0941" android:background="@7F020EB4" android:layout_width="187.000000px" android:layout_height="56.000000px" android:layout_marginLeft="9.000000px" android:layout_marginTop="6.000000px" android:src="@7F020A9B"/>
+  </LinearLayout>
+</LinearLayout>

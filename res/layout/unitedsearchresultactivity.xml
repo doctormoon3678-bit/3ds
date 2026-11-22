@@ -1,0 +1,49 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A0099" android:layout_width="-2" android:layout_height="-2">
+  <LinearLayout android:orientation="1" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:gravity="0x00000013" android:id="@7F0A009B" android:layout_width="-2" android:layout_height="-2" android:text="검색어:" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+      <TextView android:textSize="@7F090246" android:textColor="@color/lg_text_primary" android:gravity="0x00000013" android:id="@7F0A009C" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.000000px" android:layout_marginBottom="2.000000px" android:text="검색건수:" android:layout_toRightOf="@7F0A009B" android:layout_alignBottom="@7F0A009B"/>
+      <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-2" android:layout_height="-1" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <RadioGroup android:gravity="0x00000010" android:orientation="0" android:id="@7F0A08FC" android:layout_width="-2" android:layout_height="-1">
+          <RadioButton android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0A09" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:button="@00000000" android:text="반경" android:drawableLeft="@7F0205F8" android:drawablePadding="@7F09014C"/>
+          <View android:id="@7F0A0A0A" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px"/>
+          <RadioButton android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A009D" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:button="@00000000" android:text="지역" android:drawableLeft="@7F0205F8" android:drawablePadding="@7F09014C"/>
+        </RadioGroup>
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@7F0A0A0B" android:layout_width="-2" android:layout_height="-1" android:minWidth="167.000000px">
+          <View android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px"/>
+          <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0A0C" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:minWidth="166.000000px" android:text="전국"/>
+          <com.thinkware.sundo.inavi3d.ui.component.DropDownButton android:id="@7F0A0A0D" android:background="@drawable/lg_glass_sidebar" android:visibility="2" android:clickable="true" android:layout_width="166.000000px" android:layout_height="-2"/>
+        </LinearLayout>
+      </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="0.000000dip" android:layout_weight="1.000000">
+      <LinearLayout android:orientation="1" android:layout_width="210.000000px" android:layout_height="-1">
+        <ListView android:id="@7F0A032D" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CCB" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px" android:layout_weight="1.000000"/>
+        <RelativeLayout android:id="@7F0A0A12" android:paddingLeft="17.000000px" android:paddingBottom="15.000000px" android:visibility="2" android:layout_width="-1" android:layout_height="157.000000px">
+          <RelativeLayout android:background="@7F020CBB" android:layout_width="174.000000px" android:layout_height="142.000000px">
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="11.000000px" android:layout_marginTop="11.000000px" android:src="@7F020ABB"/>
+            <TextView android:textSize="@7F090244" android:textColor="#FF7B909E" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="49.000000px" android:layout_marginTop="14.000000px" android:text="정확도 높음"/>
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="11.000000px" android:layout_marginTop="42.000000px" android:src="@7F020ABA"/>
+            <TextView android:textSize="@7F090244" android:textColor="#FF7B909E" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="49.000000px" android:layout_marginTop="44.000000px" android:text="정확도 중간"/>
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="11.000000px" android:layout_marginTop="73.000000px" android:src="@7F020AB9"/>
+            <TextView android:textSize="@7F090244" android:textColor="#FF7B909E" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="49.000000px" android:layout_marginTop="75.000000px" android:text="정확도 낮음"/>
+            <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="11.000000px" android:layout_marginTop="104.000000px" android:src="@7F020AB8"/>
+            <TextView android:textSize="@7F090244" android:textColor="#FF7B909E" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="49.000000px" android:layout_marginTop="106.000000px" android:text="부정확"/>
+          </RelativeLayout>
+        </RelativeLayout>
+      </LinearLayout>
+      <View android:background="@7F02037D" android:visibility="2" android:layout_width="5.000000dip" android:layout_height="-1"/>
+      <RelativeLayout android:gravity="0x00000011" android:orientation="1" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+        <RelativeLayout android:id="@7F0A00A0" android:background="@drawable/lg_glass_card" android:layout_width="-2" android:layout_height="-2">
+          <com.thinkware.sundo.inavi3d.INaviExpandableListView android:id="@7F0A00A1" android:visibility="0" android:nextFocusRight="@7F03007D" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@android:0106000D" android:childDivider="@7F0206BB" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+        </RelativeLayout>
+        <TextView android:textSize="17.000000dip" android:textColor="#FFE5E5EA" android:id="@7F0A0A13" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="상호/전화번호 검색 지역을 선택하십시오." android:layout_centerInParent="true"/>
+        <ImageView android:id="@7F0A0A14" android:background="@7F020BCB" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_above="@7F0A0A13" android:layout_centerInParent="true"/>
+        <Button android:textSize="17.000000dip" android:textColor="@7F0203DB" android:id="@7F0A0A15" android:background="@drawable/lg_glass_menu_item_selector" android:visibility="2" android:layout_width="271.000000dip" android:layout_height="47.000000dip" android:text="지역 설정" android:layout_alignParentBottom="true" android:layout_centerInParent="true"/>
+      </RelativeLayout>
+    </LinearLayout>
+  </LinearLayout>
+  <include android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="889.000000px" android:layout_marginTop="65.000000px" layout="@7F03007E"/>
+  <include android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="889.000000px" android:layout_marginTop="65.000000px" layout="@7F03007D"/>
+  <include android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="889.000000px" android:layout_marginTop="65.000000px" layout="@7F03007B"/>
+</RelativeLayout>

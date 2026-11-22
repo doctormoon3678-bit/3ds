@@ -1,0 +1,10 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A0053" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="16777215.000000px">
+    <ImageView android:id="@7F0A0054" android:layout_width="364.000000px" android:layout_height="64.000000px" android:src="@7F020335"/>
+    <ImageView android:id="@7F0A0055" android:layout_width="55.000000px" android:layout_height="56.000000px" android:layout_marginLeft="38.000000dip" android:src="@7F020001" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@7F0A0056" android:layout_width="55.000000px" android:layout_height="56.000000px" android:layout_marginLeft="4.000000dip" android:src="@7F020003" android:layout_toRightOf="@7F0A0055" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@7F0A0057" android:layout_width="55.000000px" android:layout_height="56.000000px" android:layout_marginLeft="4.000000dip" android:src="@7F020000" android:layout_toRightOf="@7F0A0056" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@7F0A0058" android:layout_width="55.000000px" android:layout_height="56.000000px" android:layout_marginLeft="4.000000dip" android:src="@7F020004" android:layout_toRightOf="@7F0A0057" android:layout_alignParentTop="true"/>
+    <ImageView android:id="@7F0A0059" android:layout_width="55.000000px" android:layout_height="56.000000px" android:layout_marginLeft="4.000000dip" android:src="@7F020002" android:layout_toRightOf="@7F0A0058" android:layout_alignParentTop="true"/>
+  </RelativeLayout>
+</FrameLayout>

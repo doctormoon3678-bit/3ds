@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A003F" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:background="#774876FF" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:textSize="20.000000sp" android:layout_width="-2" android:layout_height="-2" android:text="등록 정보" android:layout_alignParentLeft="true"/>
+    <Button android:id="@7F0A0040" android:layout_width="-2" android:layout_height="-2" android:text="삭제" android:layout_alignParentRight="true"/>
+  </RelativeLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="3.000000">
+      <TextView android:textSize="16.000000sp" android:id="@7F0A0041" android:paddingLeft="20.000000dip" android:paddingTop="20.000000dip" android:paddingBottom="30.000000dip" android:layout_width="-2" android:layout_height="-2" android:text="사용자 지점" android:layout_alignParentLeft="true"/>
+      <TextView android:textSize="16.000000sp" android:id="@7F0A0042" android:paddingLeft="20.000000dip" android:paddingBottom="30.000000dip" android:layout_width="-2" android:layout_height="-2" android:text="집" android:layout_alignParentLeft="true"/>
+      <TextView android:textSize="16.000000sp" android:id="@7F0A0043" android:paddingLeft="20.000000dip" android:paddingBottom="30.000000dip" android:layout_width="-2" android:layout_height="-2" android:text="자주가는 곳" android:layout_alignParentLeft="true"/>
+      <TextView android:textSize="16.000000sp" android:id="@7F0A0044" android:paddingLeft="20.000000dip" android:paddingBottom="30.000000dip" android:layout_width="-2" android:layout_height="-2" android:text="안전운행구간" android:layout_alignParentLeft="true"/>
+      <TextView android:textSize="16.000000sp" android:id="@7F0A0045" android:paddingLeft="20.000000dip" android:layout_width="-2" android:layout_height="-2" android:text="경로" android:layout_alignParentLeft="true"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+      <ImageView android:id="@7F0A0046" android:paddingTop="20.000000dip" android:layout_width="250.000000dip" android:layout_height="250.000000dip" android:src="@7F020CA6" android:layout_alignParentLeft="true"/>
+      <TextView android:textSize="20.000000sp" android:id="@7F0A0047" android:paddingLeft="20.000000dip" android:paddingTop="20.000000dip" android:paddingBottom="20.000000dip" android:layout_width="-2" android:layout_height="-2" android:text="명칭" android:layout_toRightOf="@7F0A0046"/>
+      <TextView android:textSize="18.000000sp" android:id="@7F0A0048" android:paddingLeft="20.000000dip" android:paddingBottom="20.000000dip" android:layout_width="-2" android:layout_height="-2" android:text="지역명" android:layout_toRightOf="@7F0A0046" android:layout_below="@7F0A0047"/>
+      <TextView android:textSize="16.000000sp" android:id="@7F0A0049" android:paddingLeft="20.000000dip" android:layout_width="-2" android:layout_height="-2" android:text="icode" android:layout_toRightOf="@7F0A0046" android:layout_below="@7F0A0048"/>
+      <Button android:id="@7F0A004A" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000dip" android:layout_marginBottom="20.000000dip" android:text="경로 탐색" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+      <Button android:id="@7F0A004B" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000dip" android:layout_marginBottom="20.000000dip" android:text="지도 보기" android:layout_toLeftOf="@7F0A004A" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>

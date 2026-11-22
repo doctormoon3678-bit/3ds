@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x00000050" android:orientation="1" android:id="@7F0A026E" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="543.000000px">
+    <LinearLayout android:orientation="0" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:gravity="0x00000013" android:layout_gravity="0x00000013" android:id="@7F0A026F" android:layout_width="-2" android:layout_height="-1" android:text="교통정보"/>
+      <LinearLayout android:gravity="0x00000015" android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+        <RadioGroup android:layout_gravity="0x00000015" android:orientation="0" android:id="@7F0A0186" android:layout_width="-2" android:layout_height="-1" android:checkedButton="@7F0A0187" android:text="교통정보">
+          <RadioButton android:textSize="@7F09024E" android:textColor="@7F020D37" android:layout_gravity="0x00000010" android:id="@7F0A0270" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:button="@00000000" android:text="TPEG" android:drawableLeft="@7F0205F8" android:drawablePadding="@7F09014C"/>
+          <View android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px"/>
+          <RadioButton android:textSize="@7F09024E" android:textColor="@7F020D37" android:layout_gravity="0x00000011" android:id="@7F0A0271" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:button="@00000000" android:text="TLink" android:drawableLeft="@7F0205F8" android:drawablePadding="@7F09014C"/>
+          <View android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px"/>
+          <RadioButton android:textSize="@7F09024E" android:textColor="@7F020D37" android:layout_gravity="0x00000011" android:id="@7F0A0272" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:button="@00000000" android:text="통계 교통" android:drawableLeft="@7F0205F8" android:drawablePadding="@7F09014C"/>
+          <View android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px"/>
+        </RadioGroup>
+        <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:layout_gravity="0x00000010" android:id="@7F0A0273" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:text="교통정보 (ON)"/>
+      </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1">
+      <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20.000000px">
+        <ListView android:id="@7F0A0274" android:layout_width="-1" android:layout_height="-2" android:listSelector="@7F020CDD" android:cacheColorHint="#00000000"/>
+        <ListView android:id="@7F0A0275" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:listSelector="@7F020CDD" android:cacheColorHint="#00000000"/>
+        <ListView android:id="@7F0A0276" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:listSelector="@7F020CDD" android:cacheColorHint="#00000000"/>
+        <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="1" android:id="@7F0A0277" android:layout_width="-1" android:layout_height="-1">
+          <ImageView android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@7F0A0278" android:layout_width="-2" android:layout_height="-2" android:src="@7F020BCB"/>
+          <TextView android:textSize="@7F09024C" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@7F0A0279" android:layout_width="-1" android:layout_height="-2" android:text="통계정보를 이용하여 지도와 요약 맵에 교통정보를 제공합니다."/>
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:orientation="1" android:id="@7F0A027A" android:layout_width="-1" android:layout_height="-2">
+          <ImageView android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@7F0A0278" android:layout_width="-2" android:layout_height="-2" android:src="@7F020BCB"/>
+          <TextView android:textSize="@7F09024C" android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@7F0A027B" android:layout_width="-1" android:layout_height="-2" android:text="사용할 교통정보를 설정하지 않았습니다. &#10;교통정보를 설정해 주십시오."/>
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

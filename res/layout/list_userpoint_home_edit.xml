@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A02F1" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="80.000000px" android:minHeight="80.000000px">
+    <CheckBox android:id="@7F0A05B9" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:button="@7F0205C8" android:layout_centerVertical="true"/>
+    <ImageView android:id="@7F0A05BA" android:layout_width="40.000000px" android:layout_height="48.000000px" android:layout_marginLeft="70.000000px" android:layout_marginRight="15.000000px" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@7F090250" android:textColor="#FFFFFFFF" android:id="@7F0A00C7" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="8.000000px" android:text="TITLE" android:layout_toRightOf="@7F0A05BA"/>
+    <TextView android:textSize="@7F090249" android:textColor="#FF8E8E93" android:id="@7F0A05BB" android:layout_width="-2" android:layout_height="-2" android:text="SUB TITLE" android:layout_toRightOf="@7F0A05BA" android:layout_below="@7F0A00C7"/>
+    <TextView android:textSize="@7F090249" android:textColor="#FFE5E5EA" android:id="@7F0A05BC" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="165.000000px" android:layout_marginBottom="7.000000px" android:text="[i-code]" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    <View android:id="@7F0A0193" android:background="@drawable/lg_glass_divider" android:visibility="0" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+  </RelativeLayout>
+</LinearLayout>

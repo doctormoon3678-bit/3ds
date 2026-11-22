@@ -1,0 +1,10 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A0153" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:background="@7F02034E" android:layout_width="-1" android:layout_height="544.000000px" android:layout_alignParentBottom="true">
+    <com.thinkware.sundo.inavi3d.ui.component.GPSModeCamView android:id="@7F0A0154" android:layout_width="280.000000px" android:layout_height="490.000000px" android:layout_marginTop="17.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.component.GPSModeSpeedView android:id="@7F0A0155" android:layout_width="464.000000px" android:layout_height="490.000000px" android:layout_marginLeft="280.000000px" android:layout_marginTop="17.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.component.GPSModeCompassView android:id="@7F0A0156" android:layout_width="314.000000px" android:layout_height="314.000000px" android:layout_marginLeft="355.000000px" android:layout_marginTop="17.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.component.GPSModeCompassGoalView android:id="@7F0A0157" android:layout_width="328.000000px" android:layout_height="328.000000px" android:layout_marginLeft="348.000000px" android:layout_marginTop="17.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.component.GPSModeTurnView android:id="@7F0A0158" android:layout_width="280.000000px" android:layout_height="490.000000px" android:layout_marginLeft="744.000000px" android:layout_marginTop="17.000000px"/>
+    <com.thinkware.sundo.inavi3d.ui.component.GPSModeDateView android:id="@7F0A0159" android:layout_width="172.000000px" android:layout_height="172.000000px" android:layout_marginLeft="772.000000px" android:layout_marginTop="243.000000px"/>
+  </RelativeLayout>
+</RelativeLayout>

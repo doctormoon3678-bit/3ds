@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A00CA" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <RelativeLayout android:id="@7F0A00CB" android:background="@drawable/lg_glass_popup" android:padding="0.000000px" android:layout_width="@7F0900FE" android:layout_height="395.000000px">
+      <RelativeLayout android:id="@7F0A00CC" android:layout_width="-1" android:layout_height="74.000000px" android:layout_marginTop="3.000000px">
+        <TextView android:textSize="@7F09014F" android:textColor="@color/lg_text_secondary" android:id="@7F0A00CD" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000px" android:text="도로 업데이트" android:layout_centerVertical="true"/>
+        <RelativeLayout android:id="@7F0A00CE" android:background="@7F080023" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="8.000000px" android:layout_marginRight="8.000000px" android:layout_alignParentBottom="true"/>
+      </RelativeLayout>
+      <TextView android:textSize="22.000000px" android:textColor="@color/lg_text_primary" android:gravity="0x00000011" android:id="@7F0A00CF" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="110.000000px" android:text="최신버전의 도로망 데이터가 있습니다. &#10; 업데이트 하시겠습니까?" android:singleLine="false" android:layout_centerHorizontal="true" android:lineSpacingExtra="14.000000px"/>
+      <TextView android:textSize="20.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A00D0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="209.000000px" android:text="네트워크 연결 상태에 따라 수 분이 소요될 수 있으며,&#10;데이터 통화료가 발생할 수 있습니다." android:singleLine="false" android:layout_centerHorizontal="true" android:lineSpacingExtra="10.000000px"/>
+      <RelativeLayout android:orientation="0" android:id="@7F0A00D1" android:background="@drawable/lg_glass_panel_light" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="321.000000px" android:layout_centerHorizontal="true">
+        <CheckBox android:id="@7F0A00D2" android:focusable="false" android:clickable="false" android:layout_width="36.000000px" android:layout_height="36.000000px" android:layout_marginLeft="1.000000px" android:button="@7F0205C8" android:layout_centerVertical="true"/>
+        <Button android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000010" android:id="@7F0A00D3" android:background="@android:0106000D" android:paddingTop="3.000000px" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:text="다시 보지 않기" android:layout_centerVertical="true"/>
+      </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="0" android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="6.000000px" android:layout_width="502.000000px" android:layout_height="84.000000px" android:layout_below="@7F0A00CB">
+      <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:id="@7F0A00D4" android:background="@drawable/lg_glass_button" android:layout_width="245.000000px" android:layout_height="-1" android:text="아니오"/>
+      <View android:id="@7F0A00D5" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <View android:id="@7F0A00D6" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:id="@7F0A00D7" android:background="@drawable/lg_glass_button" android:layout_width="245.000000px" android:layout_height="-1" android:text="예"/>
+    </LinearLayout>
+  </RelativeLayout>
+</RelativeLayout>

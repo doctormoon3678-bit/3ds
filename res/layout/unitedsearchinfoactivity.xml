@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0A10" android:background="@drawable/lg_glass_chip" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+    <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A0A11" android:layout_width="-2" android:layout_height="-2" android:text="[ⓘ 정보]" android:layout_centerVertical="true"/>
+  </RelativeLayout>
+  <LinearLayout android:background="@7F0800A1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+    <ListView android:id="@7F0A09AF" android:background="@7F0800A1" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CDF" android:cacheColorHint="@7F0800A1" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+  </LinearLayout>
+</LinearLayout>

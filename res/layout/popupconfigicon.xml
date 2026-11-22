@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A000C" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <RelativeLayout android:id="@7F0A00CB" android:background="@drawable/lg_glass_popup" android:layout_width="@7F090100" android:layout_height="@7F090101">
+      <ListView android:id="@7F0A0672" android:fadingEdge="0x00000000" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="76.000000px" android:scrollingCache="false" android:divider="@00000000" android:layout_below="@7F0A0619" android:headerDividersEnabled="false" android:footerDividersEnabled="false"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0335" android:layout_width="@7F090100" android:layout_height="76.000000px">
+      <TextView android:textSize="@7F09014F" android:textColor="@color/lg_text_secondary" android:id="@7F0A0619" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000px" android:text="퀵실행 아이콘" android:layout_centerVertical="true"/>
+      <RelativeLayout android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="7.000000px" android:layout_marginRight="7.000000px" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@7F0A033D" android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="@7F090100" android:layout_height="84.000000px" android:layout_below="@7F0A00CB">
+      <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:id="@7F0A00DE" android:background="@drawable/lg_glass_button_selector" android:layout_width="-1" android:layout_height="-1" android:text="취소"/>
+    </LinearLayout>
+  </RelativeLayout>
+</RelativeLayout>

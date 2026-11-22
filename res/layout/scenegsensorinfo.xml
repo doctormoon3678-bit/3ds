@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A081A" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A0213" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@7F0A0221" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A0101" android:layout_width="-2" android:layout_height="-2" android:text="G센서 정보" android:layout_centerVertical="true"/>
+      <TextView android:textSize="@7F090247" android:textColor="#FF6E7581" android:id="@7F0A0616" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000px" android:text="도로의 노면 및 차량의 운행상태에 따라 실제와 다르게 표현할 수 있습니다." android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <ImageView android:id="@7F0A081B" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="152.000000px" android:src="@7F020BDD" android:layout_centerHorizontal="true"/>
+    <RelativeLayout android:id="@7F0A010A" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="443.000000px" android:layout_centerHorizontal="true">
+      <ImageView android:id="@7F0A081C" android:layout_width="-2" android:layout_height="-2" android:src="@7F020896" android:layout_centerVertical="true"/>
+      <TextView android:textSize="@7F09024A" android:textColor="#FFB0C4DE" android:gravity="0x00000010" android:id="@7F0A081D" android:layout_width="420.000000px" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:layout_marginRight="4.000000px" android:text="G센서가 정상적으로 작동되고 있지 않습니다." android:layout_toRightOf="@7F0A081C" android:layout_centerVertical="true"/>
+      <RelativeLayout android:id="@7F0A081E" android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="1.000000px" android:layout_height="20.000000px" android:layout_toRightOf="@7F0A081D" android:layout_centerVertical="true"/>
+      <TextView android:textSize="@7F09024A" android:textColor="#FF01B6E7" android:gravity="0x00000010" android:id="@7F0A081F" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:text="작동안함" android:layout_toRightOf="@7F0A081E" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+  </RelativeLayout>
+</LinearLayout>

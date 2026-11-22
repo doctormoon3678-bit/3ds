@@ -1,0 +1,9 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A09AD" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A025B" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+    <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:layout_width="-1" android:layout_height="-2" android:text="유고정보 &gt; 상세내용" android:layout_centerVertical="true"/>
+    <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:gravity="0x00000011" android:id="@7F0A09AE" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:text="위치보기" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+  </RelativeLayout>
+  <LinearLayout android:background="@7F0800A1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+    <ListView android:id="@7F0A09AF" android:background="@7F0800A1" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="25.000000px" android:layout_marginRight="25.000000px" android:listSelector="@7F020CC3" android:cacheColorHint="@7F0800A1" android:divider="@7F08009F" android:dividerHeight="1.000000px"/>
+  </LinearLayout>
+</LinearLayout>

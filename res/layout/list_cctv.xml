@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="82.000000px">
+  <FrameLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2">
+    <ImageView android:id="@7F0A0518" android:layout_width="-2" android:layout_height="-2"/>
+    <TextView android:layout_gravity="0x00000001" android:id="@7F0A0519" android:paddingTop="8.000000px" android:layout_width="-2" android:layout_height="-2"/>
+  </FrameLayout>
+  <FrameLayout android:orientation="1" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="4.000000px">
+    <ImageView android:layout_gravity="0x00000011" android:id="@7F0A051A" android:layout_width="-2" android:layout_height="-2"/>
+    <TextView android:layout_gravity="0x00000011" android:id="@7F0A051B" android:layout_width="-2" android:layout_height="-2"/>
+  </FrameLayout>
+  <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="15.000000px" android:layout_weight="1.000000">
+    <TextView android:textSize="26.000000px" android:textColor="#FFE5E5EA" android:id="@7F0A051C" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.000000px" android:layout_marginTop="10.000000px" android:text="양재대로"/>
+    <TextView android:textSize="18.000000px" android:textColor="#FF8E8E93" android:id="@7F0A051D" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.000000px" android:layout_marginBottom="10.000000px" android:text="양재 IC - 신갈 IC"/>
+  </LinearLayout>
+  <FrameLayout android:layout_gravity="0x00000010" android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000px">
+    <ImageView android:id="@7F0A051E" android:layout_width="-2" android:layout_height="-2" android:src="@7F020BBE"/>
+    <TextView android:layout_gravity="0x00000010" android:id="@7F0A051F" android:layout_width="-2" android:layout_height="-2" android:text="471km"/>
+  </FrameLayout>
+</LinearLayout>

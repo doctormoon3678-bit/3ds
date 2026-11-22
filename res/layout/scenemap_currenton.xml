@@ -1,0 +1,159 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0844" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:background="@android:0106000D" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@7F0A0845" android:visibility="2" android:layout_width="-1" android:layout_height="-1"/>
+    <RelativeLayout android:id="@7F0A0846" android:background="@android:0106000D" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="57.000000px">
+      <ImageButton android:id="@7F0A0847" android:background="@drawable/lg_glass_search_bar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="78.000000px" android:layout_marginTop="@7F090060" android:src="@7F020641" android:layout_alignLeft="@7F0A0848"/>
+      <ImageButton android:id="@7F0A0848" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F09005F" android:layout_marginTop="@7F090060" android:src="@7F020488"/>
+      <ImageButton android:id="@7F0A0849" android:background="@drawable/lg_glass_search_bar" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="78.000000px" android:layout_marginTop="@7F09005D" android:src="@7F020642" android:layout_below="@7F0A0848" android:layout_alignLeft="@7F0A0848"/>
+      <Button android:textSize="20.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A084A" android:background="@drawable/lg_glass_search_bar" android:paddingLeft="10.000000px" android:paddingRight="10.000000px" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="78.000000px" android:layout_marginTop="@7F09005D" android:text="MMC ON" android:layout_below="@7F0A0849" android:layout_alignLeft="@7F0A0848"/>
+      <com.thinkware.sundo.inavi3d.ui.component.GpsButton android:id="@7F0A084B" android:background="@drawable/lg_glass_search_bar" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@7F09005D" android:layout_below="@7F0A0848" android:layout_alignLeft="@7F0A0848"/>
+      <com.thinkware.sundo.inavi3d.ui.component.GpsButton android:id="@7F0A084C" android:background="@drawable/lg_glass_search_bar" android:focusable="true" android:visibility="2" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="621.000000px" android:layout_alignTop="@7F0A084B"/>
+      <com.thinkware.sundo.inavi3d.ui.component.TrafficButton android:id="@7F0A084D" android:background="@drawable/lg_glass_search_bar" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@7F09005D" android:layout_below="@7F0A084B" android:layout_alignLeft="@7F0A084B"/>
+      <ImageButton android:id="@7F0A084E" android:background="@drawable/lg_glass_search_bar" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@7F09005D" android:src="@7F0205AF" android:layout_below="@7F0A084D" android:layout_alignLeft="@7F0A084D"/>
+      <ImageButton android:id="@7F0A084F" android:background="@drawable/lg_glass_search_bar" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@7F09005D" android:src="@7F0205B4" android:layout_below="@7F0A084E" android:layout_alignLeft="@7F0A084E"/>
+      <Button android:id="@7F0A0850" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="288.000000px" android:layout_alignLeft="@7F0A084C"/>
+      <Button android:id="@7F0A0851" android:background="@drawable/lg_glass_button_selector" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="227.000000px" android:layout_alignLeft="@7F0A0850"/>
+      <Button android:id="@7F0A0852" android:background="@drawable/lg_glass_button_selector" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="346.000000px" android:layout_alignLeft="@7F0A0850"/>
+      <ImageButton android:id="@7F0A0853" android:background="@drawable/lg_glass_search_bar" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@7F09005D" android:src="@7F0204EC" android:layout_below="@7F0A084F" android:layout_alignLeft="@7F0A084F"/>
+      <ImageButton android:id="@7F0A0854" android:background="@drawable/lg_glass_button_selector" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F09005C" android:src="@7F020551" android:layout_toRightOf="@7F0A0853" android:layout_alignTop="@7F0A0853"/>
+      <ImageButton android:id="@7F0A0855" android:background="@drawable/lg_glass_button_selector" android:visibility="2" android:nextFocusUp="@7F0A0856" android:layout_width="86.000000px" android:layout_height="-2" android:layout_marginTop="@7F09005E" android:src="@7F0204CE" android:scaleType="0" android:adjustViewBounds="false" android:layout_below="@7F0A0853"/>
+      <RelativeLayout android:id="@7F0A0857" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@7F0A0848" android:layout_alignTop="@7F0A0848">
+        <ImageButton android:id="@7F0A0858" android:background="@drawable/lg_glass_search_bar" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F09005C" android:src="@7F020482"/>
+      </RelativeLayout>
+      <RelativeLayout android:gravity="0x00000005" android:id="@7F0A0859" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="0.000000px">
+        <RelativeLayout android:gravity="0x00000005" android:id="@7F0A085A" android:background="@7F02034A" android:layout_width="284.000000px" android:layout_height="123.000000px" android:layout_marginTop="6.000000px" android:layout_marginRight="169.000000px">
+          <ImageView android:id="@7F0A085B" android:background="@7F0206D8" android:layout_width="88.000000px" android:layout_height="88.000000px" android:layout_marginLeft="4.000000px" android:layout_marginTop="4.000000px"/>
+          <com.thinkware.sundo.inavi3d.DR.UpDownRotationView android:id="@7F0A085C" android:layout_width="88.000000px" android:layout_height="16.000000px" android:layout_below="@7F0A085B" android:layout_alignLeft="@7F0A085B"/>
+          <ImageView android:id="@7F0A085D" android:background="@7F0206D9" android:layout_width="88.000000px" android:layout_height="88.000000px" android:layout_marginLeft="6.000000px" android:layout_toRightOf="@7F0A085B" android:layout_alignTop="@7F0A085B"/>
+          <com.thinkware.sundo.inavi3d.DR.LeftRightRotationView android:id="@7F0A085E" android:layout_width="88.000000px" android:layout_height="16.000000px" android:layout_below="@7F0A085D" android:layout_alignLeft="@7F0A085D"/>
+          <com.thinkware.sundo.inavi3d.DR.AtmosphereGraph android:id="@7F0A085F" android:layout_width="88.000000px" android:layout_height="88.000000px" android:layout_marginLeft="6.000000px" android:layout_toRightOf="@7F0A085D" android:layout_alignTop="@7F0A085D"/>
+          <TextView android:textSize="14.000000px" android:textColor="#FF8E8E8E" android:gravity="0x00000001" android:id="@7F0A0860" android:layout_width="88.000000px" android:layout_height="16.000000px" android:text="고도" android:layout_below="@7F0A085F" android:layout_alignLeft="@7F0A085F"/>
+        </RelativeLayout>
+      </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0861" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+      <RelativeLayout android:id="@7F0A0862" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="0.000000px">
+        <FrameLayout android:id="@7F0A0863" android:background="@7F020EAC" android:visibility="2" android:layout_width="231.000000px" android:layout_height="84.000000px" android:layout_marginLeft="0.000000px" android:layout_marginTop="0.000000px">
+          <TextView android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:ellipsize="3" android:gravity="0x00000011" android:id="@7F0A0864" android:visibility="2" android:layout_width="0.000000px" android:layout_height="0.000000px" android:layout_marginLeft="0.000000px" android:layout_marginTop="0.000000px" android:text="경부고속도로 방면" android:maxLines="2"/>
+        </FrameLayout>
+      </RelativeLayout>
+      <include android:id="@7F0A0493" android:layout_width="-2" android:layout_height="57.000000px" layout="@7F030085"/>
+      <RelativeLayout android:background="@android:0106000D" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="57.000000px">
+        <RelativeLayout android:id="@7F0A0865" android:visibility="2" android:layout_width="-1" android:layout_height="-1"/>
+        <RelativeLayout android:id="@7F0A0866" android:visibility="2" android:layout_width="-1" android:layout_height="-1"/>
+        <RelativeLayout android:id="@7F0A0867" android:visibility="2" android:layout_width="-1" android:layout_height="-1"/>
+        <RelativeLayout android:id="@7F0A0868" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="0.000000px">
+          <View android:id="@7F0A0869" android:layout_width="0.000000dip" android:layout_height="0.000000dip" android:layout_centerInParent="true"/>
+          <ImageView android:id="@7F0A086A" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="290.000000px" android:layout_marginRight="45.000000px" android:src="@7F020C8D" android:layout_toLeftOf="@7F0A0869"/>
+        </RelativeLayout>
+        <RelativeLayout android:gravity="0x00000001" android:id="@7F0A086B" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="0.000000px">
+          <FrameLayout android:background="@7F020709" android:layout_width="317.000000px" android:layout_height="176.000000px" android:layout_marginTop="152.000000px">
+            <ImageView android:id="@7F0A086C" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="33.000000px" android:layout_marginTop="28.000000px" android:src="@7F020776"/>
+            <TextView android:textSize="20.000000px" android:textColor="@color/lg_text_accent" android:gravity="0x00000011" android:id="@7F0A086D" android:layout_width="149.000000px" android:layout_height="22.000000px" android:layout_marginLeft="5.000000px" android:layout_marginTop="136.000000px" android:text="톨게이트" android:singleLine="true"/>
+            <ImageView android:id="@7F0A086E" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="128.000000px" android:layout_marginTop="47.000000px" android:src="@7F020708"/>
+            <ImageView android:id="@7F0A086F" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="189.000000px" android:layout_marginTop="33.000000px" android:src="@7F020B37"/>
+            <com.thinkware.sundo.inavi3d.ui.AutoResizeTextView android:textSize="@7F090248" android:textColor="@color/lg_text_accent" android:ellipsize="0" android:gravity="0x00000011" android:id="@7F0A0870" android:layout_width="149.000000px" android:layout_height="44.000000px" android:layout_marginLeft="163.000000px" android:layout_marginTop="126.000000px" android:text="방면" android:singleLine="false"/>
+          </FrameLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@7F0A0871" android:background="@7F020709" android:visibility="2" android:layout_width="320.000000px" android:layout_height="220.000000px" android:layout_marginLeft="85.000000px" android:layout_marginTop="7.000000px">
+          <TextView android:textSize="23.000000px" android:textColor="@color/lg_text_accent" android:gravity="0x00000011" android:id="@7F0A0872" android:layout_width="330.000000px" android:layout_height="30.000000px" android:layout_marginTop="10.000000px" android:text="경로 선택" android:singleLine="true"/>
+          <TextView android:textSize="24.000000px" android:textColor="@color/lg_text_accent" android:gravity="0x00000003" android:id="@7F0A0873" android:layout_width="136.000000px" android:layout_height="30.000000px" android:layout_marginLeft="130.000000px" android:layout_marginTop="150.000000px" android:text="990M" android:singleLine="true"/>
+          <TextView android:textSize="21.000000px" android:textColor="#FFBBBBBB" android:gravity="0x00000011" android:id="@7F0A0874" android:layout_width="150.000000px" android:layout_height="30.000000px" android:layout_marginLeft="80.000000px" android:layout_marginTop="185.000000px" android:text="평촌IC" android:singleLine="true"/>
+          <TextView android:textSize="20.000000px" android:textColor="#FFFF6600" android:gravity="0x00000011" android:id="@7F0A0875" android:layout_width="120.000000px" android:layout_height="30.000000px" android:layout_marginLeft="8.000000px" android:layout_marginTop="50.000000px" android:text="고속" android:singleLine="true"/>
+          <ImageView android:gravity="0x00000003" android:id="@7F0A0876" android:layout_width="27.000000px" android:layout_height="27.000000px" android:src="@7F0207C7" android:layout_below="@7F0A0875" android:layout_alignLeft="@7F0A0875"/>
+          <TextView android:textSize="19.000000px" android:textColor="@color/lg_text_accent" android:gravity="0x00000003" android:id="@7F0A0877" android:layout_width="136.000000px" android:layout_height="28.000000px" android:text="13.5km" android:singleLine="true" android:layout_toRightOf="@7F0A0876" android:layout_below="@7F0A0875"/>
+          <ImageView android:gravity="0x00000003" android:id="@7F0A0878" android:layout_width="27.000000px" android:layout_height="27.000000px" android:src="@7F020B97" android:layout_below="@7F0A0876" android:layout_alignLeft="@7F0A0875"/>
+          <TextView android:textSize="19.000000px" android:textColor="@color/lg_text_accent" android:gravity="0x00000003" android:id="@7F0A0879" android:layout_width="136.000000px" android:layout_height="28.000000px" android:text="0:20소요" android:singleLine="true" android:layout_below="@7F0A0877" android:layout_alignLeft="@7F0A0877"/>
+          <ImageView android:gravity="0x00000003" android:id="@7F0A087A" android:layout_width="27.000000px" android:layout_height="27.000000px" android:src="@7F020BAA" android:layout_below="@7F0A0878" android:layout_alignLeft="@7F0A0875"/>
+          <TextView android:textSize="19.000000px" android:textColor="@color/lg_text_accent" android:gravity="0x00000003" android:id="@7F0A087B" android:layout_width="136.000000px" android:layout_height="28.000000px" android:text="1000원" android:singleLine="true" android:layout_below="@7F0A0879" android:layout_alignLeft="@7F0A0877"/>
+          <TextView android:textSize="20.000000px" android:textColor="#FF33FFFF" android:gravity="0x00000011" android:id="@7F0A087C" android:layout_width="136.000000px" android:layout_height="28.000000px" android:layout_marginLeft="215.000000px" android:layout_marginTop="50.000000px" android:text="무료" android:singleLine="true"/>
+          <ImageView android:gravity="0x00000003" android:id="@7F0A087D" android:layout_width="27.000000px" android:layout_height="27.000000px" android:src="@7F0207C7" android:layout_below="@7F0A087C" android:layout_alignLeft="@7F0A087C"/>
+          <TextView android:textSize="19.000000px" android:textColor="@color/lg_text_accent" android:gravity="0x00000003" android:id="@7F0A087E" android:layout_width="136.000000px" android:layout_height="28.000000px" android:text="15.2km" android:singleLine="true" android:layout_toRightOf="@7F0A087D" android:layout_below="@7F0A087C"/>
+          <ImageView android:gravity="0x00000003" android:id="@7F0A087F" android:layout_width="27.000000px" android:layout_height="27.000000px" android:src="@7F020B97" android:layout_below="@7F0A087D" android:layout_alignLeft="@7F0A087C"/>
+          <TextView android:textSize="19.000000px" android:textColor="@color/lg_text_accent" android:gravity="0x00000003" android:id="@7F0A0880" android:layout_width="136.000000px" android:layout_height="28.000000px" android:text="0:32소요" android:singleLine="true" android:layout_below="@7F0A087E" android:layout_alignLeft="@7F0A087E"/>
+          <ImageView android:gravity="0x00000003" android:id="@7F0A0881" android:layout_width="27.000000px" android:layout_height="27.000000px" android:src="@7F020BAA" android:layout_below="@7F0A087F" android:layout_alignLeft="@7F0A087C"/>
+          <TextView android:textSize="19.000000px" android:textColor="@color/lg_text_accent" android:gravity="0x00000003" android:id="@7F0A0882" android:layout_width="136.000000px" android:layout_height="28.000000px" android:text="0원" android:singleLine="true" android:layout_below="@7F0A0880" android:layout_alignLeft="@7F0A087E"/>
+          <ImageView android:id="@7F0A0883" android:layout_width="110.000000px" android:layout_height="110.000000px" android:layout_marginLeft="100.000000px" android:layout_marginTop="40.000000px" android:src="@7F02076F"/>
+          <ImageView android:id="@7F0A0884" android:layout_width="110.000000px" android:layout_height="110.000000px" android:layout_marginLeft="100.000000px" android:layout_marginTop="40.000000px" android:src="@7F02070A"/>
+        </RelativeLayout>
+        <include layout="@7F03012E"/>
+        <ImageButton android:id="@7F0A0885" android:background="@drawable/lg_glass_button_selector" android:layout_width="86.000000px" android:layout_height="-2" android:layout_marginLeft="10.000000px" android:layout_marginBottom="10.000000px" android:src="@7F0204BD" android:scaleType="0" android:adjustViewBounds="false" android:layout_alignParentBottom="true"/>
+        <com.thinkware.sundo.inavi3d.ui.guidecomponent.DriveCourseView android:id="@7F0A0886" android:background="@7F020346" android:focusable="true" android:nextFocusLeft="@7F0A0887" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:layout_toRightOf="@7F0A0885" android:layout_alignTop="@7F0A0885"/>
+        <Button android:id="@7F0A0887" android:background="@drawable/lg_glass_button_selector" android:visibility="2" android:nextFocusRight="@7F0A0886" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="10.000000px" android:layout_marginTop="5.000000px" android:layout_alignLeft="@7F0A0886" android:layout_alignTop="@7F0A0886"/>
+        <com.thinkware.sundo.inavi3d.ui.guidecomponent.LaneInfoView android:id="@7F0A0888" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@7F0A0886" android:layout_alignTop="@7F0A0886"/>
+        <RelativeLayout android:id="@7F0A0889" android:layout_width="-1" android:layout_height="-1"/>
+        <RelativeLayout android:id="@7F0A088A" android:layout_width="-1" android:layout_height="-1"/>
+        <RelativeLayout android:gravity="0x00000011" android:id="@7F0A088B" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="0.000000px">
+          <View android:id="@7F0A088C" android:background="@7F020C6D" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="154.000000px" android:layout_height="154.000000px" android:layout_centerInParent="true"/>
+        </RelativeLayout>
+        <FrameLayout android:gravity="0x00000011" android:id="@7F0A088D" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="0.000000px">
+          <View android:layout_gravity="0x00000011" android:id="@7F0A088E" android:background="@7F0209FA" android:focusable="false" android:visibility="2" android:clickable="true" android:layout_width="177.000000px" android:layout_height="166.000000px"/>
+          <TextView android:textSize="@7F09025E" android:textColor="#FFFFFFFF" android:layout_gravity="0x00000011" android:id="@7F0A088F" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="45.000000px"/>
+        </FrameLayout>
+      </RelativeLayout>
+      <RelativeLayout android:gravity="0x00000001" android:id="@7F0A0890" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="0.000000px">
+        <FrameLayout android:id="@7F0A0891" android:background="@7F020672" android:focusable="false" android:visibility="2" android:clickable="true" android:layout_width="337.000000px" android:layout_height="196.000000px" android:layout_marginTop="135.000000px">
+          <ImageView android:id="@7F0A0892" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="149.000000px" android:layout_marginTop="14.000000px" android:src="@7F020673"/>
+          <TextView android:textSize="@7F090250" android:textColor="#FFFFFFFF" android:id="@7F0A0893" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="165.000000px" android:layout_marginTop="15.000000px"/>
+          <TextView android:textSize="@7F09024A" android:textColor="#FFFFFFFF" android:id="@7F0A0894" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="168.000000px" android:layout_marginTop="74.000000px"/>
+          <TextView android:textSize="@7F09024A" android:textColor="#FFFFFFFF" android:id="@7F0A0895" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="168.000000px" android:layout_marginTop="105.000000px"/>
+          <TextView android:textSize="@7F090245" android:textColor="#FFFF9898" android:id="@7F0A0896" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="12.000000px" android:layout_marginTop="165.000000px"/>
+        </FrameLayout>
+      </RelativeLayout>
+      <RelativeLayout android:gravity="0x00000011" android:id="@7F0A0897" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="0.000000px">
+        <RelativeLayout android:layout_width="177.000000px" android:layout_height="166.000000px">
+          <View android:id="@7F0A0898" android:background="@7F0207AA" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="-1"/>
+          <TextView android:textSize="@7F090254" android:textColor="#FFFFFFFF" android:id="@7F0A0899" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="앞차 출발" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="177.000000px" android:layout_height="166.000000px">
+          <View android:id="@7F0A089A" android:background="@7F0207AB" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="-1"/>
+          <TextView android:textSize="@7F090254" android:textColor="#FFFFFFFF" android:id="@7F0A089B" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="신호 변경" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="177.000000px" android:layout_height="166.000000px">
+          <View android:id="@7F0A089C" android:background="@7F0207D1" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="-1"/>
+          <TextView android:textSize="@7F090254" android:textColor="#FFFFFFFF" android:id="@7F0A089D" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="차량 감지" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="177.000000px" android:layout_height="166.000000px">
+          <View android:id="@7F0A089E" android:background="@7F0207D2" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="-1"/>
+          <TextView android:textSize="@7F090254" android:textColor="#FFFFFFFF" android:id="@7F0A089F" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="전방 주의" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="177.000000px" android:layout_height="166.000000px">
+          <View android:id="@7F0A08A0" android:background="@7F0207D3" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="-1"/>
+          <TextView android:textSize="@7F090254" android:textColor="#FFFFFFFF" android:id="@7F0A08A1" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="추돌 경고" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+          <View android:id="@7F0A08A2" android:background="@7F0207D4" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="-1"/>
+        </RelativeLayout>
+      </RelativeLayout>
+      <RelativeLayout android:gravity="0x00000011" android:id="@7F0A08A3" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="100.000000px">
+        <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+          <RelativeLayout android:layout_width="177.000000px" android:layout_height="166.000000px">
+            <TextView android:textSize="@7F090254" android:textColor="#FF00FFFF" android:gravity="0x00000001" android:id="@7F0A08A4" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="CSWS ATTENTION LEFT" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@7F090254" android:textColor="#FFFF0000" android:gravity="0x00000001" android:id="@7F0A08A5" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="CSWS WARNING LEFT" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+          </RelativeLayout>
+          <RelativeLayout android:layout_width="177.000000px" android:layout_height="166.000000px">
+            <View android:id="@7F0A08A6" android:background="@7F0207D1" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="-1"/>
+            <TextView android:textSize="@7F090254" android:textColor="#FFFFFFFF" android:gravity="0x00000001" android:id="@7F0A08A7" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="PCWS DETECTION" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            <View android:id="@7F0A08A8" android:background="@7F0207D2" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="-1"/>
+            <TextView android:textSize="@7F090254" android:textColor="#FFFFFFFF" android:gravity="0x00000001" android:id="@7F0A08A9" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="PCWS ATTENTION" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            <View android:id="@7F0A08AA" android:background="@7F0207D3" android:focusable="false" android:visibility="2" android:clickable="false" android:layout_width="-1" android:layout_height="-1"/>
+            <TextView android:textSize="@7F090254" android:textColor="#FFFFFFFF" android:gravity="0x00000001" android:id="@7F0A08AB" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="PCWS WARNING" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+          </RelativeLayout>
+          <RelativeLayout android:layout_width="177.000000px" android:layout_height="166.000000px">
+            <TextView android:textSize="@7F090254" android:textColor="#FF00FFFF" android:gravity="0x00000001" android:id="@7F0A08AC" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="CSWS ATTENTION RIGHT" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+            <TextView android:textSize="@7F090254" android:textColor="#FFFF0000" android:gravity="0x00000001" android:id="@7F0A08AD" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="10.000000px" android:text="CSWS WARNING RIGHT" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+          </RelativeLayout>
+        </LinearLayout>
+      </RelativeLayout>
+      <RelativeLayout android:gravity="0x00000011" android:id="@7F0A08AE" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="0.000000px">
+        <ImageView android:id="@7F0A08AF" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@7F020392"/>
+      </RelativeLayout>
+      <RelativeLayout android:gravity="0x00000005" android:id="@7F0A08B0" android:paddingTop="59.000000px" android:layout_width="-1" android:layout_height="-1" android:layout_marginRight="0.000000px">
+        <RelativeLayout android:id="@7F0A08B1" android:layout_width="32.000000px" android:layout_height="-1">
+          <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@7F020F68"/>
+          <com.thinkware.sundo.inavi3d.ui.guidecomponent.TrafficProgressBar android:id="@7F0A08B2" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2"/>
+          <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@7F020AC7"/>
+        </RelativeLayout>
+      </RelativeLayout>
+    </RelativeLayout>
+    <include layout="@7F03015C"/>
+  </RelativeLayout>
+</LinearLayout>

@@ -1,0 +1,38 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="true">
+    <layer-list>
+      <item>
+        <bitmap android:gravity="0x00000077" android:src="@7F020520"/>
+      </item>
+      <item android:left="30.000000px">
+        <bitmap android:gravity="0x00000013" android:src="@7F020C23"/>
+      </item>
+      <item>
+        <bitmap android:gravity="0x00000077" android:src="@7F020521"/>
+      </item>
+    </layer-list>
+  </item>
+  <item android:state_focused="true">
+    <layer-list>
+      <item>
+        <bitmap android:gravity="0x00000077" android:src="@7F020520"/>
+      </item>
+      <item android:left="30.000000px">
+        <bitmap android:gravity="0x00000013" android:src="@7F020C23"/>
+      </item>
+      <item>
+        <bitmap android:gravity="0x00000077" android:src="@7F02051F"/>
+      </item>
+    </layer-list>
+  </item>
+  <item>
+    <layer-list>
+      <item>
+        <bitmap android:gravity="0x00000077" android:src="@7F020520"/>
+      </item>
+      <item android:left="30.000000px">
+        <bitmap android:gravity="0x00000013" android:src="@7F020C23"/>
+      </item>
+    </layer-list>
+  </item>
+</selector>

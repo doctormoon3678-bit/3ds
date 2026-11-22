@@ -1,0 +1,5 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A0A4A" android:background="@drawable/lg_glass_input_selector" android:layout_width="@7F090129" android:layout_height="81.000000px">
+  <TextView android:textSize="28.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A02B1" android:focusable="false" android:clickable="false" android:layout_width="@7F090129" android:layout_height="@7F09012B" android:text="G1"/>
+  <View android:id="@7F0A0338" android:background="@drawable/lg_glass_divider" android:focusable="false" android:visibility="0" android:layout_width="121.000000px" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginTop="77.000000px"/>
+  <View android:id="@7F0A0A4B" android:background="@drawable/lg_glass_divider" android:focusable="false" android:visibility="2" android:layout_width="121.000000px" android:layout_height="4.000000px" android:layout_marginLeft="18.000000px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

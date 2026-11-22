@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:layout_width="1024.000000px" android:layout_height="600.000000px">
+  <RelativeLayout android:background="@drawable/lg_glass_scrim" android:clickable="true" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="57.000000px" android:layout_alignParentBottom="true">
+    <LinearLayout android:orientation="1" android:layout_width="@7F09013F" android:layout_height="@7F090140" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+      <LinearLayout android:orientation="1" android:background="@drawable/lg_glass_popup" android:layout_width="-1" android:layout_height="@7F090142">
+        <TextView android:textSize="@7F09014F" android:textColor="@color/lg_text_secondary" android:gravity="0x00000013" android:layout_gravity="0x00000010" android:paddingLeft="25.000000px" android:layout_width="-1" android:layout_height="70.000000px" android:text="차량 설정"/>
+        <View android:id="@7F0A03C6" android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px"/>
+        <LinearLayout android:gravity="0x00000013" android:orientation="1" android:layout_width="-1" android:layout_height="80.000000px">
+          <View android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.000000"/>
+          <TextView android:textSize="@7F09024A" android:textColor="@7F08009D" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="25.000000px" android:layout_marginRight="25.000000px" android:layout_marginBottom="5.000000px" android:text="하이패스 전용 나들목 개통과 통행료 시스템 변경으로 인해 차량을 재 설정합니다."/>
+          <TextView android:textSize="@7F090248" android:textColor="@color/lg_text_secondary" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="25.000000px" android:layout_marginRight="25.000000px" android:text="※ 고속도로, 혼잡 통행료 할인 차량은 환경설정에서 추가 설정이 필요합니다."/>
+          <View android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.000000"/>
+          <View android:id="@7F0A03C7" android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="10.000000px" android:layout_marginRight="10.000000px"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000001" android:orientation="0" android:layout_width="-1" android:layout_height="79.000000px">
+          <TextView android:textSize="@7F09024C" android:textColor="@7F08009D" android:gravity="0x00000013" android:layout_width="146.000000px" android:layout_height="-1" android:layout_marginLeft="40.000000px" android:text="하이패스"/>
+          <RadioGroup android:gravity="0x00000013" android:orientation="0" android:id="@7F0A03C8" android:layout_width="-1" android:layout_height="-1">
+            <RadioButton android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A03C9" android:tag="1" android:background="@drawable/lg_glass_toolbar" android:paddingLeft="5.000000px" android:layout_width="217.000000px" android:layout_height="79.000000px" android:button="@7F0205F8" android:text="하이패스 장착"/>
+            <RadioButton android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A03CA" android:tag="0" android:background="@drawable/lg_glass_toolbar" android:paddingLeft="5.000000px" android:layout_width="217.000000px" android:layout_height="79.000000px" android:button="@7F0205F8" android:text="하이패스 미장착"/>
+          </RadioGroup>
+        </LinearLayout>
+        <View android:id="@7F0A03CB" android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="10.000000px" android:layout_marginRight="10.000000px"/>
+        <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="160.000000px">
+          <TextView android:textSize="@7F09024C" android:textColor="@7F08009D" android:gravity="0x00000013" android:paddingBottom="79.000000px" android:layout_width="146.000000px" android:layout_height="-1" android:layout_marginLeft="40.000000px" android:text="차종"/>
+          <RadioGroup android:orientation="0" android:id="@7F0A03CC" android:layout_width="-1" android:layout_height="-1">
+            <RadioButton android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:gravity="0x00000013" android:id="@7F0A03CD" android:tag="0" android:background="@drawable/lg_glass_toolbar" android:paddingLeft="5.000000px" android:layout_width="217.000000px" android:layout_height="79.000000px" android:layout_marginBottom="79.000000px" android:button="@7F0205F8" android:text="1종 (소형차)" android:layout_weight="0.000000"/>
+            <RadioButton android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:gravity="0x00000013" android:id="@7F0A03CE" android:tag="1" android:background="@drawable/lg_glass_toolbar" android:paddingLeft="5.000000px" android:layout_width="217.000000px" android:layout_height="79.000000px" android:layout_marginBottom="79.000000px" android:button="@7F0205F8" android:text="2종 (중형차)" android:layout_weight="0.000000"/>
+            <RadioButton android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:gravity="0x00000013" android:id="@7F0A03CF" android:tag="2" android:background="@drawable/lg_glass_toolbar" android:paddingLeft="5.000000px" android:layout_width="217.000000px" android:layout_height="79.000000px" android:layout_marginBottom="79.000000px" android:button="@7F0205F8" android:text="3종 (대형차)" android:layout_weight="0.000000"/>
+            <RadioButton android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A03D0" android:tag="3" android:background="@drawable/lg_glass_toolbar" android:paddingLeft="5.000000px" android:layout_width="217.000000px" android:layout_height="79.000000px" android:layout_marginTop="79.000000px" android:button="@7F0205F8" android:text="4종 (대형화물차)" android:layout_weight="0.000000" android:layout_marginStart="16776565.000000px"/>
+            <RadioButton android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A03D1" android:tag="4" android:background="@drawable/lg_glass_toolbar" android:paddingLeft="5.000000px" android:layout_width="217.000000px" android:layout_height="79.000000px" android:layout_marginTop="79.000000px" android:button="@7F0205F8" android:text="5종 (특수화물차)" android:layout_weight="0.000000"/>
+            <RadioButton android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:gravity="0x00000013" android:id="@7F0A03D2" android:tag="5" android:background="@drawable/lg_glass_toolbar" android:paddingLeft="5.000000px" android:layout_width="217.000000px" android:layout_height="79.000000px" android:layout_marginTop="79.000000px" android:button="@7F0205F8" android:text="1종 (경차)" android:layout_weight="0.000000"/>
+          </RadioGroup>
+        </LinearLayout>
+      </LinearLayout>
+      <RelativeLayout android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="-1" android:layout_height="@7F090143">
+        <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:gravity="0x00000011" android:id="@7F0A031B" android:background="@drawable/lg_glass_button" android:layout_width="-1" android:layout_height="84.000000px" android:text="확인"/>
+      </RelativeLayout>
+    </LinearLayout>
+  </RelativeLayout>
+</RelativeLayout>

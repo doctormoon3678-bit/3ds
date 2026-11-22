@@ -1,0 +1,17 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="@7F0A0241" android:background="@drawable/lg_glass_divider" android:layout_width="601.000000px" android:layout_height="399.000000px">
+  <LinearLayout android:orientation="1" android:id="@7F0A0242" android:layout_width="-2" android:layout_height="-2">
+    <RelativeLayout android:id="@7F0A0243" android:layout_width="@7F090237" android:layout_height="@7F090238">
+      <com.thinkware.sundo.inavi3d.ui.SIPFocusableTextView android:textSize="28.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A0244" android:focusable="true" android:clickable="true" android:layout_width="@7F090237" android:layout_height="@7F090238" android:text="한글"/>
+      <com.thinkware.sundo.inavi3d.ui.TabLineView android:id="@7F0A0245" android:layout_width="@7F090237" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0246" android:layout_width="@7F090237" android:layout_height="@7F090238">
+      <com.thinkware.sundo.inavi3d.ui.SIPFocusableTextView android:textSize="28.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A0247" android:focusable="true" android:clickable="true" android:layout_width="@7F090237" android:layout_height="@7F090238" android:text="영어"/>
+      <com.thinkware.sundo.inavi3d.ui.TabLineView android:id="@7F0A0248" android:layout_width="@7F090237" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0249" android:layout_width="@7F090237" android:layout_height="@7F090238">
+      <com.thinkware.sundo.inavi3d.ui.SIPFocusableTextView android:textSize="26.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A024A" android:focusable="true" android:clickable="true" android:layout_width="@7F090237" android:layout_height="@7F090238" android:text="숫자&#10;기호"/>
+      <com.thinkware.sundo.inavi3d.ui.TabLineView android:id="@7F0A024B" android:layout_width="@7F090237" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+  </LinearLayout>
+  <include android:layout_width="512.000000px" android:layout_height="399.000000px" layout="@7F03003D"/>
+</LinearLayout>

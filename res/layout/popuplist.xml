@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <RelativeLayout android:id="@7F0A00CB" android:background="@drawable/lg_glass_popup" android:layout_width="@7F090100" android:layout_height="@7F090101">
+      <RelativeLayout android:id="@7F0A00CC" android:layout_width="@7F090100" android:layout_height="50.000000dip">
+        <TextView android:textSize="@7F09014F" android:textColor="@color/lg_text_secondary" android:id="@7F0A00DC" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000dip" android:text="POPUP TITLE" android:layout_centerVertical="true"/>
+      </RelativeLayout>
+      <RelativeLayout android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="4.000000dip" android:layout_marginRight="4.000000dip" android:layout_alignBottom="@7F0A00CC"/>
+      <TextView android:textSize="@7F09024C" android:gravity="0x00000011" android:id="@7F0A0615" android:layout_width="@7F090100" android:layout_height="@7F090101" android:text="지도 설정 값을 초기화 하시겠습니까?" android:lines="5" android:singleLine="false" android:layout_below="@7F0A00CC"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="0" android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="@7F090100" android:layout_height="84.000000px" android:layout_below="@7F0A00CB">
+      <Button android:textSize="20.000000sp" android:textColor="@color/lg_button_text" android:id="@7F0A00DE" android:background="@drawable/lg_glass_button" android:layout_width="0.000000px" android:layout_height="-1" android:text="Button text" android:layout_weight="1.000000"/>
+      <View android:id="@7F0A0312" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <View android:id="@7F0A0313" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <Button android:textSize="20.000000sp" android:textColor="@color/lg_button_text" android:id="@7F0A0332" android:background="@drawable/lg_glass_button" android:layout_width="0.000000px" android:layout_height="-1" android:text="Button text" android:layout_weight="1.000000"/>
+    </LinearLayout>
+  </RelativeLayout>
+</RelativeLayout>

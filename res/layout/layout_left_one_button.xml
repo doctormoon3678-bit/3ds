@@ -1,0 +1,3 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x00000010" android:orientation="1" android:id="@7F0A047E" android:background="@7F020432" android:layout_width="-2" android:layout_height="-2">
+  <com.thinkware.sundo.inavi3d.ui.component.FlexibleMenuButton android:textSize="@7F090250" android:textColor="@color/lg_text_secondary" android:textColorLink="@7F0800AA" android:id="@7F0A047F" android:background="#00000000" android:paddingLeft="20.000000px" android:layout_width="135.000000px" android:layout_height="231.000000px" android:text="편집"/>
+</LinearLayout>

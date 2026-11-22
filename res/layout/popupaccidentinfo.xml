@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_width="@7F090134" android:layout_height="@7F090135" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <LinearLayout android:orientation="1" android:id="@7F0A062F" android:background="@drawable/lg_glass_popup" android:layout_width="@7F090134" android:layout_height="305.000000px">
+      <LinearLayout android:orientation="1" android:layout_width="@7F090134" android:layout_height="@7F090136">
+        <TextView android:textSize="@7F09014F" android:textColor="@7F0800A4" android:gravity="0x00000010" android:paddingLeft="30.000000px" android:layout_width="-1" android:layout_height="-1" android:text="유고 &gt; 상세내용" android:layout_weight="1.000000"/>
+        <View android:background="@7F0800A5" android:layout_width="-1" android:layout_height="1.000000px"/>
+      </LinearLayout>
+      <ScrollView android:paddingLeft="20.000000px" android:paddingTop="20.000000px" android:paddingRight="20.000000px" android:fadingEdge="0x00000000" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="@7F09024E" android:textColor="#FFFFFFFF" android:id="@7F0A0630" android:layout_width="-1" android:layout_height="-1" android:text="상세내용"/>
+      </ScrollView>
+    </LinearLayout>
+    <LinearLayout android:id="@7F0A0631" android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="7.000000px" android:layout_width="@7F090134" android:layout_height="@7F090138" android:layout_below="@7F0A062F">
+      <Button android:textSize="@7F090150" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A0315" android:background="@drawable/lg_glass_button" android:layout_width="325.000000px" android:layout_height="-1" android:text="닫기"/>
+      <View android:id="@7F0A0312" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <View android:id="@7F0A0313" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <Button android:textSize="@7F090150" android:textColor="#FFFFFFFF" android:id="@7F0A04EE" android:background="@drawable/lg_glass_button" android:layout_width="325.000000px" android:layout_height="-1" android:text="위치보기"/>
+    </LinearLayout>
+  </RelativeLayout>
+</RelativeLayout>

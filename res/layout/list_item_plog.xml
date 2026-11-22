@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-2">
+  <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="81.000000px">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="80.000000px">
+      <ImageView android:layout_gravity="0x00000011" android:id="@7F0A0575" android:background="@7F020B55" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px"/>
+      <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20.000000px" android:layout_marginRight="20.000000px">"
+<TextView android:textSize="@7F090250" android:textColor="#FFFFFFFF" android:ellipsize="3" android:gravity="0x00000053" android:id="@7F0A0576" android:layout_width="-1" android:layout_height="-1" android:text="Title" android:singleLine="true" android:layout_weight="1.000000"/><TextView android:textSize="@7F090249" android:textColor="#FFA2D4FA" android:ellipsize="3" android:gravity="0x00000033" android:id="@7F0A0577" android:layout_width="-1" android:layout_height="-1" android:text="subline" android:singleLine="true" android:layout_weight="1.300000"/></LinearLayout>
+    </LinearLayout>
+    <View android:background="#FF45515B" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="20.000000px" android:layout_marginRight="20.000000px"/>
+  </LinearLayout>
+</LinearLayout>

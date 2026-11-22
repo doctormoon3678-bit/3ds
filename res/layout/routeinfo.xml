@@ -1,0 +1,12 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A07BD" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="@7F0A07BE" android:background="#FF505050" android:layout_width="@7F090021" android:layout_height="-1"/>
+    <Button android:textSize="@7F09024B" android:id="@7F0A07BF" android:layout_width="@7F09002B" android:layout_height="@7F09002C" android:layout_marginLeft="@7F090023" android:layout_marginTop="@7F090024" android:text="모의주행"/>
+    <Button android:textSize="@7F09024B" android:id="@7F0A07C0" android:layout_width="@7F09002B" android:layout_height="@7F09002C" android:text="경로취소" android:layout_below="@7F0A07BF" android:layout_alignLeft="@7F0A07BF"/>
+    <TextView android:textSize="@7F09024B" android:textColor="#FFFFFFFF" android:id="@7F0A07C1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F090027" android:layout_marginTop="@7F090028" android:text="(S) 성남시 삼평동 주변"/>
+    <TextView android:textSize="@7F09024B" android:textColor="#FFFFFFFF" android:id="@7F0A07C2" android:layout_width="-2" android:layout_height="-2" android:text="(G) 부산역(KTX)외 5건" android:layout_below="@7F0A07C1" android:layout_alignLeft="@7F0A07C1"/>
+  </RelativeLayout>
+  <Button android:id="@7F0A07C3" android:layout_width="-2" android:layout_height="-2" android:text="tab2"/>
+  <Button android:id="@7F0A07C4" android:layout_width="-2" android:layout_height="-2" android:text="tab3"/>
+  <Button android:id="@7F0A07C5" android:layout_width="-2" android:layout_height="-2" android:text="tab4"/>
+</FrameLayout>

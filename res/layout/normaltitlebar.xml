@@ -1,0 +1,5 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0221" android:layout_width="-1" android:layout_height="42.000000dip">
+  <TextView android:textSize="@7F090250" android:textColor="#FF8E8E93" android:id="@7F0A0101" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000dip" android:text="제목" android:layout_centerVertical="true"/>
+  <TextView android:textSize="20.000000sp" android:textColor="#FF8E8E93" android:id="@7F0A0616" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="13.299989dip" android:text="부제목" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+  <RelativeLayout android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

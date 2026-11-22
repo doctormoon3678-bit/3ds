@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Liquid Glass Color Palette -->
+
+    <!-- Glass Surface Colors -->
+    <color name="lg_glass_surface">#1A1A2E</color>
+    <color name="lg_glass_surface_elevated">#252540</color>
+    <color name="lg_glass_surface_overlay">#CC1A1A2E</color>
+
+    <!-- Glass Transparency Levels -->
+    <color name="lg_glass_05">#0DFFFFFF</color>
+    <color name="lg_glass_10">#1AFFFFFF</color>
+    <color name="lg_glass_15">#26FFFFFF</color>
+    <color name="lg_glass_20">#33FFFFFF</color>
+    <color name="lg_glass_30">#4DFFFFFF</color>
+    <color name="lg_glass_40">#66FFFFFF</color>
+
+    <!-- Scrim/Overlay -->
+    <color name="lg_scrim">#80000000</color>
+    <color name="lg_scrim_light">#4D000000</color>
+
+    <!-- Text Colors -->
+    <color name="lg_label">#FFE5E5EA</color>
+    <color name="lg_label_secondary">#FF8E8E93</color>
+    <color name="lg_label_tertiary">#4DEBEBF5</color>
+    <color name="lg_label_quaternary">#2EEBEBF5</color>
+
+    <!-- System Colors (Apple-inspired) -->
+    <color name="lg_system_blue">#FF0A84FF</color>
+    <color name="lg_system_green">#FF30D158</color>
+    <color name="lg_system_red">#FFFF453A</color>
+    <color name="lg_system_orange">#FFFF9F0A</color>
+    <color name="lg_system_yellow">#FFFFD60A</color>
+    <color name="lg_system_teal">#FF64D2FF</color>
+    <color name="lg_system_indigo">#FF5E5CE6</color>
+    <color name="lg_system_cyan">#FF5AC8FA</color>
+
+    <!-- Glass Borders -->
+    <color name="lg_border">#33FFFFFF</color>
+    <color name="lg_border_focused">#4DFFFFFF</color>
+    <color name="lg_border_accent">#330A84FF</color>
+
+    <!-- Specular Highlight -->
+    <color name="lg_specular_start">#26FFFFFF</color>
+    <color name="lg_specular_end">#00FFFFFF</color>
+
+    <!-- Glass Button Colors -->
+    <color name="lg_button_glass">#4D2A2A40</color>
+    <color name="lg_button_glass_pressed">#662A2A40</color>
+    <color name="lg_button_primary">#CC0A84FF</color>
+    <color name="lg_button_primary_pressed">#FF0A84FF</color>
+
+    <!-- Divider -->
+    <color name="lg_divider">#1AFFFFFF</color>
+
+    <!-- Shadow -->
+    <color name="lg_shadow">#40000000</color>
+</resources>

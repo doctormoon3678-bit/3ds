@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0958" android:visibility="2" android:layout_width="@7F0900AD" android:layout_height="475.000000px" android:layout_marginLeft="@7F0900AB">
+  <LinearLayout android:orientation="1" android:id="@7F0A0959" android:background="@7F02033B" android:visibility="0" android:clickable="true" android:layout_width="-1" android:layout_height="-2">
+    <LinearLayout android:id="@7F0A095A" android:background="@7F08002C" android:layout_width="-1" android:layout_height="@7F0900AF">
+      <Button android:textSize="26.000000px" android:textStyle="0x00000001" android:textColor="@7F080026" android:id="@7F0A0782" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:layout_width="@7F0900B0" android:layout_height="@7F0900AF" android:text="테마도로 제안"/>
+      <ImageButton android:id="@7F0A095B" android:background="@drawable/lg_glass_badge" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F020474"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:id="@7F0A095C" android:layout_width="-1" android:layout_height="204.000000px" android:layout_marginTop="2.000000px">
+      <ImageView android:id="@7F0A095D" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="0.000000px"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+      <LinearLayout android:gravity="0x00000011" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="22.000000px" android:layout_marginTop="8.000000px">
+        <ImageView android:id="@7F0A078B" android:background="@7F020AF1" android:layout_width="-1" android:layout_height="-2"/>
+        <TextView android:textSize="@7F09024A" android:textColor="#FFFFFFFF" android:id="@7F0A095E" android:layout_width="192.000000px" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:text="경부고속도로"/>
+      </LinearLayout>
+      <LinearLayout android:gravity="0x00000011" android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="22.000000px" android:layout_marginTop="5.000000px">
+        <ImageView android:id="@7F0A078D" android:background="@7F020AF5" android:layout_width="-1" android:layout_height="-2"/>
+        <TextView android:textSize="@7F09024A" android:textColor="#FFFFFFFF" android:id="@7F0A095F" android:layout_width="192.000000px" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:text="애월해안도로"/>
+      </LinearLayout>
+      <LinearLayout android:gravity="0x00000011" android:orientation="0" android:layout_width="-2" android:layout_height="38.000000px" android:layout_marginTop="14.000000px">
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="211.000000px" android:layout_height="38.000000px">
+          <ImageView android:id="@7F0A078F" android:background="@7F020AEE" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px"/>
+          <ImageView android:id="@7F0A0960" android:background="@7F020AF2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px"/>
+          <TextView android:textSize="@7F09024E" android:textColor="#FFFF453A" android:id="@7F0A0961" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:text="120.3"/>
+          <TextView android:textSize="@7F09024A" android:textColor="#FFFF453A" android:id="@7F0A0962" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7.000000px" android:layout_marginTop="2.000000px" android:text="km"/>
+        </LinearLayout>
+        <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-2" android:layout_height="38.000000px">
+          <ImageView android:id="@7F0A0793" android:background="@7F020AF4" android:layout_width="-2" android:layout_height="-2"/>
+          <ImageView android:id="@7F0A0963" android:background="@7F020AF2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px"/>
+          <TextView android:textSize="@7F09024E" android:textColor="#FFFF453A" android:id="@7F0A0964" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="7.000000px" android:text="1"/>
+          <TextView android:textSize="@7F09024A" android:textColor="#FFFF453A" android:id="@7F0A0965" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:layout_marginTop="0.000000px" android:text="시간"/>
+          <TextView android:textSize="@7F09024E" android:textColor="#FFFF453A" android:id="@7F0A0966" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:text="25"/>
+          <TextView android:textSize="@7F09024A" android:textColor="#FFFF453A" android:id="@7F0A0967" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:layout_marginTop="0.000000px" android:text="분"/>
+        </LinearLayout>
+      </LinearLayout>
+      <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000001" android:id="@7F0A0968" android:background="@7F0203FC" android:focusable="true" android:clickable="true" android:layout_width="386.000000px" android:layout_height="57.000000px" android:layout_marginTop="6.000000px">
+        <TextView android:textSize="26.000000px" android:textColor="#FFDBDCDC" android:gravity="0x00000005" android:focusable="false" android:focusableInTouchMode="false" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:text="경유하여 안내시작" android:singleLine="true"/>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A0568" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-1">
+  <View android:id="@7F0A0193" android:background="@drawable/lg_glass_divider" android:visibility="0" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+  <LinearLayout android:layout_width="-1" android:layout_height="80.000000px">
+    <RelativeLayout android:id="@7F0A0488" android:layout_width="80.000000px" android:layout_height="80.000000px">
+      <ImageView android:id="@7F0A0569" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="1.000000px" android:src="@7F020AB1" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true"/>
+      <ImageView android:id="@7F0A056A" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000px" android:layout_marginTop="16.000000px" android:src="@7F020A9F"/>
+      <ImageView android:id="@7F0A056B" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="28.000000px" android:layout_marginTop="13.000000px" android:src="@7F020ABC"/>
+      <TextView android:textSize="@7F09024E" android:textColor="#FFE5E5EA" android:gravity="0x00000001" android:id="@7F0A0561" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="20.000000px" android:layout_marginTop="8.000000px"/>
+      <ImageView android:id="@7F0A056C" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:src="@7F020C1C"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="80.000000px" android:layout_weight="1.000000">
+      <TextView android:textSize="@7F090250" android:textColor="#FF8E8E93" android:ellipsize="3" android:gravity="0x00000010" android:id="@7F0A0564" android:paddingLeft="15.000000px" android:layout_width="450.000000px" android:layout_height="80.000000px" android:lines="1" android:singleLine="true"/>
+      <TextView android:textSize="@7F090250" android:textColor="#FF8E8E93" android:ellipsize="3" android:gravity="0x00000050" android:id="@7F0A056D" android:paddingLeft="15.000000px" android:layout_width="450.000000px" android:layout_height="45.000000px" android:lines="1" android:singleLine="true"/>
+      <TextView android:textSize="@7F090249" android:textColor="#FF8E8E93" android:ellipsize="3" android:gravity="0x00000030" android:id="@7F0A056E" android:paddingLeft="15.000000px" android:layout_width="450.000000px" android:layout_height="35.000000px" android:lines="1" android:singleLine="true"/>
+    </LinearLayout>
+    <RelativeLayout android:orientation="1" android:layout_width="225.000000px" android:layout_height="80.000000px" android:layout_marginRight="20.000000px">
+      <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="80.000000px">
+        <TextView android:textSize="@7F090250" android:textColor="#FFE5E5EA" android:gravity="0x00000050" android:layout_gravity="0x00000005" android:id="@7F0A0565" android:layout_width="-2" android:layout_height="45.000000px"/>
+        <TextView android:textSize="@7F090249" android:textColor="#FF0A84FF" android:gravity="0x00000030" android:layout_gravity="0x00000005" android:id="@7F0A056F" android:layout_width="-2" android:layout_height="35.000000px"/>
+      </LinearLayout>
+      <ImageView android:id="@7F0A0566" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="7.000000px" android:src="@7F0207BD" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+      <ImageView android:id="@7F0A0570" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="33.000000px" android:layout_marginBottom="7.000000px" android:src="@7F0207C4" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+  </LinearLayout>
+</RelativeLayout>

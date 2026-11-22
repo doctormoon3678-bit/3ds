@@ -1,0 +1,36 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <RelativeLayout android:id="@7F0A00CB" android:background="@drawable/lg_glass_popup" android:layout_width="@7F090100" android:layout_height="@7F090101">
+      <RelativeLayout android:id="@7F0A00CC" android:layout_width="@7F090100" android:layout_height="50.000000dip">
+        <TextView android:textSize="@7F09014F" android:textColor="@color/lg_text_secondary" android:id="@7F0A00DC" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000dip" android:text="POPUP TITLE" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@7F09024A" android:textColor="@color/lg_text_secondary" android:id="@7F0A09C9" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="25.000000dip" android:text="POPUP TITLE SUB" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A09EF" android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="4.000000dip" android:layout_marginRight="4.000000dip" android:layout_alignBottom="@7F0A00CC"/>
+      <LinearLayout android:orientation="1" android:layout_width="@7F090100" android:layout_height="-2" android:layout_marginTop="25.000000dip" android:layout_below="@7F0A09EF">
+        <RelativeLayout android:id="@7F0A09CB" android:layout_width="-1" android:layout_height="50.000000dip">
+          <TextView android:textSize="@7F090152" android:id="@7F0A09CC" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000dip" android:text="교통 정보" android:layout_alignParentLeft="true"/>
+          <ProgressBar android:id="@7F0A09CD" android:layout_width="200.000000dip" android:layout_height="2.000000dip" android:layout_marginRight="25.000000dip" android:progressDrawable="@7F0206B8" android:layout_alignParentRight="true" style="?android:01010078"/>
+          <TextView android:textSize="22.000000px" android:textColor="#FF7A8596" android:id="@7F0A09CE" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="25.000000dip" android:text="" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@7F0A09D0" android:layout_width="-1" android:layout_height="50.000000dip">
+          <TextView android:textSize="@7F090152" android:id="@7F0A0630" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000dip" android:text="유고 정보" android:layout_alignParentLeft="true"/>
+          <ProgressBar android:id="@7F0A09D1" android:layout_width="200.000000dip" android:layout_height="2.000000dip" android:layout_marginRight="25.000000dip" android:progressDrawable="@7F0206B8" android:layout_alignParentRight="true" style="?android:01010078"/>
+          <TextView android:textSize="22.000000px" android:textColor="#FF7A8596" android:id="@7F0A09D2" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="25.000000dip" android:text="" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@7F0A09E7" android:layout_width="-1" android:layout_height="50.000000dip">
+          <TextView android:textSize="@7F090152" android:id="@7F0A0328" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000dip" android:text="유가 정보" android:layout_alignParentLeft="true"/>
+          <ProgressBar android:textColor="#FF7A8596" android:id="@7F0A09E8" android:layout_width="200.000000dip" android:layout_height="2.000000dip" android:layout_marginRight="25.000000dip" android:progressDrawable="@7F0206B8" android:layout_alignParentRight="true" style="?android:01010078"/>
+          <TextView android:textSize="22.000000px" android:textColor="#FF7A8596" android:id="@7F0A09E9" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="25.000000dip" android:text="" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@7F0A09EB" android:layout_width="-1" android:layout_height="50.000000dip">
+          <TextView android:textSize="@7F090152" android:id="@7F0A09EC" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000dip" android:text="안전 운행 지점" android:layout_alignParentLeft="true"/>
+          <ProgressBar android:id="@7F0A09ED" android:layout_width="200.000000dip" android:layout_height="2.000000dip" android:layout_marginRight="25.000000dip" android:progressDrawable="@7F0206B8" android:layout_alignParentRight="true" style="?android:01010078"/>
+          <TextView android:textSize="22.000000px" android:textColor="#FF7A8596" android:id="@7F0A09EE" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="25.000000dip" android:text="" android:layout_alignParentRight="true"/>
+        </RelativeLayout>
+      </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="0" android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="@7F090100" android:layout_height="@7F090127" android:layout_below="@7F0A00CB">
+      <Button android:textSize="@7F090145" android:textColor="@color/lg_button_text" android:id="@7F0A010B" android:background="@drawable/lg_glass_button_selector" android:layout_width="-1" android:layout_height="-1" android:text="Button text"/>
+    </LinearLayout>
+  </RelativeLayout>
+</RelativeLayout>

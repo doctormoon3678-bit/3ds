@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A04B9" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:id="@7F0A00BE" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="48.000000dip">
+    <TextView android:textSize="9.000000pt" android:gravity="0x00000013" android:id="@7F0A0233" android:paddingLeft="15.000000px" android:layout_width="-2" android:layout_height="-1" android:text="테마검색 결과" android:layout_weight="0.190000"/>
+    <FrameLayout android:layout_width="0.000000dip" android:layout_height="-1" android:layout_weight="0.550000">
+      <EditText android:id="@7F0A04BA" android:layout_width="-1" android:layout_height="-1" android:singleLine="true" android:privateImeOptions="defaultInputmode=kor;" android:imeOptions="0x00000003"/>
+      <Button android:layout_gravity="0x00000015" android:id="@7F0A04BB" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="10.000000dip"/>
+    </FrameLayout>
+    <Button android:id="@7F0A0332" android:layout_width="-2" android:layout_height="-1" android:text="검색" android:layout_weight="0.100000"/>
+    <Button android:id="@7F0A00DE" android:layout_width="-2" android:layout_height="-1" android:text="전국" android:layout_weight="0.100000"/>
+  </LinearLayout>
+  <FrameLayout android:id="@7F0A04BC" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="@7F0A00C5" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="#00000000" android:divider="#FFFFFFFF" android:dividerHeight="1.000000px"/>
+  </FrameLayout>
+</LinearLayout>

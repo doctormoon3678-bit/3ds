@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A09B8" android:background="@7F08001F" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:id="@7F0A09B9" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="@7F0A09BA" android:background="@drawable/lg_glass_divider" android:scrollbars="0x00000000" android:layout_width="187.000000px" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px"/>
+    <View android:id="@7F0A0268" android:background="#FF4A5662" android:layout_width="2.000000px" android:layout_height="-1" android:layout_marginTop="4.000000px" android:layout_marginBottom="4.000000px"/>
+    <LinearLayout android:orientation="0" android:id="@7F0A09BB" android:visibility="2" android:layout_width="645.000000px" android:layout_height="-1">
+      <ListView android:id="@7F0A09BC" android:background="@drawable/lg_glass_divider" android:scrollbars="0x00000000" android:layout_width="595.000000px" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB7" android:dividerHeight="1.000000px"/>
+      <ListView android:id="@7F0A09BD" android:background="@drawable/lg_glass_divider" android:layout_width="50.000000px" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB6" android:dividerHeight="1.000000px"/>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="@7F0A09BE" android:layout_width="645.000000px" android:layout_height="-1">
+      <ListView android:id="@7F0A09BF" android:background="@drawable/lg_glass_divider" android:scrollbars="0x00000000" android:layout_width="595.000000px" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB7" android:dividerHeight="1.000000px"/>
+      <ListView android:id="@7F0A09C0" android:background="@drawable/lg_glass_divider" android:layout_width="50.000000px" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB6" android:dividerHeight="1.000000px"/>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

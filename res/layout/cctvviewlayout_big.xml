@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A00F0" android:visibility="0" android:layout_width="423.000000px" android:layout_height="354.000000px" android:minWidth="423.000000px" android:minHeight="354.000000px">
+  <RelativeLayout android:id="@7F0A00F1" android:background="@7F02067E" android:layout_width="367.000000px" android:layout_height="-1" android:layout_centerInParent="true">
+    <RelativeLayout android:id="@7F0A00CC" android:layout_width="367.000000px" android:layout_height="61.000000px">
+      <RelativeLayout android:id="@7F0A00F2" android:layout_width="288.000000px" android:layout_height="-1" android:layout_marginLeft="16.000000px">
+        <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000010" android:id="@7F0A00F3" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="17.000000px" android:text="한남대교 북단"/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A00F4" android:focusable="true" android:clickable="true" android:layout_width="50.000000px" android:layout_height="-1" android:layout_marginLeft="7.000000px" android:layout_toRightOf="@7F0A00F2">
+        <CheckBox android:id="@7F0A00F5" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:button="@7F020E7E" android:layout_centerVertical="true"/>
+      </RelativeLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A00F6" android:layout_width="367.000000px" android:layout_height="263.000000px" android:layout_below="@7F0A00CC">
+      <VideoView android:id="@7F0A00F7" android:focusable="false" android:duplicateParentState="true" android:layout_width="351.000000px" android:layout_height="263.000000px" android:layout_centerHorizontal="true"/>
+      <View android:id="@7F0A00F8" android:background="@7F0203EE" android:focusable="false" android:duplicateParentState="true" android:layout_width="351.000000px" android:layout_height="-1" android:layout_centerHorizontal="true"/>
+      <ProgressBar android:id="@7F0A00F9" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A00FA" android:layout_width="367.000000px" android:layout_height="30.000000px" android:layout_below="@7F0A00F6">
+      <TextView android:textSize="14.000000px" android:textColor="#FF8E8E93" android:id="@7F0A00FB" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="4.000000px" android:layout_marginRight="12.000000px" android:text="제공처: 서울시설공단" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+  </RelativeLayout>
+  <View android:id="@7F0A00FC" android:background="@7F02068C" android:visibility="0" android:layout_width="28.000000px" android:layout_height="351.000000px" android:layout_toLeftOf="@7F0A00F1" android:layout_alignTop="@7F0A00F1"/>
+  <View android:id="@7F0A00FD" android:background="@7F02068D" android:visibility="0" android:layout_width="28.000000px" android:layout_height="351.000000px" android:layout_toRightOf="@7F0A00F1" android:layout_alignTop="@7F0A00F1"/>
+</RelativeLayout>

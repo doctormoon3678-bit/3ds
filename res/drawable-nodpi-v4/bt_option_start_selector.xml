@@ -1,0 +1,23 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="true">
+    <layer-list>
+      <item>
+        <bitmap android:src="@7F020525"/>
+      </item>
+      <item>
+        <bitmap android:src="@7F020526"/>
+      </item>
+    </layer-list>
+  </item>
+  <item android:state_focused="true">
+    <layer-list>
+      <item>
+        <bitmap android:src="@7F020525"/>
+      </item>
+      <item>
+        <bitmap android:src="@7F020524"/>
+      </item>
+    </layer-list>
+  </item>
+  <item android:drawable="@7F020525"/>
+</selector>

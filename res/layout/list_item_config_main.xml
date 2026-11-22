@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+  <RelativeLayout android:id="@7F0A0540" android:background="@7F020CCF" android:visibility="2" android:layout_width="-1" android:layout_height="56.000000px" android:layout_marginTop="30.000000px">
+    <TextView android:textSize="28.000000px" android:textColor="#FFBDCDE4" android:id="@7F0A0541" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:text="Kong" android:layout_centerVertical="true"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A0542" android:visibility="2" android:layout_width="-1" android:layout_height="70.000000px">
+    <RelativeLayout android:id="@7F0A0543" android:visibility="0" android:layout_width="-1" android:layout_height="69.000000px">
+      <TextView android:textSize="28.000000px" android:textColor="@7F0800AC" android:id="@7F0A0544" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:text="아이나비" android:layout_toRightOf="@7F0A0545" android:layout_centerVertical="true"/>
+      <TextView android:textSize="28.000000px" android:textColor="@7F0800AB" android:id="@7F0A0546" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000px" android:text="아이나비 3D Ver.6.0" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:background="@7F08001E" android:layout_width="-1" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A0547" android:visibility="2" android:layout_width="-1" android:layout_height="70.000000px">
+    <RelativeLayout android:id="@7F0A0548" android:visibility="0" android:layout_width="-1" android:layout_height="69.000000px">
+      <TextView android:textSize="28.000000px" android:textColor="@7F0800AC" android:id="@7F0A0549" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:text="아이나비" android:layout_toRightOf="@7F0A054A" android:layout_centerVertical="true"/>
+      <CheckBox android:id="@7F0A054B" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000px" android:button="@7F0205C8" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:background="@7F08001E" android:layout_width="-1" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A054C" android:visibility="2" android:layout_width="-1" android:layout_height="70.000000px">
+    <RelativeLayout android:id="@7F0A054D" android:visibility="0" android:layout_width="-1" android:layout_height="69.000000px">
+      <ImageView android:id="@7F0A054E" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:src="@7F0207C5" android:layout_centerVertical="true"/>
+      <TextView android:textSize="28.000000px" android:textColor="@7F0800AC" android:id="@7F0A054F" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15.000000px" android:text="아이나비" android:layout_toRightOf="@7F0A054E" android:layout_centerVertical="true"/>
+      <TextView android:textSize="28.000000px" android:textColor="@7F0800AB" android:id="@7F0A0550" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000px" android:text="아이나비 3D Ver.6.0" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:background="@7F08001E" android:layout_width="-1" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A0551" android:visibility="2" android:layout_width="-1" android:layout_height="70.000000px">
+    <RelativeLayout android:id="@7F0A0552" android:visibility="0" android:layout_width="-1" android:layout_height="69.000000px">
+      <ImageView android:id="@7F0A0553" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:src="@7F0207C5" android:layout_centerVertical="true"/>
+      <TextView android:textSize="28.000000px" android:textColor="@7F0800AC" android:id="@7F0A0554" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15.000000px" android:text="아이나비" android:layout_toRightOf="@7F0A0553" android:layout_centerVertical="true"/>
+      <CheckBox android:id="@7F0A0555" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000px" android:button="@7F0205C8" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:background="@7F08001E" android:layout_width="-1" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A0556" android:background="@android:0106000D" android:visibility="2" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="20.000000px" android:layout_marginBottom="20.000000px">
+    <TextView android:textSize="22.000000px" android:textColor="@7F0800AC" android:id="@7F0A0557" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15.000000px" android:text="아이나비"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A0558" android:background="@android:0106000D" android:visibility="0" android:layout_width="-1" android:layout_height="30.000000px"/>
+  <View android:id="@7F0A02F6" android:background="@drawable/lg_glass_list_item" android:visibility="2" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1"/>
+</RelativeLayout>

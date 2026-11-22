@@ -1,0 +1,47 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="true">
+    <layer-list>
+      <item>
+        <shape android:shape="rectangle">
+          <solid android:color="#00000000"/>
+          <corners android:radius="12dp"/>
+        </shape>
+      </item>
+      <item android:left="10.000000px">
+        <bitmap android:gravity="0x00000013" android:src="@7F020C22"/>
+      </item>
+      <item>
+        <bitmap android:gravity="0x00000077" android:src="@7F0205E0"/>
+      </item>
+    </layer-list>
+  </item>
+  <item android:state_focused="true">
+    <layer-list>
+      <item>
+        <shape android:shape="rectangle">
+          <solid android:color="#00000000"/>
+          <corners android:radius="12dp"/>
+        </shape>
+      </item>
+      <item android:left="10.000000px">
+        <bitmap android:gravity="0x00000013" android:src="@7F020C22"/>
+      </item>
+      <item>
+        <bitmap android:gravity="0x00000077" android:src="@7F0205DE"/>
+      </item>
+    </layer-list>
+  </item>
+  <item>
+    <layer-list>
+      <item>
+        <shape android:shape="rectangle">
+          <solid android:color="#00000000"/>
+          <corners android:radius="12dp"/>
+        </shape>
+      </item>
+      <item android:left="10.000000px">
+        <bitmap android:gravity="0x00000013" android:src="@7F020C22"/>
+      </item>
+    </layer-list>
+  </item>
+</selector>

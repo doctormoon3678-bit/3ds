@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="@android:0106000D" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A00CB" android:layout_width="410.000000px" android:layout_height="113.000000px">
+    <RelativeLayout android:layout_width="10.000000px" android:layout_height="-1" android:layout_marginRight="7.000000px" android:layout_alignParentRight="true">
+      <LinearLayout android:orientation="1" android:id="@7F0A058B" android:background="@drawable/lg_glass_divider" android:layout_width="10.000000px" android:layout_height="55.000000px"/>
+      <LinearLayout android:orientation="1" android:id="@7F0A058C" android:background="@drawable/lg_glass_divider" android:layout_width="10.000000px" android:layout_height="69.000000px" android:layout_marginTop="50.000000px"/>
+      <ImageView android:layout_width="10.000000px" android:layout_height="22.000000px" android:layout_marginTop="40.000000px" android:src="@7F0208CE"/>
+      <ImageView android:layout_width="10.000000px" android:layout_height="10.000000px" android:layout_marginTop="16.000000px" android:src="@7F0208C4"/>
+      <ImageView android:layout_width="10.000000px" android:layout_height="10.000000px" android:layout_marginTop="42.000000px" android:src="@7F0208C4"/>
+      <ImageView android:layout_width="10.000000px" android:layout_height="10.000000px" android:layout_marginTop="68.000000px" android:src="@7F0208C4"/>
+      <ImageView android:layout_width="10.000000px" android:layout_height="10.000000px" android:layout_marginTop="94.000000px" android:src="@7F0208C4"/>
+    </RelativeLayout>
+    <RelativeLayout android:background="@7F02037A" android:layout_width="400.000000px" android:layout_height="113.000000px">
+      <View android:id="@7F0A058D" android:layout_width="19.000000px" android:layout_height="10.000000px"/>
+      <RelativeLayout android:id="@7F0A058E" android:layout_width="37.000000px" android:layout_height="28.000000px" android:layout_marginTop="10.000000px" android:layout_marginRight="5.000000px" android:layout_toRightOf="@7F0A058D">
+        <ImageView android:id="@7F0A058F" android:layout_width="37.000000px" android:layout_height="28.000000px" android:src="@7F020A01" android:layout_centerInParent="true"/>
+        <TextView android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A0590" android:layout_width="37.000000px" android:layout_height="28.000000px" android:text="1" android:layout_centerInParent="true"/>
+      </RelativeLayout>
+      <TextView android:textSize="@7F09024E" android:textColor="#FFFFFFFF" android:ellipsize="3" android:id="@7F0A0591" android:layout_width="207.000000px" android:layout_height="32.000000px" android:layout_marginTop="7.000000px" android:text="교차로명" android:singleLine="true" android:layout_toRightOf="@7F0A058E"/>
+      <TextView android:textSize="@7F090248" android:textColor="#FFA5C5F2" android:ellipsize="3" android:id="@7F0A0592" android:layout_width="250.000000px" android:layout_height="47.000000px" android:layout_marginLeft="6.000000px" android:layout_marginTop="36.000000px" android:text="방면정보" android:singleLine="true" android:layout_alignLeft="@7F0A0593" android:lineSpacingExtra="16777212.000000px"/>
+      <ImageView android:id="@7F0A0594" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="288.000000px" android:layout_marginTop="8.000000px"/>
+      <ImageView android:id="@7F0A0593" android:visibility="1" android:layout_width="31.000000px" android:layout_height="29.000000px" android:layout_marginLeft="15.000000px" android:layout_marginTop="7.000000px" android:src="@7F020909" android:layout_below="@7F0A0592"/>
+      <ImageView android:id="@7F0A0595" android:visibility="1" android:layout_width="31.000000px" android:layout_height="29.000000px" android:layout_marginLeft="10.000000px" android:layout_marginTop="7.000000px" android:src="@7F02090A" android:layout_toRightOf="@7F0A0593" android:layout_below="@7F0A0592"/>
+      <TextView android:textSize="@7F09024E" android:textColor="#FFFFFFFF" android:gravity="0x00000005" android:id="@7F0A0596" android:layout_width="71.000000px" android:layout_height="52.000000px" android:layout_marginLeft="280.000000px" android:layout_marginTop="75.000000px" android:text="00.0"/>
+      <TextView android:textSize="@7F090248" android:textColor="#FFB3C9E6" android:id="@7F0A0597" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="170.000000px" android:layout_marginTop="78.000000px" android:text="소요"/>
+      <TextView android:textSize="@7F09024C" android:textColor="#FFB3C9E6" android:id="@7F0A0598" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="215.000000px" android:layout_marginTop="75.000000px" android:text="00:00"/>
+      <TextView android:textSize="@7F090248" android:textColor="#FFFFFFFF" android:gravity="0x00000003" android:id="@7F0A0599" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="352.000000px" android:layout_marginTop="82.000000px" android:text="km"/>
+    </RelativeLayout>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A059A" android:layout_width="410.000000px" android:layout_height="113.000000px">
+    <RelativeLayout android:layout_width="10.000000px" android:layout_height="-1" android:layout_marginRight="7.000000px" android:layout_alignParentRight="true">
+      <LinearLayout android:orientation="1" android:id="@7F0A059B" android:background="@drawable/lg_glass_divider" android:layout_width="10.000000px" android:layout_height="55.000000px"/>
+      <LinearLayout android:orientation="1" android:id="@7F0A059C" android:background="@drawable/lg_glass_divider" android:layout_width="10.000000px" android:layout_height="69.000000px" android:layout_marginTop="50.000000px"/>
+      <ImageView android:layout_width="10.000000px" android:layout_height="10.000000px" android:layout_marginTop="16.000000px" android:src="@7F0208C4"/>
+      <ImageView android:layout_width="10.000000px" android:layout_height="10.000000px" android:layout_marginTop="42.000000px" android:src="@7F0208C4"/>
+      <ImageView android:layout_width="10.000000px" android:layout_height="10.000000px" android:layout_marginTop="68.000000px" android:src="@7F0208C4"/>
+      <ImageView android:layout_width="10.000000px" android:layout_height="10.000000px" android:layout_marginTop="94.000000px" android:src="@7F0208C4"/>
+    </RelativeLayout>
+    <RelativeLayout android:background="@7F02037A" android:layout_width="400.000000px" android:layout_height="113.000000px">
+      <RelativeLayout android:id="@7F0A059D" android:layout_width="37.000000px" android:layout_height="28.000000px" android:layout_marginLeft="19.000000px" android:layout_marginTop="10.000000px" android:layout_marginRight="5.000000px">
+        <ImageView android:id="@7F0A059E" android:layout_width="37.000000px" android:layout_height="28.000000px" android:src="@7F020A01" android:layout_centerInParent="true"/>
+        <TextView android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A059F" android:layout_width="37.000000px" android:layout_height="28.000000px" android:text="" android:layout_centerInParent="true"/>
+      </RelativeLayout>
+      <TextView android:textSize="@7F09024E" android:textColor="#FFFFFFFF" android:ellipsize="3" android:id="@7F0A05A0" android:layout_width="207.000000px" android:layout_height="32.000000px" android:layout_marginTop="6.000000px" android:text="도로명" android:singleLine="true" android:layout_toRightOf="@7F0A059D"/>
+      <TextView android:textSize="@7F090248" android:textColor="#FFA5C5F2" android:ellipsize="3" android:id="@7F0A05A1" android:visibility="1" android:layout_width="250.000000px" android:layout_height="-2" android:layout_marginLeft="16.000000px" android:text="방면정보" android:singleLine="true" android:layout_below="@7F0A059D"/>
+      <ImageView android:id="@7F0A05A2" android:layout_width="91.000000px" android:layout_height="52.000000px" android:layout_marginTop="10.000000px" android:layout_marginRight="20.000000px" android:src="@7F020768" android:layout_alignParentRight="true"/>
+      <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:layout_marginTop="12.000000px" android:layout_below="@7F0A05A1">
+        <ImageButton android:id="@7F0A05A3" android:background="#00000000" android:visibility="2" android:layout_width="45.000000px" android:layout_height="29.000000px" android:layout_marginTop="2.000000px" android:src="@7F02090B"/>
+        <ImageButton android:id="@7F0A05A4" android:background="#00000000" android:visibility="2" android:layout_width="45.000000px" android:layout_height="29.000000px" android:src="@7F020909"/>
+        <ImageButton android:id="@7F0A05A5" android:background="#00000000" android:visibility="2" android:layout_width="45.000000px" android:layout_height="29.000000px" android:layout_marginTop="2.000000px" android:src="@7F02090A"/>
+      </LinearLayout>
+      <TextView android:textSize="@7F090248" android:textColor="#FFA5C5F2" android:ellipsize="3" android:gravity="0x00000003" android:id="@7F0A05A6" android:visibility="0" android:layout_width="257.000000px" android:layout_height="24.000000px" android:layout_marginLeft="22.000000px" android:layout_marginTop="36.000000px" android:text="시작교차로 -" android:singleLine="true"/>
+      <TextView android:textSize="@7F090248" android:textColor="#FFA5C5F2" android:ellipsize="3" android:gravity="0x00000003" android:id="@7F0A05A7" android:visibility="0" android:layout_width="257.000000px" android:layout_height="24.000000px" android:layout_marginLeft="22.000000px" android:layout_marginTop="59.000000px" android:text="종료교차로" android:singleLine="true"/>
+      <TextView android:gravity="0x00000011" android:id="@7F0A05A8" android:layout_width="91.000000px" android:layout_height="52.000000px" android:layout_marginRight="20.000000px" android:text="" android:layout_below="@7F0A05A2" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+  </RelativeLayout>
+</LinearLayout>

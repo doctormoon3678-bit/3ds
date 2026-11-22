@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:id="@7F0A00BE" android:layout_width="-1" android:layout_height="80.000000px">
+    <LinearLayout android:orientation="1" android:id="@7F0A00B7" android:layout_width="361.000000dip" android:layout_height="-1">
+      <LinearLayout android:id="@7F0A057D" android:layout_width="-1" android:layout_height="30.000000dip">
+        <ImageView android:layout_gravity="0x00000010" android:id="@7F0A00C6" android:paddingLeft="15.000000px" android:layout_width="28.000000dip" android:layout_height="28.000000dip"/>
+        <TextView android:textSize="9.000000pt" android:textColor="#FFE5E5EA" android:gravity="0x00000013" android:id="@7F0A00BF" android:paddingLeft="10.000000px" android:layout_width="0.000000dip" android:layout_height="-1" android:layout_weight="0.810000"/>
+      </LinearLayout>
+      <TextView android:textSize="8.000000pt" android:gravity="0x00000013" android:id="@7F0A057E" android:paddingLeft="15.000000px" android:layout_width="-1" android:layout_height="-2" android:text="TextView"/>
+    </LinearLayout>
+    <Button android:id="@7F0A00DE" android:layout_width="0.000000dip" android:layout_height="-1" android:text="ⓘ 정보" android:layout_weight="1.000000"/>
+    <Button android:id="@7F0A0332" android:layout_width="0.000000dip" android:layout_height="-1" android:text="위치보기" android:layout_weight="1.000000"/>
+    <Button android:id="@7F0A033E" android:layout_width="0.000000dip" android:layout_height="-1" android:text="경로탐색" android:layout_weight="1.000000"/>
+  </LinearLayout>
+</LinearLayout>

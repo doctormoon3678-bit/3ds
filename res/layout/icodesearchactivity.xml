@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0138" android:background="@drawable/lg_glass_chip" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:id="@7F0A0061" android:layout_width="-1" android:layout_height="63.000000px">
+    <Button android:textSize="26.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A0062" android:background="@drawable/lg_glass_panel" android:focusable="true" android:layout_width="0.000000px" android:layout_height="-1" android:text="통합 검색" android:layout_weight="1.000000"/>
+    <ImageView android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel" android:focusable="false" android:clickable="false" android:layout_width="1.000000px" android:layout_height="-1" android:src="@7F020C03"/>
+    <Button android:textSize="26.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A0063" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="명칭 검색" android:layout_weight="1.000000"/>
+    <ImageView android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel" android:focusable="false" android:clickable="false" android:layout_width="1.000000px" android:layout_height="-1" android:src="@7F020C03"/>
+    <Button android:textSize="26.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A0064" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="주소 검색" android:layout_weight="1.000000"/>
+    <ImageView android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel" android:focusable="false" android:clickable="false" android:layout_width="1.000000px" android:layout_height="-1" android:src="@7F020C03"/>
+    <Button android:textSize="26.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A0065" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="주변 검색" android:layout_weight="1.000000"/>
+    <ImageView android:layout_gravity="0x00000011" android:background="@drawable/lg_glass_panel" android:focusable="false" android:clickable="false" android:layout_width="1.000000px" android:layout_height="-1" android:src="@7F020C03"/>
+    <Button android:textSize="30.000000px" android:textColor="@7F020D3B" android:gravity="0x00000011" android:id="@7F0A0066" android:background="@drawable/lg_glass_panel" android:layout_width="0.000000px" android:layout_height="-1" android:text="i-Code 검색" android:layout_weight="1.000000">
+      <requestFocus/>
+    </Button>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="59.000000px" android:layout_marginLeft="15.000000px" android:layout_marginTop="15.000000px" android:layout_marginRight="15.000000px">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-2">
+      <EditText android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A0139" android:background="@7F020BE1" android:paddingLeft="16.000000px" android:layout_width="-1" android:layout_height="58.000000px" android:hint="i-Code를 입력하세요" android:singleLine="true" android:selectAllOnFocus="true" android:layout_weight="1.000000"/>
+      <Button android:enabled="false" android:id="@7F0A013A" android:background="@drawable/lg_glass_button_selector" android:layout_width="42.000000px" android:layout_height="42.000000px" android:layout_marginRight="22.000000px" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+      <View android:id="@7F0A013B" android:background="@drawable/lg_glass_panel" android:layout_width="1.000000px" android:layout_height="30.000000px" android:layout_marginRight="15.000000px" android:layout_toLeftOf="@7F0A013A" android:layout_centerVertical="true"/>
+      <Button android:id="@7F0A013C" android:background="@drawable/lg_glass_button_selector" android:layout_width="42.000000px" android:layout_height="42.000000px" android:layout_marginRight="20.000000px" android:layout_toLeftOf="@7F0A013B" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+  </LinearLayout>
+  <View android:background="#FF545C72" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginTop="75.000000px"/>
+  <LinearLayout android:orientation="0" android:background="@drawable/lg_glass_divider" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="72.000000px">
+    <ImageButton android:layout_gravity="0x00000010" android:id="@7F0A013D" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:clickable="false" android:layout_width="180.000000px" android:layout_height="-1" android:layout_marginRight="15.000000px" android:src="@7F020C6E"/>
+    <Button android:textSize="@7F09024E" android:textColor="#FF99BCD7" android:gravity="0x00000013" android:background="@drawable/lg_glass_divider" android:paddingLeft="30.000000px" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="-1" android:text="900-791-3604" android:layout_weight="1.000000"/>
+  </LinearLayout>
+  <View android:background="#FF545C72" android:layout_width="-1" android:layout_height="1.000000px"/>
+  <LinearLayout android:gravity="0x00000011" android:orientation="0" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1">
+    <TableLayout android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="18.000000px" android:layout_marginTop="8.000000px" android:layout_marginRight="18.000000px" android:layout_marginBottom="6.000000px" android:stretchColumns="*">
+      <TableRow android:id="@7F0A013E" android:layout_width="-2" android:layout_height="-2" android:layout_marginBottom="8.000000px" android:layout_weight="1.000000">
+        <Button android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A013F" android:background="@drawable/lg_glass_button_selector" android:layout_width="158.000000px" android:layout_height="118.000000px" android:layout_marginRight="8.000000px" android:text="1"/>
+        <Button android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A0140" android:background="@drawable/lg_glass_button_selector" android:layout_width="158.000000px" android:layout_height="118.000000px" android:layout_marginRight="8.000000px" android:text="2"/>
+        <Button android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A0141" android:background="@drawable/lg_glass_button_selector" android:layout_width="158.000000px" android:layout_height="118.000000px" android:layout_marginRight="8.000000px" android:text="3"/>
+        <Button android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A0142" android:background="@drawable/lg_glass_button_selector" android:layout_width="158.000000px" android:layout_height="118.000000px" android:layout_marginRight="8.000000px" android:text="4"/>
+        <Button android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A0143" android:background="@drawable/lg_glass_button_selector" android:layout_width="158.000000px" android:layout_height="118.000000px" android:layout_marginRight="8.000000px" android:text="5"/>
+        <ImageButton android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A0144" android:background="@drawable/lg_glass_button_selector" android:clickable="true" android:layout_width="158.000000px" android:layout_height="118.000000px" android:src="@7F020622" android:scaleType="5" android:adjustViewBounds="true"/>
+      </TableRow>
+      <TableRow android:id="@7F0A0145" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.000000">
+        <Button android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A0146" android:background="@drawable/lg_glass_button_selector" android:layout_width="158.000000px" android:layout_height="118.000000px" android:layout_marginRight="8.000000px" android:text="6"/>
+        <Button android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A0147" android:background="@drawable/lg_glass_button_selector" android:layout_width="158.000000px" android:layout_height="118.000000px" android:layout_marginRight="8.000000px" android:text="7"/>
+        <Button android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A0148" android:background="@drawable/lg_glass_button_selector" android:layout_width="158.000000px" android:layout_height="118.000000px" android:layout_marginRight="8.000000px" android:text="8"/>
+        <Button android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A0149" android:background="@drawable/lg_glass_button_selector" android:layout_width="158.000000px" android:layout_height="118.000000px" android:layout_marginRight="8.000000px" android:text="9"/>
+        <Button android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A014A" android:background="@drawable/lg_glass_button_selector" android:layout_width="158.000000px" android:layout_height="118.000000px" android:layout_marginRight="8.000000px" android:text="0"/>
+        <ImageButton android:textSize="@7F09025F" android:textColor="#FFFFFFFF" android:id="@7F0A014B" android:background="@drawable/lg_glass_button_selector" android:clickable="true" android:layout_width="158.000000px" android:layout_height="118.000000px" android:src="@7F020628" android:scaleType="5" android:adjustViewBounds="true"/>
+      </TableRow>
+    </TableLayout>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:id="@7F0A04C0" android:background="@drawable/lg_glass_divider" android:visibility="2" android:layout_width="834.000000px" android:layout_height="-1" android:layout_weight="1.000000">
+  <LinearLayout android:orientation="0" android:id="@7F0A017B" android:layout_width="187.000000px" android:layout_height="-1" android:layout_weight="1.000000">
+    <ListView android:id="@7F0A04C1" android:background="@drawable/lg_glass_card" android:layout_width="184.000000px" android:layout_height="-1" android:listSelector="@7F020CC3" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px"/>
+  </LinearLayout>
+  <View android:id="@7F0A0268" android:background="#FF4A5662" android:layout_width="2.000000px" android:layout_height="-1" android:layout_marginTop="4.000000px" android:layout_marginBottom="4.000000px"/>
+  <LinearLayout android:orientation="0" android:id="@7F0A04C2" android:layout_width="645.000000px" android:layout_height="-1">
+    <ListView android:id="@7F0A04C3" android:background="@drawable/lg_glass_divider" android:nextFocusLeft="@7F0A04C1" android:layout_width="210.000000px" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px"/>
+    <View android:id="@7F0A04C4" android:background="#FF4A5662" android:layout_width="2.000000px" android:layout_height="-1" android:layout_marginTop="4.000000px" android:layout_marginBottom="4.000000px"/>
+    <ListView android:id="@7F0A04C5" android:background="@drawable/lg_glass_divider" android:scrollbars="0x00000000" android:nextFocusLeft="@7F0A04C3" android:nextFocusRight="@7F0A04C6" android:layout_width="383.000000px" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB7" android:dividerHeight="1.000000px"/>
+    <ListView android:id="@7F0A04C7" android:background="@drawable/lg_glass_divider" android:scrollbars="0x00000000" android:nextFocusLeft="@7F0A04C1" android:layout_width="595.000000px" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB7" android:dividerHeight="1.000000px"/>
+    <ListView android:id="@7F0A04C8" android:background="@drawable/lg_glass_divider" android:layout_width="50.000000px" android:layout_height="-1" android:listSelector="@7F020CCE" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB6" android:dividerHeight="1.000000px"/>
+  </LinearLayout>
+</LinearLayout>

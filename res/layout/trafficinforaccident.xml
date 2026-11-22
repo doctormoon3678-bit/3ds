@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A09C5" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:background="#FF66CCFF" android:layout_width="-1" android:layout_height="30.000000dip">
+    <TextView android:textSize="20.000000px" android:textColor="#FF000000" android:layout_width="-2" android:layout_height="-2" android:text="유고정보:"/>
+    <Button android:textSize="16.000000px" android:gravity="0x00000005" android:id="@7F0A0261" android:layout_width="-2" android:layout_height="-1" android:text="구분[전국]"/>
+    <Button android:textSize="16.000000px" android:gravity="0x00000005" android:id="@7F0A09C6" android:layout_width="-2" android:layout_height="-1" android:text="유고종류[전체]"/>
+    <Button android:textSize="16.000000px" android:gravity="0x00000005" android:id="@7F0A0262" android:layout_width="-2" android:layout_height="-1" android:text="회피탐색"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.000000">
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+      <ListView android:id="@7F0A0089" android:paddingRight="10.000000dip" android:layout_width="-1" android:layout_height="-1" android:dividerHeight="1.000000dip" android:layout_weight="3.000000"/>
+    </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>

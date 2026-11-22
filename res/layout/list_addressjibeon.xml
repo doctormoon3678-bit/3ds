@@ -1,0 +1,8 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0513" android:layout_width="-1" android:layout_height="-1">
+  <View android:id="@7F0A00DA" android:background="@drawable/lg_glass_list_item_pressed" android:visibility="2" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="80.000000px"/>
+  <LinearLayout android:gravity="0x00000010" android:orientation="1" android:layout_width="-1" android:layout_height="80.000000px" android:layout_weight="1.000000">
+    <TextView android:textSize="28.000000px" android:textColor="@color/lg_text_accent" android:id="@7F0A00C7" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000px" android:text="타이틀"/>
+  </LinearLayout>
+  <View android:id="@7F0A0193" android:background="@drawable/lg_glass_divider" android:visibility="0" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+  <View android:id="@7F0A02F6" android:background="@drawable/lg_glass_list_item" android:visibility="2" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="80.000000px"/>
+</RelativeLayout>

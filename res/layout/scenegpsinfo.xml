@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x00000050" android:orientation="1" android:id="@7F0A0220" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="543.000000px">
+    <RelativeLayout android:id="@7F0A0213" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+      <RelativeLayout android:id="@7F0A0221" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+        <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A0101" android:layout_width="-2" android:layout_height="-2" android:text="GPS 정보" android:layout_centerVertical="true"/>
+      </RelativeLayout>
+      <ImageView android:id="@7F0A0222" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="158.000000px" android:layout_marginTop="93.000000px" android:src="@7F020BD0"/>
+      <ImageView android:id="@7F0A0223" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="219.000000px" android:layout_marginTop="93.000000px" android:src="@7F020704"/>
+      <RelativeLayout android:id="@7F0A0224" android:layout_width="254.000000px" android:layout_height="54.000000px" android:layout_marginLeft="543.000000px" android:layout_marginTop="158.000000px">
+        <TextView android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A0225" android:layout_width="-2" android:layout_height="-2" android:text="시간" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A0226" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:text="시간" android:layout_toRightOf="@7F0A0225" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@7F09024E" android:textColor="#FF01B6E7" android:id="@7F0A0227" android:layout_width="-2" android:layout_height="-2" android:text="05:10:03" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <RelativeLayout android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A0228" android:layout_width="254.000000px" android:layout_height="54.000000px" android:layout_below="@7F0A0224" android:layout_alignLeft="@7F0A0224">
+        <TextView android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A0229" android:layout_width="-2" android:layout_height="-2" android:text="속도" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@7F090248" android:textColor="#FF8F929D" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:text="km/h" android:layout_toRightOf="@7F0A0229" android:layout_alignBottom="@7F0A0229"/>
+        <TextView android:textSize="@7F09024E" android:textColor="#FF01B6E7" android:id="@7F0A022A" android:layout_width="-2" android:layout_height="-2" android:text="260" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <RelativeLayout android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A022B" android:layout_width="254.000000px" android:layout_height="54.000000px" android:layout_below="@7F0A0228" android:layout_alignLeft="@7F0A0224">
+        <TextView android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A022C" android:layout_width="-2" android:layout_height="-2" android:text="고도" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@7F090248" android:textColor="#FF8F929D" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:text="m" android:layout_toRightOf="@7F0A022C" android:layout_alignBottom="@7F0A022C"/>
+        <TextView android:textSize="@7F09024E" android:textColor="#FF01B6E7" android:id="@7F0A022D" android:layout_width="-2" android:layout_height="-2" android:text="600" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+        <RelativeLayout android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_alignParentBottom="true"/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A022E" android:layout_width="254.000000px" android:layout_height="54.000000px" android:layout_below="@7F0A022B" android:layout_alignLeft="@7F0A0224">
+        <TextView android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A022F" android:layout_width="-2" android:layout_height="-2" android:text="HDOP" android:layout_centerVertical="true"/>
+        <TextView android:textSize="@7F090248" android:textColor="#FF8F929D" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="4.000000px" android:text="시간" android:layout_toRightOf="@7F0A022F" android:layout_alignBottom="@7F0A022F"/>
+        <TextView android:textSize="@7F09024E" android:textColor="#FF01B6E7" android:id="@7F0A0230" android:layout_width="-2" android:layout_height="-2" android:text="0.0" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A0231" android:layout_width="570.000000px" android:layout_height="-2" android:layout_marginLeft="232.000000px" android:layout_marginTop="430.000000px">
+        <ImageView android:id="@7F0A0232" android:layout_width="-2" android:layout_height="-2" android:src="@7F020A51" android:layout_centerVertical="true"/>
+        <TextView android:textSize="22.000000px" android:textColor="#FFB0C4DE" android:id="@7F0A0233" android:layout_width="380.000000px" android:layout_height="-2" android:layout_marginLeft="5.000000dip" android:text="시리얼 포트를 사용할 수 없습니다" android:layout_toRightOf="@7F0A0232" android:layout_centerVertical="true"/>
+        <Button android:textSize="@7F09024E" android:textColor="@7F0203DB" android:id="@7F0A0234" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="147.000000px" android:layout_height="57.000000px" android:text="초기화" android:layout_alignParentRight="true"/>
+        <RelativeLayout android:paddingRight="3.000000px" android:layout_width="-1" android:layout_height="1.000000px" android:layout_alignParentTop="true">
+          <View android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px"/>
+        </RelativeLayout>
+      </RelativeLayout>
+    </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>

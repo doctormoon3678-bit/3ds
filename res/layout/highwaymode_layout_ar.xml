@@ -1,0 +1,14 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A03BA" android:background="@7F020022" android:visibility="2" android:layout_width="@7F0901FD" android:layout_height="@7F0901FE" android:layout_marginLeft="@7F090153">
+  <LinearLayout android:orientation="0" android:id="@7F0A03BB" android:background="@7F020012" android:layout_width="-1" android:layout_height="@7F090201">
+    <RelativeLayout android:background="@android:0106000D" android:clickable="true" android:layout_width="@7F090202" android:layout_height="@7F090201">
+      <ImageButton android:id="@7F0A03BC" android:background="@drawable/lg_glass_badge" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F020043"/>
+      <ImageButton android:id="@7F0A03BD" android:background="@drawable/lg_glass_badge" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F020044" android:layout_alignParentRight="true"/>
+      <TextView android:textSize="28.000000px" android:textColor="@7F080026" android:id="@7F0A03BE" android:layout_width="-2" android:layout_height="-2" android:text="전체" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <ImageButton android:id="@7F0A03BF" android:background="@drawable/lg_glass_badge" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F020042" android:layout_alignParentRight="true"/>
+  </LinearLayout>
+  <RelativeLayout android:id="@7F0A03C0" android:focusable="false" android:clickable="false" android:layout_width="-1" android:layout_height="@7F0900B3" android:layout_below="@7F0A03BB">
+    <ListView android:id="@7F0A03C1" android:focusable="false" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="1.000000px" android:cacheColorHint="#00000000" android:divider="@android:0106000D" android:headerDividersEnabled="false" android:footerDividersEnabled="true"/>
+  </RelativeLayout>
+  <Button android:id="@7F0A03C2" android:background="@drawable/lg_glass_button_selector" android:nextFocusUp="@7F0A03AA" android:layout_width="-1" android:layout_height="69.000000px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

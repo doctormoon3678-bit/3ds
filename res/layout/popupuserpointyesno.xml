@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:minHeight="81.000000px">
+  <LinearLayout android:gravity="0x00000011" android:background="@drawable/lg_glass_popup" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+    <TextView android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A0710" android:layout_width="-2" android:layout_height="-2"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:background="@drawable/lg_glass_popup_button_area" android:layout_width="-1" android:layout_height="74.000000px">
+    <LinearLayout android:gravity="0x00000011" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+      <Button android:textSize="@7F09024E" android:textColor="#FFFFFFFF" android:id="@7F0A0711" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="-1" android:layout_height="-1" android:text="아니오"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000011" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+      <Button android:textSize="@7F09024E" android:textColor="#FFFFFFFF" android:id="@7F0A0712" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="-1" android:layout_height="-1" android:text="예"/>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

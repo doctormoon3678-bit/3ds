@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A06E6" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <RelativeLayout android:id="@7F0A00CB" android:background="@drawable/lg_glass_popup" android:padding="0.000000px" android:layout_width="@7F0900FE" android:layout_height="@7F0900FF">
+      <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="@7F090151" android:textColor="@color/lg_text_primary" android:gravity="0x00000011" android:id="@7F0A0615" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="57.000000px" android:text="지도 설정 값을 초기화 하시겠습니까?" android:singleLine="false" android:layout_centerHorizontal="true"/>
+        <TextView android:textSize="20.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A00D0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="110.000000px" android:text="재 부팅 시 최신 도로망 데이터 적용이 해제되고,&#10;설정된 경로가 취소됩니다." android:singleLine="false" android:layout_centerHorizontal="true" android:lineSpacingExtra="5.000000px"/>
+        <RelativeLayout android:orientation="0" android:id="@7F0A00D1" android:background="@drawable/lg_glass_panel_light" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="188.000000px" android:layout_centerHorizontal="true">
+          <CheckBox android:id="@7F0A00D2" android:focusable="false" android:clickable="false" android:layout_width="36.000000px" android:layout_height="36.000000px" android:layout_marginLeft="1.000000px" android:button="@7F0205C8" android:layout_centerVertical="true"/>
+          <Button android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000010" android:id="@7F0A00D3" android:background="@android:0106000D" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:layout_marginTop="8.000000px" android:text="아이나비 재 부팅" android:layout_centerVertical="true"/>
+        </RelativeLayout>
+      </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="0" android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="6.000000px" android:layout_width="502.000000px" android:layout_height="84.000000px" android:layout_below="@7F0A00CB">
+      <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:id="@7F0A00DE" android:background="@drawable/lg_glass_button" android:layout_width="245.000000px" android:layout_height="-1" android:text="Button text"/>
+      <View android:id="@7F0A00D5" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <View android:id="@7F0A00D6" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:id="@7F0A0332" android:background="@drawable/lg_glass_button" android:layout_width="245.000000px" android:layout_height="-1" android:text="Button text"/>
+    </LinearLayout>
+  </RelativeLayout>
+</RelativeLayout>

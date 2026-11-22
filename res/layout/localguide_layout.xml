@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A05CC" android:visibility="2" android:layout_width="@7F0900AD" android:layout_height="@7F0900AE" android:layout_marginLeft="@7F0900AB">
+  <RelativeLayout android:orientation="1" android:id="@7F0A05CC" android:background="@7F02039F" android:visibility="0" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:id="@7F0A05CD" android:background="@7F08002C" android:layout_width="-1" android:layout_height="@7F0900AF">
+      <Button android:id="@7F0A05CE" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:layout_width="@7F0900B0" android:layout_height="@7F0900AF"/>
+      <TextView android:textSize="30.000000px" android:textColor="@7F080026" android:id="@7F0A05CF" android:layout_width="-2" android:layout_height="-2" android:text="지역경계안내" android:layout_centerInParent="true"/>
+      <ImageButton android:id="@7F0A05D0" android:background="@drawable/lg_glass_badge" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F020474" android:layout_toRightOf="@7F0A05CE"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A05D1" android:background="@7F08002C" android:layout_width="-1" android:layout_height="@7F0900B3" android:layout_marginTop="4.000000px" android:layout_below="@7F0A05CD">
+      <Button android:id="@7F0A05D2" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F0900B4" android:layout_marginTop="@7F0900B5"/>
+      <Button android:id="@7F0A05D3" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F0900B4" android:layout_marginTop="@7F0900B5"/>
+      <TextView android:textSize="22.000000px" android:textColor="#FFC1C5C8" android:id="@7F0A05D4" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="54.000000px" android:layout_marginTop="14.000000px" android:text="현재 운행 중인 지역은"/>
+      <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A05D5" android:layout_width="-2" android:layout_height="-2" android:text="맑고 매력있는 세계도시 서울입니다." android:layout_below="@7F0A05D4" android:layout_alignLeft="@7F0A05D4"/>
+      <TextView android:textSize="18.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A05D6" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000px" android:layout_marginTop="345.000000px" android:text="5.1~10.31 매주 목~일 오후 7시 30분"/>
+      <TextView android:textSize="18.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A05D7" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:text="연간 90회 공연 보문 야외공연장" android:layout_below="@7F0A05D6" android:layout_alignLeft="@7F0A05D6"/>
+      <ImageView android:id="@7F0A05D8" android:background="@drawable/lg_glass_badge" android:focusable="true" android:nextFocusUp="@7F0A05D0" android:layout_width="330.000000px" android:layout_height="298.000000px" android:layout_marginLeft="@7F0900B6" android:layout_marginTop="@7F0900B7"/>
+    </RelativeLayout>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A05D9" android:visibility="2" android:layout_width="@7F0900AD" android:layout_height="74.000000px" android:layout_below="@7F0A05D1">
+    <Button android:textSize="24.000000px" android:textColor="@color/lg_button_text" android:id="@7F0A05DA" android:background="#FF40434F" android:layout_width="204.000000px" android:layout_height="-1" android:text="지점등록"/>
+    <RelativeLayout android:id="@7F0A05DB" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_toRightOf="@7F0A05DA"/>
+    <RelativeLayout android:id="@7F0A05DC" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_toRightOf="@7F0A05DB"/>
+    <Button android:textSize="24.000000px" android:textColor="@color/lg_button_text" android:id="@7F0A05DD" android:background="#FF40434F" android:layout_width="204.000000px" android:layout_height="-1" android:text="바로탐색" android:layout_toRightOf="@7F0A05DC"/>
+  </RelativeLayout>
+</RelativeLayout>

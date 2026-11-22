@@ -1,0 +1,4 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="80.000000px">
+  <TextView android:textSize="26.000000px" android:textColor="#FFE5E5EA" android:ellipsize="3" android:gravity="0x00000010" android:id="@7F0A00D8" android:layout_width="-1" android:layout_height="80.000000px" android:layout_marginLeft="20.000000px" android:text="한남대교" android:maxLines="1" android:singleLine="true" android:layout_below="@7F0A00D9"/>
+  <View android:id="@7F0A00DA" android:background="@drawable/lg_glass_list_item_pressed" android:visibility="2" android:duplicateParentState="true" android:layout_width="166.000000px" android:layout_height="125.000000px" android:layout_marginLeft="10.000000px"/>
+</RelativeLayout>

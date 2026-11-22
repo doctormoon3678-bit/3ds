@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <LinearLayout android:orientation="1" android:id="@7F0A030D" android:background="@drawable/lg_glass_popup" android:layout_width="@7F090139" android:layout_height="-2">
+      <TextView android:textSize="@7F09014F" android:textColor="@color/lg_text_secondary" android:gravity="0x00000013" android:layout_gravity="0x00000010" android:id="@7F0A00C7" android:paddingLeft="20.000000dip" android:layout_width="-1" android:layout_height="49.000000dip" android:text="사용자 환경 개선 프로그램" android:layout_alignParentTop="true"/>
+      <View android:id="@7F0A0316" android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px"/>
+      <LinearLayout android:gravity="0x00000001" android:orientation="0" android:id="@7F0A0317" android:layout_width="-1" android:layout_height="-2">
+        <ScrollView android:id="@7F0A0319" android:fadingEdge="0x00000000" android:layout_width="607.000000px" android:layout_height="293.000000px" android:layout_marginTop="20.000000px">
+          <TextView android:textSize="@7F090249" android:textColor="#FFFFFFFF" android:id="@7F0A031A" android:background="#33000000" android:paddingLeft="15.000000px" android:paddingTop="15.000000px" android:paddingRight="7.000000px" android:paddingBottom="7.000000px" android:layout_width="-1" android:layout_height="-1" android:text="약관 내용 나오는 부분"/>
+        </ScrollView>
+      </LinearLayout>
+      <LinearLayout android:gravity="0x00000010" android:orientation="0" android:layout_width="-1" android:layout_height="54.000000px">
+        <CheckBox android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0529" android:paddingLeft="10.000000px" android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="20.000000px" android:layout_marginRight="10.000000px" android:button="@7F0205C8" android:text="전문 보기의 모든 내용을 읽었습니다." android:layout_centerVertical="true"/>
+      </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@7F0A030F" android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="@7F090139" android:layout_height="@7F09013D" android:layout_below="@7F0A0310">
+      <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:gravity="0x00000011" android:id="@7F0A0315" android:background="@drawable/lg_glass_button" android:layout_width="330.000000px" android:layout_height="84.000000px" android:text="참여하지 않음"/>
+      <View android:id="@7F0A0312" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px" android:layout_toRightOf="@7F0A0315"/>
+      <View android:id="@7F0A0313" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px" android:layout_toRightOf="@7F0A0312"/>
+      <Button android:enabled="false" android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:gravity="0x00000011" android:id="@7F0A031B" android:background="@drawable/lg_glass_button" android:layout_width="330.000000px" android:layout_height="84.000000px" android:text="참여함" android:layout_toRightOf="@7F0A0313"/>
+    </RelativeLayout>
+  </LinearLayout>
+</RelativeLayout>

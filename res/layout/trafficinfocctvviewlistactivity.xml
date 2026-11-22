@@ -1,0 +1,20 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A024C" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:gravity="0x00000010" android:id="@7F0A024E" android:background="@drawable/lg_glass_bottom_bar" android:layout_width="-1" android:layout_height="@7F090148">
+    <CheckBox android:id="@7F0A024F" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:button="@7F020E7E"/>
+    <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A00C7" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="7.000000px" android:text="경부고속도로 CCTV" android:layout_toRightOf="@7F0A024F"/>
+    <TextView android:textSize="@7F090248" android:textColor="@color/lg_text_primary" android:id="@7F0A0250" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.000000px" android:layout_marginRight="10.000000px" android:text="경부고속도로 CCTV" android:layout_alignParentRight="true"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A0251" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="361.000000px">
+    <com.thinkware.sundo.inavi3d.ui.TWHorizontalScrollView android:id="@7F0A0252" android:scrollbars="0x00000000" android:fadingEdge="0x00000000" android:layout_width="987.000000px" android:layout_height="305.000000px" android:layout_marginLeft="19.000000px" android:layout_centerVertical="true">
+      <LinearLayout android:orientation="0" android:id="@7F0A0253" android:visibility="0" android:layout_width="-1" android:layout_height="-1"/>
+    </com.thinkware.sundo.inavi3d.ui.TWHorizontalScrollView>
+    <include android:id="@7F0A0259" android:layout_width="423.000000px" android:layout_height="354.000000px" android:layout_centerInParent="true" layout="@7F030018"/>
+  </RelativeLayout>
+  <View android:id="@7F0A0254" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="1.000000px"/>
+  <View android:id="@7F0A0255" android:background="#FF5A5F69" android:layout_width="-1" android:layout_height="1.000000px"/>
+  <RelativeLayout android:id="@7F0A0256" android:layout_width="-1" android:layout_height="117.000000px">
+    <com.thinkware.sundo.inavi3d.ui.TWHorizontalScrollView android:id="@7F0A0257" android:scrollbars="0x00000000" android:fadingEdge="0x00000000" android:layout_width="1006.000000px" android:layout_height="117.000000px" android:layout_marginLeft="18.000000px" android:layout_centerVertical="true">
+      <LinearLayout android:orientation="0" android:id="@7F0A0258" android:visibility="0" android:layout_width="-1" android:layout_height="-1"/>
+    </com.thinkware.sundo.inavi3d.ui.TWHorizontalScrollView>
+  </RelativeLayout>
+</LinearLayout>

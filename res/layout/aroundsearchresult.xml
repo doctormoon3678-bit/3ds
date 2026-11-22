@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:id="@7F0A00B7" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="57.000000px" android:layout_weight="9.000000">
+    <Spinner android:id="@7F0A00C0" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.000000"/>
+    <Spinner android:id="@7F0A00C1" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.000000"/>
+    <Spinner android:id="@7F0A00C2" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.000000"/>
+    <Spinner android:id="@7F0A00C3" android:layout_width="-2" android:layout_height="-2" android:layout_weight="1.000000"/>
+    <Button android:id="@7F0A00C4" android:layout_width="-2" android:layout_height="-2" android:text="안내설정" android:layout_weight="1.000000"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:background="@7F080099" android:layout_width="-1" android:layout_height="1.000000dip" android:layout_marginTop="2.000000dip" android:layout_alignParentBottom="true"/>
+  <LinearLayout android:id="@7F0A00BE" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+    <ListView android:textColor="#FFFF3C00" android:id="@7F0A00C5" android:background="@drawable/lg_glass_card" android:scrollbars="0x00000000" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="#00000000" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+  </LinearLayout>
+</LinearLayout>

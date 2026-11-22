@@ -1,0 +1,31 @@
+<LinearLayout xmlns:outerStroke="http://schemas.android.com/apk/res/com.thinkware.inavi3ds" xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0091" android:background="@android:0106000D" android:layout_width="-1" android:layout_height="538.000000px" android:layout_marginLeft="3.000000px" android:layout_marginTop="0.000000px" android:layout_marginRight="0.000000px" android:layout_marginBottom="2.000000px">
+  <RelativeLayout android:id="@7F0A0092" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:background="@7F020FDA" android:layout_width="-1" android:layout_height="89.000000px" android:layout_alignParentTop="true" android:layout_centerHorizontal="true">
+      <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@7F020FCB" android:alpha="0.300000"/>
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@7F020FC6"/>
+        <TextView android:textSize="@7F09024B" android:textColor="#FFE5E5EA" android:gravity="0x00000011" android:layout_width="96.000000px" android:layout_height="-1" android:text="명령어" android:shadowColor="#4DC4CED2" android:shadowDy="1.000000" android:shadowRadius="1.000000" android:alpha="0.300000"/>
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@7F020FC6"/>
+        <Button android:textSize="@7F09024B" android:textColor="#FFE5E5EA" android:gravity="0x00000011" android:id="@7F0A0093" android:background="@drawable/lg_glass_button_selector" android:layout_width="96.000000px" android:layout_height="-1" android:text="음성종료" android:shadowColor="#4DC4CED2" android:shadowDy="1.000000" android:shadowRadius="1.000000"/>
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@7F020FC6"/>
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:src="@7F020FC5" android:scaleType="5"/>
+      </LinearLayout>
+    </RelativeLayout>
+    <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16777212.000000px" android:src="@7F020FCC" android:scaleType="7" android:adjustViewBounds="true" android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+  <LinearLayout android:orientation="0" android:background="@7F020FC0" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@7F0A0094" android:background="@7F020FC1" android:layout_width="608.000000px" android:layout_height="-1">
+      <TextView android:textSize="@7F090248" android:textColor="@7F080062" android:gravity="0x00000011" android:background="@7F020FCD" android:layout_width="-1" android:layout_height="32.000000px" android:text="지역 설정" android:shadowColor="#4DC4CED2" android:shadowDx="-1.000000" android:shadowDy="-1.000000" android:shadowRadius="1.000000"/>
+      <FrameLayout android:id="@7F0A0095" android:layout_width="-1" android:layout_height="-1">
+        <ImageView android:id="@7F0A0084" android:layout_width="456.000000px" android:layout_height="379.000000px" android:layout_marginLeft="60.000000px" android:layout_marginTop="41.000000px" android:src="@7F020C0C" android:scaleType="5"/>
+        <RelativeLayout android:id="@7F0A0083" android:paddingTop="0.000000px" android:layout_width="-1" android:layout_height="-1"/>
+      </FrameLayout>
+    </RelativeLayout>
+    <View android:background="@7F080055" android:layout_width="1.000000px" android:layout_height="-1"/>
+    <View android:background="@7F080056" android:layout_width="1.000000px" android:layout_height="-1"/>
+    <RelativeLayout android:id="@7F0A0096" android:layout_width="-1" android:layout_height="-1">
+      <TextView android:textSize="@7F090248" android:textColor="@7F080062" android:gravity="0x00000011" android:id="@7F0A0097" android:background="@7F020FCD" android:layout_width="-1" android:layout_height="32.000000px" android:text="반경 설정" android:shadowColor="#4DC4CED2" android:shadowDx="-1.000000" android:shadowDy="-1.000000" android:shadowRadius="1.000000"/>
+      <ListView android:id="@7F0A0098" android:background="@android:0106000D" android:fadingEdgeLength="0.000000px" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px" android:layout_below="@7F0A0097"/>
+    </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>

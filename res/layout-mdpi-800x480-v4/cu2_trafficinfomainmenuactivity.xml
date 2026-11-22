@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x00000050" android:orientation="1" android:id="@7F0A025A" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="544.000000px">
+    <RelativeLayout android:orientation="0" android:id="@7F0A025B" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A00C7" android:layout_width="-2" android:layout_height="-2" android:text="교통정보-" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+      <Button android:enabled="false" android:textSize="@7F09024C" android:textColor="#FFBBD0EE" android:id="@7F0A025C" android:background="#00000000" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-1" android:layout_toRightOf="@7F0A00C7" android:layout_centerVertical="true"/>
+      <ImageView android:id="@7F0A025D" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15.000000px" android:layout_marginRight="25.000000px" android:layout_toRightOf="@7F0A025C" android:layout_centerVertical="true"/>
+      <TextView android:textSize="@7F090249" android:textColor="#FF75859B" android:id="@7F0A025E" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@7F0A025D" android:layout_centerVertical="true"/>
+      <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A025F" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:text="업데이트" android:drawableLeft="@7F020ACF" android:drawablePadding="@7F09014C" android:layout_centerVertical="true"/>
+      <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:gravity="0x00000015" android:id="@7F0A0260" android:background="@drawable/lg_glass_button_selector" android:paddingLeft="25.000000px" android:paddingTop="8.000000px" android:paddingRight="55.000000px" android:layout_width="-2" android:layout_height="62.000000px" android:text="요약맵 검색" android:layout_centerVertical="true"/>
+      <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0261" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:text="구분[전국]" android:layout_centerVertical="true"/>
+      <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0262" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:text="회피탐색" android:layout_centerVertical="true"/>
+      <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A0263" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:text="표시설정(속도)" android:layout_centerVertical="true"/>
+      <View android:id="@7F0A0264" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px" android:layout_centerVertical="true"/>
+      <View android:id="@7F0A0265" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="20.000000px" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="480.000000px">
+      <LinearLayout android:orientation="1" android:id="@7F0A0017" android:layout_width="190.000000px" android:layout_height="-1">
+        <ListView android:id="@7F0A0266" android:layout_width="-1" android:layout_height="190.000000px" android:listSelector="@7F020CCB" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px" android:layout_weight="1.000000"/>
+        <Button android:textSize="@7F09024E" android:textColor="#FFFFFFFF" android:layout_gravity="0x00000001" android:id="@7F0A0267" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="164.000000px" android:layout_height="59.000000px" android:layout_marginBottom="3.000000px" android:text="교통정보 설정"/>
+      </LinearLayout>
+      <View android:id="@7F0A0268" android:background="@7F02037D" android:visibility="2" android:layout_width="5.000000px" android:layout_height="-1"/>
+      <LinearLayout android:id="@7F0A0269" android:layout_width="832.000000px" android:layout_height="480.000000px">"
+<include android:id="@7F0A026A" layout="@7F03008E"/><include android:id="@7F0A026B" layout="@7F030152"/><include android:id="@7F0A026C" layout="@7F03014E"/><include android:id="@7F0A026D" layout="@7F03015A"/></LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

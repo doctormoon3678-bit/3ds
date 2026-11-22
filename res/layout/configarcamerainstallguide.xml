@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A000C" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A00FF" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@7F0A0100" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A0101" android:layout_width="-2" android:layout_height="-2" android:text="카메라 설치 가이드" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0102" android:layout_width="-1" android:layout_height="403.000000px" android:layout_below="@7F0A0100">
+      <RelativeLayout android:id="@7F0A0115" android:background="@7F020068" android:layout_width="-1" android:layout_height="-1">
+        <TextView android:textSize="20.000000px" android:textColor="@7F0800A6" android:gravity="0x00000010" android:id="@7F0A0116" android:layout_width="180.000000px" android:layout_height="40.000000px" android:layout_marginLeft="25.000000px" android:layout_marginTop="6.000000px" android:text="차량 높이 측정"/>
+        <TextView android:textSize="22.000000px" android:textColor="@7F0800A6" android:gravity="0x00000010" android:id="@7F0A0117" android:background="@7F020064" android:paddingLeft="30.000000px" android:layout_width="778.000000px" android:layout_height="89.000000px" android:layout_marginLeft="123.000000px" android:layout_marginTop="266.000000px" android:text="지면에서부터 카메라의 높이를 측정한 후에 입력해주세요."/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A0118" android:background="@7F020069" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="20.000000px" android:textColor="@7F0800A6" android:gravity="0x00000010" android:id="@7F0A0119" android:layout_width="180.000000px" android:layout_height="40.000000px" android:layout_marginLeft="25.000000px" android:layout_marginTop="6.000000px" android:text="표적 설치"/>
+        <RelativeLayout android:id="@7F0A011A" android:background="@7F020064" android:layout_width="778.000000px" android:layout_height="89.000000px" android:layout_marginLeft="123.000000px" android:layout_marginTop="266.000000px">
+          <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000010" android:id="@7F0A011B" android:layout_width="-2" android:layout_height="30.000000px" android:layout_marginLeft="25.000000px" android:layout_marginTop="9.000000px" android:text="단계 1)"/>
+          <TextView android:textSize="22.000000px" android:textColor="@7F0800A6" android:gravity="0x00000010" android:id="@7F0A011C" android:layout_width="-2" android:layout_height="30.000000px" android:layout_marginLeft="5.000000px" android:text="차량으로부터 약간 떨어진 곳에 차량 방향으로 중앙에 표적을 설치해주세요." android:singleLine="true" android:layout_toRightOf="@7F0A011B" android:layout_alignTop="@7F0A011B"/>
+          <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000010" android:id="@7F0A011D" android:layout_width="-2" android:layout_height="30.000000px" android:layout_marginTop="2.000000px" android:text="단계 2)" android:layout_below="@7F0A011B" android:layout_alignLeft="@7F0A011B"/>
+          <TextView android:textSize="22.000000px" android:textColor="@7F0800A6" android:gravity="0x00000010" android:id="@7F0A011E" android:layout_width="-2" android:layout_height="30.000000px" android:text="표적의 높이는 지면에서부터 카메라의 높이와 동일하게 맞춰주세요." android:layout_below="@7F0A011C" android:layout_alignLeft="@7F0A011C"/>
+        </RelativeLayout>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A011F" android:background="@7F02006A" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="20.000000px" android:textColor="@7F0800A6" android:gravity="0x00000010" android:id="@7F0A0120" android:layout_width="180.000000px" android:layout_height="40.000000px" android:layout_marginLeft="25.000000px" android:layout_marginTop="6.000000px" android:text="카메라 설정"/>
+        <RelativeLayout android:gravity="0x00000010" android:id="@7F0A0121" android:background="@7F020064" android:layout_width="778.000000px" android:layout_height="-2" android:layout_marginLeft="123.000000px" android:layout_marginTop="266.000000px" android:minHeight="89.000000px">
+          <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000px">
+            <TextView android:textSize="22.000000px" android:textColor="@7F0800A6" android:gravity="0x00000010" android:id="@7F0A0122" android:layout_width="-2" android:layout_height="30.000000px" android:text="카메라 중심점 설정 버튼을 눌러,"/>
+            <TextView android:textSize="22.000000px" android:textColor="@7F0800A6" android:gravity="0x00000010" android:id="@7F0A0123" android:layout_width="-2" android:layout_height="30.000000px" android:text="카메라 중심점이 표지판 원의 중심과 겹쳐지도록 카메라를 움직여주세요."/>
+            <TextView android:textSize="22.000000px" android:textColor="@7F0800A7" android:gravity="0x00000010" android:id="@7F0A0124" android:layout_width="-2" android:layout_height="30.000000px" android:text="중심점 설정이 완료되면 보닛 라인을 설정해주세요."/>
+          </LinearLayout>
+        </RelativeLayout>
+      </RelativeLayout>
+      <Button android:id="@7F0A0125" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="25.000000px" android:layout_centerVertical="true"/>
+      <Button android:id="@7F0A0126" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="958.000000px" android:layout_centerVertical="true"/>
+      <Button android:id="@7F0A0127" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="466.000000px" android:layout_marginTop="367.000000px"/>
+      <Button android:id="@7F0A0128" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15.000000px" android:layout_toRightOf="@7F0A0127" android:layout_alignTop="@7F0A0127"/>
+      <Button android:id="@7F0A0129" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="15.000000px" android:layout_toRightOf="@7F0A0128" android:layout_alignTop="@7F0A0128"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A010A" android:background="@7F020065" android:layout_width="-1" android:layout_height="77.000000px" android:layout_below="@7F0A0102">
+      <Button android:textSize="26.000000px" android:textColor="#FFCCEAFA" android:id="@7F0A012A" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="347.000000px" android:layout_height="59.000000px" android:layout_marginLeft="156.000000px" android:layout_marginTop="10.000000px" android:text="카메라 높이 입력"/>
+      <Button android:textSize="26.000000px" android:textColor="#FFCCEAFA" android:id="@7F0A012B" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="347.000000px" android:layout_height="59.000000px" android:layout_marginLeft="17.000000px" android:text="카메라 중심점 설정" android:layout_toRightOf="@7F0A012A" android:layout_alignTop="@7F0A012A"/>
+    </RelativeLayout>
+  </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:id="@7F0A09F0" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="@7F0A09F1" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CCB" android:cacheColorHint="@android:0106000D" android:divider="@7F020CB5" android:dividerHeight="1.000000px" android:layout_weight="1.000000"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="1" android:id="@7F0A09F2" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+    <TextView android:textSize="@7F09024B" android:textColor="#7FFFFFFF" android:gravity="0x00000013" android:id="@7F0A09F3" android:background="#4C000000" android:paddingLeft="12.000000dip" android:clickable="true" android:layout_width="-1" android:layout_height="38.000000dip"/>
+    <View android:id="@7F0A0050" android:background="@drawable/lg_glass_panel" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="12.000000dip" android:layout_marginRight="12.000000dip"/>
+    <ListView android:id="@7F0A09F4" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-1" android:listSelector="@android:0106000D" android:cacheColorHint="@android:0106000D" android:layout_weight="1.000000"/>
+  </LinearLayout>
+</LinearLayout>

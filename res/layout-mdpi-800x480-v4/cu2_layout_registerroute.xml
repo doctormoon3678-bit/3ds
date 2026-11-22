@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A015A" android:background="@drawable/lg_glass_chip" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="18.000000px" android:layout_marginTop="15.000000px">
+    <EditText android:textSize="26.000000px" android:textColor="@color/lg_text_accent" android:id="@7F0A015B" android:background="@7F020BE1" android:paddingLeft="18.000000px" android:paddingRight="18.000000px" android:longClickable="false" android:layout_width="848.000000px" android:layout_height="57.000000px" android:hint="등록할 경로 명칭을 입력하세요" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="17" android:capitalize="3" android:privateImeOptions="defaultInputmode=kor;" android:imeOptions="0x10000000"/>
+    <Button android:textSize="24.000000px" android:textColor="@7F0203DB" android:gravity="0x00000011" android:id="@7F0A015C" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="136.000000px" android:layout_height="-2" android:layout_marginLeft="5.000000px" android:text="등록" android:layout_toRightOf="@7F0A015B" android:layout_centerVertical="true"/>
+    <Button android:id="@7F0A015D" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="20.000000px" android:layout_toLeftOf="@7F0A015C" android:layout_centerVertical="true"/>
+  </RelativeLayout>
+  <RelativeLayout android:id="@7F0A015E" android:focusable="true" android:clickable="true" android:layout_width="990.000000px" android:layout_height="65.000000px" android:layout_marginLeft="18.000000px" android:layout_marginTop="31.000000px">
+    <View android:background="@7F02046B" android:duplicateParentState="true" android:layout_width="990.000000px" android:layout_height="65.000000px"/>
+    <TextView android:textSize="26.000000px" android:textColor="@7F02052F" android:gravity="0x00000011" android:id="@7F0A015F" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="18.000000px" android:text="저장그룹 : " android:layout_centerVertical="true"/>
+    <TextView android:textSize="26.000000px" android:textColor="@7F02052E" android:gravity="0x00000011" android:id="@7F0A0160" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="18.000000px" android:text="기타" android:layout_toRightOf="@7F0A015F" android:layout_centerVertical="true"/>
+  </RelativeLayout>
+  <RelativeLayout android:gravity="0x00000050" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+    <RelativeLayout android:id="@7F0A003C" android:layout_width="-1" android:layout_height="252.000000px"/>
+  </RelativeLayout>
+</LinearLayout>

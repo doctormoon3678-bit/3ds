@@ -1,0 +1,39 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+  <item android:state_pressed="true">
+    <layer-list>
+      <item>
+        <nine-patch android:gravity="0x00000073" android:src="@7F02037D"/>
+      </item>
+      <item android:left="1.000000px">
+        <shape>
+          <solid android:color="@7F080017"/>
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+  <item android:state_focused="true">
+    <layer-list>
+      <item>
+        <nine-patch android:gravity="0x00000073" android:src="@7F02037D"/>
+      </item>
+      <item android:left="1.000000px">
+        <shape>
+          <solid android:color="@7F08001F"/>
+          <stroke android:width="3.000000px" android:color="@7F080017"/>
+        </shape>
+      </item>
+    </layer-list>
+  </item>
+  <item>
+    <layer-list>
+      <item>
+        <shape>
+          <solid android:color="@7F08001F"/>
+        </shape>
+      </item>
+      <item>
+        <nine-patch android:gravity="0x00000073" android:src="@7F02037D"/>
+      </item>
+    </layer-list>
+  </item>
+</selector>

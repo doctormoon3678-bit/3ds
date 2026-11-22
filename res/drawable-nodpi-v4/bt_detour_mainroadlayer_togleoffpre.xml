@@ -1,0 +1,11 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+  <item>
+    <bitmap android:gravity="0x00000077" android:src="@7F0204FB"/>
+  </item>
+  <item android:left="30.000000px">
+    <bitmap android:gravity="0x00000013" android:src="@7F020C22"/>
+  </item>
+  <item>
+    <bitmap android:gravity="0x00000077" android:src="@7F0204FC"/>
+  </item>
+</layer-list>

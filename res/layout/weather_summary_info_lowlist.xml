@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A0A41" android:background="@7F021011" android:layout_width="@7F09012D" android:layout_height="@7F09012A">
+  <RelativeLayout android:id="@7F0A0A42" android:background="#00000000" android:focusable="false" android:layout_width="@7F09012D" android:layout_height="@7F09012A">
+    <TextView android:textSize="28.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0A43" android:background="#00000000" android:paddingLeft="30.000000px" android:focusable="false" android:layout_width="417.000000px" android:layout_height="-2" android:layout_marginTop="6.000000px" android:text="서울역"/>
+    <TextView android:textSize="21.000000px" android:textColor="#FFB0C4DE" android:id="@7F0A0A44" android:background="#00000000" android:paddingLeft="30.000000px" android:focusable="false" android:layout_width="417.000000px" android:layout_height="-2" android:layout_marginTop="1.000000px" android:text="서울특별시 중구 봉래동 2가" android:layout_below="@7F0A0A43"/>
+    <View android:id="@7F0A02B2" android:background="@drawable/lg_glass_divider" android:focusable="false" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_toRightOf="@7F0A0A43" android:layout_centerVertical="true"/>
+    <RelativeLayout android:id="@7F0A0A45" android:focusable="false" android:layout_width="@7F09012C" android:layout_height="-1" android:layout_toRightOf="@7F0A02B2">
+      <Button android:id="@7F0A0A46" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_toRightOf="@7F0A02B2" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <View android:id="@7F0A02B4" android:background="@drawable/lg_glass_divider" android:focusable="false" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_toRightOf="@7F0A0A45" android:layout_centerVertical="true"/>
+    <RelativeLayout android:id="@7F0A0A47" android:focusable="false" android:layout_width="@7F09012C" android:layout_height="-1" android:layout_toRightOf="@7F0A02B4">
+      <TextView android:textSize="28.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A02B5" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="30.000000px" android:layout_marginRight="51.000000px" android:text="18" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <View android:id="@7F0A02B6" android:background="@drawable/lg_glass_divider" android:focusable="false" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_toRightOf="@7F0A0A47" android:layout_centerVertical="true"/>
+    <RelativeLayout android:id="@7F0A0A48" android:focusable="false" android:layout_width="@7F09012C" android:layout_height="-1" android:layout_toRightOf="@7F0A02B6">
+      <TextView android:textSize="28.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0A49" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:text="15%" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+  </RelativeLayout>
+</RelativeLayout>

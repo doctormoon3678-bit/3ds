@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:layout_width="@7F090100" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <LinearLayout android:orientation="1" android:background="@drawable/lg_glass_popup" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="16777206.000000px" android:layout_width="-1" android:layout_height="-2">
+      <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+        <TextView android:textSize="@7F09014F" android:textColor="#FF0A84FF" android:gravity="0x00000010" android:id="@7F0A00C7" android:layout_width="-1" android:layout_height="77.000000px" android:layout_marginLeft="30.000000px" android:text="아이나비 키보드 설정" android:layout_alignParentTop="true"/>
+        <View android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="1.000000px"/>
+      </LinearLayout>
+      <RelativeLayout android:id="@7F0A06DE" android:background="@7F020CCE" android:focusable="true" android:layout_width="-1" android:layout_height="80.000000px">
+        <TextView android:textSize="@7F09024E" android:id="@7F0A06DF" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:text="아이나비 메트릭스 키보드" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <RadioButton android:id="@7F0A06E0" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="23.000000px" android:checked="false" android:button="@7F0205F8" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+      </RelativeLayout>
+      <View android:background="#FF616B7E" android:layout_width="-1" android:layout_height="1.000000px"/>
+      <RelativeLayout android:id="@7F0A06E1" android:background="@7F020CCE" android:focusable="true" android:layout_width="-1" android:layout_height="80.000000px">
+        <TextView android:textSize="@7F09024E" android:id="@7F0A06E2" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:text="아이나비 쿼티 키보드" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+        <RadioButton android:id="@7F0A06E3" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="23.000000px" android:checked="false" android:button="@7F0205F8" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+      </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="-1" android:layout_height="77.000000px">
+      <Button android:textSize="@7F090150" android:textColor="#FFFFFFFF" android:id="@7F0A0315" android:background="@drawable/lg_glass_button" android:layout_width="-1" android:layout_height="-1" android:text="취소"/>
+    </RelativeLayout>
+  </LinearLayout>
+</RelativeLayout>

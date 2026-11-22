@@ -1,0 +1,21 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A09F5" android:background="@7F020F94" android:visibility="2" android:layout_width="1024.000000px" android:layout_height="600.000000px">
+  <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="18.000000px" android:layout_centerHorizontal="true">
+    <Button android:id="@7F0A09F6" android:background="@drawable/lg_glass_button_selector" android:layout_width="14.000000px" android:layout_height="14.000000px" android:layout_marginRight="20.000000px"/>
+    <Button android:id="@7F0A09F7" android:background="@drawable/lg_glass_button_selector" android:layout_width="14.000000px" android:layout_height="14.000000px"/>
+    <Button android:id="@7F0A09F8" android:background="@drawable/lg_glass_button_selector" android:layout_width="14.000000px" android:layout_height="14.000000px" android:layout_marginLeft="20.000000px"/>
+  </LinearLayout>
+  <Button android:id="@7F0A09F9" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="938.000000px" android:layout_marginTop="10.000000px"/>
+  <Button android:id="@7F0A09FA" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="22.000000px" android:layout_marginTop="247.000000px"/>
+  <Button android:id="@7F0A09FB" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="932.000000px" android:layout_alignTop="@7F0A09FA"/>
+  <HorizontalScrollView android:layout_gravity="0x00000011" android:id="@7F0A09FC" android:scrollbars="0x00000000" android:fadingEdge="0x00000000" android:layout_width="820.000000px" android:layout_height="434.000000px" android:layout_marginLeft="102.000000px" android:layout_marginTop="77.000000px">
+    <RelativeLayout android:id="@7F0A09FD" android:clickable="false" android:layout_width="-1" android:layout_height="-1">
+      <RelativeLayout android:id="@7F0A09FE" android:background="@7F020F89" android:clickable="false" android:layout_width="819.000000px" android:layout_height="-1"/>
+      <RelativeLayout android:id="@7F0A09FF" android:background="@7F020F8B" android:clickable="false" android:layout_width="819.000000px" android:layout_height="-1" android:layout_toRightOf="@7F0A09FE"/>
+      <RelativeLayout android:id="@7F0A0A00" android:background="@7F020F8A" android:clickable="false" android:layout_width="819.000000px" android:layout_height="-1" android:layout_toRightOf="@7F0A09FF"/>
+    </RelativeLayout>
+  </HorizontalScrollView>
+  <RelativeLayout android:id="@7F0A0A01" android:padding="0.000000px" android:clickable="true" android:layout_width="-2" android:layout_height="41.000000px" android:layout_marginLeft="384.000000px" android:layout_marginTop="539.000000px">
+    <TextView android:textSize="20.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0A02" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.000000px" android:text="튜토리얼 다시보지 않기"/>
+    <CheckBox android:id="@7F0A0A03" android:padding="0.000000px" android:clickable="false" android:layout_width="36.000000px" android:layout_height="36.000000px" android:button="@7F02067B" android:layout_toRightOf="@7F0A0A02"/>
+  </RelativeLayout>
+</RelativeLayout>

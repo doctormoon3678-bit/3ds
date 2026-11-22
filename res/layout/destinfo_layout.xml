@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A02F7" android:background="@android:0106000D" android:visibility="2" android:layout_width="@7F0900B8" android:layout_height="@7F0900B9" android:layout_marginLeft="@7F0900AB">
+  <com.thinkware.sundo.inavi3d.ui.component.DestArriveGuide android:id="@7F0A02F8" android:background="@7F02102D" android:visibility="0" android:layout_width="-2" android:layout_height="-2"/>
+  <RelativeLayout android:id="@7F0A02F9" android:background="@android:0106000D" android:clickable="true" android:layout_width="346.000000px" android:layout_height="@7F0900AF">
+    <RelativeLayout android:id="@7F0A02FA" android:background="@android:0106000D" android:visibility="0" android:layout_width="-1" android:layout_height="-1">
+      <TextView android:textSize="30.000000px" android:textColor="#FFE0F0FF" android:id="@7F0A02FB" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="14.000000px" android:text="목적지 도착안내" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A02FC" android:background="@android:0106000D" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+      <ImageButton android:id="@7F0A02FD" android:background="@drawable/lg_glass_button_selector" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F020479"/>
+      <TextView android:textSize="30.000000px" android:textColor="#FFE0F0FF" android:gravity="0x00000011" android:id="@7F0A02FE" android:focusable="false" android:layout_width="206.000000px" android:layout_height="-2" android:text="목적지 도착 정보" android:layout_toRightOf="@7F0A02FD" android:layout_centerInParent="true"/>
+      <ImageButton android:id="@7F0A02FF" android:background="@drawable/lg_glass_button_selector" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F02047A" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+  </RelativeLayout>
+  <ImageButton android:id="@7F0A0300" android:background="@drawable/lg_glass_button_selector" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:src="@7F020474" android:layout_toRightOf="@7F0A02F9" android:layout_alignParentRight="true"/>
+  <Button android:id="@7F0A0301" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F0900C9" android:layout_marginTop="@7F0900CA"/>
+  <Button android:textSize="26.000000px" android:textColor="#FFE0F0FF" android:ellipsize="3" android:id="@7F0A0302" android:background="@drawable/lg_glass_button_selector" android:layout_width="@7F0900CF" android:layout_height="-2" android:layout_marginLeft="@7F0900CB" android:layout_marginTop="@7F0900CC" android:text="주변시설물"/>
+  <Button android:id="@7F0A0303" android:background="@drawable/lg_glass_button_selector" android:layout_width="86.000000px" android:layout_height="57.000000px" android:layout_marginLeft="4.000000px" android:layout_toRightOf="@7F0A0302" android:layout_alignTop="@7F0A0302"/>
+  <Button android:id="@7F0A0304" android:background="@drawable/lg_glass_button_selector" android:layout_width="86.000000px" android:layout_height="57.000000px" android:layout_marginLeft="4.000000px" android:layout_toRightOf="@7F0A0303" android:layout_alignTop="@7F0A0302"/>
+</RelativeLayout>

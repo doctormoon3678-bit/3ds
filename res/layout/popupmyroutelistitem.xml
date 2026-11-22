@@ -1,0 +1,16 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="80.000000px" android:minHeight="80.000000px">
+  <View android:id="@7F0A06D6" android:background="@drawable/lg_glass_list_item_pressed" android:visibility="2" android:layout_width="-1" android:layout_height="-1"/>
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:paddingLeft="30.000000px" android:layout_width="122.000000px" android:layout_height="-1">
+      <TextView android:textSize="@7F090250" android:textColor="#FFFFFFFF" android:id="@7F0A06D7" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="9.000000px" android:text="--회" android:lines="1" android:singleLine="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+      <TextView android:textSize="@7F090250" android:textColor="#FFFFFFFF" android:id="@7F0A06D8" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="9.000000px" android:text="--" android:lines="1" android:singleLine="true"/>
+      <TextView android:textSize="@7F090249" android:textColor="#FFA2D4FA" android:id="@7F0A06D9" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="45.000000px" android:text="--" android:lines="1" android:singleLine="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:gravity="0x00000010" android:paddingLeft="20.000000px" android:paddingRight="18.000000px" android:layout_width="-2" android:layout_height="-1">
+      <Button android:id="@7F0A06DA" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2"/>
+    </RelativeLayout>
+  </LinearLayout>
+  <View android:id="@7F0A06DB" android:background="@drawable/lg_glass_divider" android:visibility="0" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

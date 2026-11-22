@@ -1,0 +1,15 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A04ED" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+    <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A00C7" android:layout_width="-2" android:layout_height="-2" android:text="경로정보" android:layout_centerVertical="true"/>
+    <Button android:textSize="@7F09024E" android:textColor="@7F020D37" android:id="@7F0A04EE" android:background="@drawable/lg_glass_sidebar" android:paddingLeft="@7F09014B" android:paddingRight="@7F09014B" android:layout_width="-2" android:layout_height="-1" android:text="위치보기" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+  </RelativeLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@7F0A0463" android:layout_width="-2" android:layout_height="-2">
+      <com.thinkware.sundo.inavi3d.INaviExpandableListView android:id="@7F0A0464" android:background="@drawable/lg_glass_card" android:layout_width="788.000000px" android:layout_height="-1" android:cacheColorHint="#00000000" android:groupIndicator="@android:0106000D" android:childDivider="@7F0206BB" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0488" android:layout_width="236.000000px" android:layout_height="-1">
+      <com.thinkware.sundo.inavi3d.ui.component.RegistRouteSummaryView android:id="@7F0A0489" android:layout_width="236.000000px" android:layout_height="-1" android:layout_marginLeft="1.000000px"/>
+      <Button android:textSize="26.000000px" android:textColor="@7F0203DB" android:id="@7F0A04EF" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="217.000000px" android:layout_height="77.000000px" android:layout_marginLeft="10.000000px" android:layout_marginTop="398.000000px" android:text="안내시작"/>
+    </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>

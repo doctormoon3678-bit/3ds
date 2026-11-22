@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@7F0A08F2" android:layout_width="0.000000px" android:layout_height="-1" android:layout_marginRight="@7F090037" android:layout_weight="1.000000">
+      <com.thinkware.sundo.inavi3d.ui.guidecomponent.SpeedView android:id="@7F0A08F3" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="@7F090036" android:layout_alignParentRight="true"/>
+      <RelativeLayout android:id="@7F0A08F4" android:layout_width="255.000000px" android:layout_height="-2" android:layout_marginTop="@7F090039" android:layout_alignParentRight="true">
+        <com.thinkware.sundo.inavi3d.ui.guidecomponent.SafeZoneSectionView android:id="@7F0A08F5" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+        <com.thinkware.sundo.inavi3d.ui.guidecomponent.SafeZonePassedView android:id="@7F0A08F6" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+        <com.thinkware.sundo.inavi3d.ui.guidecomponent.SafeZoneView android:id="@7F0A08F7" android:layout_width="-2" android:layout_height="-2" android:layout_alignParentRight="true"/>
+      </RelativeLayout>
+      <LinearLayout android:gravity="0x00000005" android:orientation="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="172.000000px" android:layout_marginBottom="68.000000px">
+        <com.thinkware.sundo.inavi3d.ui.guidecomponent.CrossWayView android:layout_gravity="0x00000050" android:id="@7F0A08F8" android:background="@7F0203AA" android:visibility="1" android:clickable="false" android:layout_width="0.000000px" android:layout_height="@7F09005A" android:layout_weight="1.000000"/>
+        <com.thinkware.sundo.inavi3d.ui.guidecomponent.TurnAreaView android:id="@7F0A08F9" android:visibility="1" android:layout_width="@7F09004C" android:layout_height="-2" android:layout_marginTop="@7F09004E"/>
+      </LinearLayout>
+    </RelativeLayout>
+    <View android:id="@7F0A08FA" android:visibility="2" android:layout_width="@7F09002D" android:layout_height="-1"/>
+  </LinearLayout>
+</RelativeLayout>

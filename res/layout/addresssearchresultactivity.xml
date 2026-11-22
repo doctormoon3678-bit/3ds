@@ -1,0 +1,23 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/lg_glass_chip" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:id="@7F0A005A" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@7F0A005B" android:layout_width="-1" android:layout_height="88.000000px">
+      <FrameLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.000000dip" android:layout_marginRight="10.000000dip" android:layout_weight="1.000000">
+        <EditText android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A005C" android:background="@7F020BE3" android:paddingLeft="16.000000px" android:longClickable="false" android:layout_width="-1" android:layout_height="-2" android:hint="결과 내 재검색" android:singleLine="true" android:capitalize="3" android:privateImeOptions="defaultInputmode=kor;" android:imeOptions="0x10000003"/>
+        <Button android:layout_gravity="0x00000015" android:id="@7F0A005D" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="92.000000px"/>
+        <View android:layout_gravity="0x00000015" android:background="@drawable/lg_glass_panel_light" android:layout_width="1.000000px" android:layout_height="30.000000px" android:layout_marginRight="77.000000px"/>
+        <Button android:layout_gravity="0x00000015" android:id="@7F0A008F" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="22.000000px"/>
+      </FrameLayout>
+    </LinearLayout>
+    <LinearLayout android:layout_width="-1" android:layout_height="63.000000px">
+      <ImageView android:layout_gravity="0x00000010" android:id="@7F0A008C" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000px" android:src="@7F0207AD"/>
+      <TextView android:textSize="@7F090250" android:textColor="@7F08009B" android:layout_gravity="0x00000010" android:id="@7F0A0090" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:text="현재지점명칭"/>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+      <ListView android:id="@7F0A005E" android:background="@drawable/lg_glass_card" android:layout_width="-2" android:layout_height="-1" android:listSelector="@7F020CC3" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+      <include android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="889.000000px" layout="@7F03007F"/>
+    </RelativeLayout>
+  </LinearLayout>
+  <RelativeLayout android:gravity="0x00000050" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+    <RelativeLayout android:id="@7F0A003C" android:layout_width="-1" android:layout_height="252.000000px"/>
+  </RelativeLayout>
+</RelativeLayout>

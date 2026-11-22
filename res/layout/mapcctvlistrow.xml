@@ -1,0 +1,8 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="145.000000px">
+  <ImageView android:id="@7F0A00D9" android:layout_width="166.000000px" android:layout_height="125.000000px" android:layout_marginLeft="10.000000px" android:scaleType="6"/>
+  <TextView android:textColor="#FFAAAAAA" android:id="@7F0A00D8" android:layout_width="190.000000px" android:layout_height="20.000000px" android:layout_marginLeft="10.000000px" android:text="한남대교" android:layout_below="@7F0A00D9"/>
+  <RelativeLayout android:id="@7F0A05E1" android:background="@7F0205C6" android:layout_width="25.000000px" android:layout_height="25.000000px" android:layout_marginTop="2.000000px" android:layout_marginRight="2.000000px" android:layout_alignRight="@7F0A00D9">
+    <TextView android:textSize="20.000000px" android:textColor="#FF00CCFF" android:id="@7F0A05E2" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:text="1" android:layout_centerHorizontal="true"/>
+  </RelativeLayout>
+  <View android:id="@7F0A00DA" android:background="@drawable/lg_glass_list_item_pressed" android:visibility="2" android:duplicateParentState="true" android:layout_width="166.000000px" android:layout_height="125.000000px" android:layout_marginLeft="10.000000px"/>
+</RelativeLayout>

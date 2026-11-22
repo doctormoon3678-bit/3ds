@@ -1,0 +1,19 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A0161" android:layout_width="-1" android:layout_height="543.000000px" android:layout_alignParentBottom="true">
+    <RelativeLayout android:id="@7F0A0162" android:layout_width="-1" android:layout_height="-1">
+      <ImageView android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F090117" android:layout_marginTop="@7F090116" android:src="@7F0206EB"/>
+      <RelativeLayout android:id="@7F0A0163" android:visibility="2" android:layout_width="@7F09011D" android:layout_height="@7F09011E" android:layout_marginLeft="@7F09011A" android:layout_marginTop="@7F090119">
+        <WebView android:id="@7F0A0164" android:layout_width="-1" android:layout_height="-1"/>
+        <Button android:id="@7F0A0165" android:layout_width="-1" android:layout_height="-1"/>
+      </RelativeLayout>
+      <ImageView android:id="@7F0A0166" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F090118" android:layout_marginTop="@7F090116" android:src="@7F0206EB"/>
+      <RelativeLayout android:id="@7F0A0167" android:layout_width="@7F09011D" android:layout_height="@7F09011E" android:layout_marginLeft="@7F09011B" android:layout_marginTop="@7F090119">
+        <WebView android:id="@7F0A0168" android:layout_width="-1" android:layout_height="-1"/>
+        <Button android:id="@7F0A0169" android:layout_width="-1" android:layout_height="-1"/>
+      </RelativeLayout>
+    </RelativeLayout>
+    <Button android:id="@7F0A016A" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F090120" android:layout_marginTop="@7F09011F"/>
+    <ImageView android:id="@7F0A016B" android:background="@7F020EA1" android:focusable="false" android:focusableInTouchMode="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F090120" android:layout_marginTop="@7F09011F"/>
+    <Button android:id="@7F0A016C" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="@7F090122" android:layout_marginTop="@7F090121"/>
+  </RelativeLayout>
+</RelativeLayout>

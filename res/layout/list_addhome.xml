@@ -1,0 +1,11 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="0" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="80.000000px" android:minHeight="80.000000px">
+  <LinearLayout android:gravity="0x00000010" android:layout_width="-1" android:layout_height="80.000000px" android:baselineAligned="false">
+    <LinearLayout android:layout_width="-2" android:layout_height="-1">
+      <ImageView android:layout_gravity="0x00000011" android:id="@7F0A00C6" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000dip" android:layout_marginRight="15.000000dip" android:src="@7F0207AD"/>
+    </LinearLayout>
+    <LinearLayout android:gravity="0x00000010" android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+      <TextView android:textSize="28.000000px" android:textColor="@color/lg_text_accent" android:id="@7F0A00C7" android:layout_width="-2" android:layout_height="-2" android:text="타이틀"/>
+    </LinearLayout>
+  </LinearLayout>
+  <View android:id="@7F0A0193" android:background="@drawable/lg_glass_divider" android:visibility="0" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>

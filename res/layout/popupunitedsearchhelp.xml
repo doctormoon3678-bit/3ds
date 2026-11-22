@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:layout_width="@7F09012E" android:layout_height="@7F09012F" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <LinearLayout android:orientation="1" android:background="@drawable/lg_glass_popup" android:layout_width="@7F09012E" android:layout_height="395.000000px">
+      <LinearLayout android:layout_width="@7F09012E" android:layout_height="77.000000px">
+        <TextView android:textSize="@7F09014F" android:textColor="@7F08004D" android:gravity="0x00000010" android:id="@7F0A06E4" android:layout_width="-1" android:layout_height="77.000000px" android:layout_marginLeft="30.000000px" android:text="도움말"/>
+      </LinearLayout>
+      <LinearLayout android:orientation="0" android:background="@7F08004E" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginTop="5.000000px"/>
+      <LinearLayout android:gravity="0x00000011" android:orientation="0" android:paddingTop="10.000000px" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.000000">
+        <LinearLayout android:paddingLeft="30.000000px" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+          <RelativeLayout android:layout_width="-2" android:layout_height="-1">
+            <ImageView android:id="@7F0A06F4" android:background="@7F0209DE" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5.000000px" android:layout_marginRight="5.000000px" android:layout_alignParentLeft="true"/>
+            <TextView android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A06F5" android:layout_width="-2" android:layout_height="-2" android:text="통합검색 입력방법" android:layout_toRightOf="@7F0A06F4"/>
+            <LinearLayout android:background="@7F08004F" android:layout_width="330.000000px" android:layout_height="1.000000px" android:layout_marginLeft="38.000000px" android:layout_marginTop="38.000000px" android:layout_marginRight="5.000000px" android:layout_marginBottom="15.000000px"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFB0C4DE" android:id="@7F0A06F6" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:layout_marginTop="15.000000px" android:text="명칭/상호 입력" android:layout_below="@7F0A06F5"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFE5E5EA" android:id="@7F0A06F7" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:text="팅크웨어, ㅌㅋㅇㅇ" android:layout_below="@7F0A06F6"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFB0C4DE" android:id="@7F0A06F8" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:layout_marginTop="10.000000px" android:text="주소/새주소 입력" android:layout_below="@7F0A06F7"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFE5E5EA" android:id="@7F0A06F9" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:text="삼평동678,ㅅㅍㄷ678/판교역로240,ㅍㄱㅇㄹ240&#10;(동/리/길/로 + 번지)" android:layout_below="@7F0A06F8"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFB0C4DE" android:id="@7F0A06FA" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:layout_marginTop="10.000000px" android:text="전화번호 입력" android:layout_below="@7F0A06F9"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFE5E5EA" android:id="@7F0A06FB" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:text="02-1577-4242 / 0215774242" android:layout_below="@7F0A06FA"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFB0C4DE" android:id="@7F0A06FC" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:layout_marginTop="10.000000px" android:text="행정명/지명 + 명칭/상호" android:layout_below="@7F0A06FB"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFE5E5EA" android:id="@7F0A06FD" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:text="삼평동팅크웨어" android:layout_below="@7F0A06FC"/>
+          </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:paddingLeft="30.000000px" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+          <RelativeLayout android:layout_width="-2" android:layout_height="-1" android:layout_weight="1.000000">
+            <ImageView android:id="@7F0A06FE" android:background="@7F0209DC" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5.000000px" android:layout_marginRight="5.000000px" android:layout_alignParentLeft="true"/>
+            <TextView android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A06FF" android:layout_width="-2" android:layout_height="-2" android:text="Live검색 입력방법" android:layout_toRightOf="@7F0A06FE"/>
+            <LinearLayout android:background="@7F08004F" android:layout_width="330.000000px" android:layout_height="1.000000px" android:layout_marginLeft="38.000000px" android:layout_marginTop="38.000000px" android:layout_marginRight="5.000000px" android:layout_marginBottom="15.000000px"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFB0C4DE" android:id="@7F0A0700" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:layout_marginTop="15.000000px" android:text="통합검색 입력어 지원" android:layout_below="@7F0A06FF"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFB0C4DE" android:id="@7F0A0701" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:layout_marginTop="10.000000px" android:text="현 위치 주변 검색(주변주차장)" android:layout_below="@7F0A0700"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFE5E5EA" android:id="@7F0A0702" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:text="주변,주위,인근 +" android:layout_below="@7F0A0701"/>
+            <ImageView android:id="@7F0A0703" android:background="@7F0209DD" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5.000000px" android:layout_marginRight="5.000000px" android:layout_toRightOf="@7F0A0702" android:layout_below="@7F0A0701"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFE5E5EA" android:id="@7F0A0704" android:layout_width="-2" android:layout_height="-2" android:text="+시설물" android:layout_toRightOf="@7F0A0703" android:layout_below="@7F0A0701"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFB0C4DE" android:id="@7F0A0705" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:layout_marginTop="10.000000px" android:text="지역 주변 검색(삼평동 편의점)" android:layout_below="@7F0A0702"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFE5E5EA" android:id="@7F0A0706" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:text="행정명/지명, 지하철역 +" android:layout_below="@7F0A0705"/>
+            <ImageView android:id="@7F0A0707" android:background="@7F0209DD" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5.000000px" android:layout_marginRight="5.000000px" android:layout_toRightOf="@7F0A0706" android:layout_below="@7F0A0705"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFE5E5EA" android:id="@7F0A0708" android:layout_width="-2" android:layout_height="-2" android:text="+시설물" android:layout_toRightOf="@7F0A0707" android:layout_below="@7F0A0705"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFB0C4DE" android:id="@7F0A0709" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:layout_marginTop="10.000000px" android:text="주소검색" android:layout_below="@7F0A0706"/>
+            <TextView android:textSize="@7F090246" android:textColor="#FFE5E5EA" android:id="@7F0A070A" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="40.000000px" android:text="성남시 분당구 삼평동678&#10;분당구 삼평동678 / 삼평동678" android:layout_below="@7F0A0709"/>
+          </RelativeLayout>
+        </LinearLayout>
+      </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="@7F09012E" android:layout_height="@7F090132">
+      <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:id="@7F0A070B" android:background="@drawable/lg_glass_button_selector" android:layout_width="-1" android:layout_height="-1" android:text="확인"/>
+    </LinearLayout>
+  </LinearLayout>
+</RelativeLayout>

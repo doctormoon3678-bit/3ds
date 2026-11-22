@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A01A7" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-2">
+    <RelativeLayout android:orientation="0" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A00C7" android:layout_width="-2" android:layout_height="-2" android:text="Title Text" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="@7F0A01A9" android:background="@drawable/lg_glass_card" android:layout_width="-1" android:layout_height="-1" android:cacheColorHint="#00000000" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+  </LinearLayout>
+</LinearLayout>

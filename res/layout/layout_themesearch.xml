@@ -1,0 +1,14 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A04BD" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:id="@7F0A00B7" android:background="@drawable/lg_glass_divider" android:visibility="2" android:layout_width="-1" android:layout_height="48.000000dip">
+    <TextView android:textSize="9.000000pt" android:gravity="0x00000013" android:id="@7F0A0233" android:layout_width="-2" android:layout_height="-1" android:text="편집모드" android:layout_weight="0.550000"/>
+    <Button android:textSize="9.000000pt" android:textColor="#FFFFFFFF" android:id="@7F0A00DE" android:layout_width="-2" android:layout_height="-1" android:text="관심 해제" android:layout_weight="0.100000"/>
+  </LinearLayout>
+  <LinearLayout android:id="@7F0A00BE" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:textColor="#FFFF3C00" android:id="@7F0A00C5" android:background="@drawable/lg_glass_divider" android:scrollbars="0x00000000" android:layout_width="150.000000dip" android:layout_height="-1" android:cacheColorHint="#00000000" android:divider="#FFFFFFFF" android:dividerHeight="1.000000px"/>
+    <ListView android:id="@7F0A04B8" android:background="@drawable/lg_glass_divider" android:scrollbars="0x00000000" android:layout_width="150.000000dip" android:layout_height="-1" android:layout_marginLeft="2.000000px" android:cacheColorHint="#00000000" android:divider="#FFFFFFFF" android:dividerHeight="1.000000px"/>
+    <RelativeLayout android:id="@7F0A04BE" android:layout_width="-1" android:layout_height="-1">
+      <ListView android:id="@7F0A04BF" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="2.000000px" android:cacheColorHint="#00000000" android:divider="#FFFFFFFF" android:dividerHeight="1.000000px"/>
+      <com.thinkware.sundo.inavi3d.ui.component.ListIndexBar android:id="@7F0A001D" android:layout_width="50.000000px" android:layout_height="-1" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+  </LinearLayout>
+</LinearLayout>

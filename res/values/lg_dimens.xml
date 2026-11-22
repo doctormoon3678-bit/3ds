@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Liquid Glass Dimensions -->
+
+    <!-- Corner Radii -->
+    <dimen name="lg_corner_xs">8dp</dimen>
+    <dimen name="lg_corner_sm">12dp</dimen>
+    <dimen name="lg_corner_md">16dp</dimen>
+    <dimen name="lg_corner_lg">20dp</dimen>
+    <dimen name="lg_corner_xl">24dp</dimen>
+    <dimen name="lg_corner_pill">999dp</dimen>
+
+    <!-- Glass Border Width -->
+    <dimen name="lg_border_width">1dp</dimen>
+    <dimen name="lg_border_width_focused">1.5dp</dimen>
+
+    <!-- Spacing -->
+    <dimen name="lg_spacing_xs">4dp</dimen>
+    <dimen name="lg_spacing_sm">8dp</dimen>
+    <dimen name="lg_spacing_md">12dp</dimen>
+    <dimen name="lg_spacing_lg">16dp</dimen>
+    <dimen name="lg_spacing_xl">24dp</dimen>
+    <dimen name="lg_spacing_xxl">32dp</dimen>
+
+    <!-- Component Heights -->
+    <dimen name="lg_button_height">44dp</dimen>
+    <dimen name="lg_input_height">44dp</dimen>
+    <dimen name="lg_titlebar_height">48dp</dimen>
+    <dimen name="lg_toolbar_height">56dp</dimen>
+    <dimen name="lg_list_item_height">56dp</dimen>
+    <dimen name="lg_tab_height">40dp</dimen>
+    <dimen name="lg_bottom_bar_height">64dp</dimen>
+
+    <!-- Text Sizes -->
+    <dimen name="lg_text_xs">11sp</dimen>
+    <dimen name="lg_text_sm">13sp</dimen>
+    <dimen name="lg_text_md">16sp</dimen>
+    <dimen name="lg_text_lg">20sp</dimen>
+    <dimen name="lg_text_xl">24sp</dimen>
+    <dimen name="lg_text_xxl">32sp</dimen>
+
+    <!-- Shadow/Elevation -->
+    <dimen name="lg_elevation_sm">2dp</dimen>
+    <dimen name="lg_elevation_md">4dp</dimen>
+    <dimen name="lg_elevation_lg">8dp</dimen>
+    <dimen name="lg_elevation_xl">16dp</dimen>
+</resources>

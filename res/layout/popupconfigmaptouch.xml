@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A000C" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <RelativeLayout android:id="@7F0A00CB" android:background="@drawable/lg_glass_popup" android:layout_width="862.000000px" android:layout_height="395.000000px">
+      <ImageView android:id="@7F0A0675" android:layout_width="-2" android:layout_height="-2" android:src="@7F020C19" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0335" android:layout_width="862.000000px" android:layout_height="76.000000px">
+      <TextView android:textSize="@7F09014F" android:textColor="@color/lg_text_secondary" android:id="@7F0A0619" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000px" android:text="지도 터치 조작" android:layout_centerVertical="true"/>
+      <RelativeLayout android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="7.000000px" android:layout_marginRight="7.000000px" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A066E" android:layout_width="862.000000px" android:layout_height="80.000000px" android:layout_below="@7F0A0335" android:layout_alignLeft="@7F0A0335">
+      <RadioButton android:textSize="@7F090152" android:textColor="@color/lg_button_text" android:id="@7F0A035F" android:background="@drawable/lg_glass_input_selector" android:paddingLeft="49.000000px" android:focusable="true" android:clickable="false" android:layout_width="396.000000px" android:layout_height="78.000000px" android:layout_marginLeft="32.000000px" android:checked="false" android:button="@7F0205F8" android:text="퀵 실행" android:layout_centerVertical="true"/>
+      <RadioButton android:textSize="@7F090152" android:textColor="@color/lg_button_text" android:id="@7F0A0364" android:background="@drawable/lg_glass_input_selector" android:paddingLeft="49.000000px" android:focusable="true" android:clickable="false" android:layout_width="396.000000px" android:layout_height="78.000000px" android:layout_marginLeft="25.000000px" android:checked="false" android:button="@7F0205F8" android:text="지도 이동" android:layout_toRightOf="@7F0A035F" android:layout_centerVertical="true"/>
+      <RelativeLayout android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="@7F0900F8" android:layout_marginRight="@7F0900F8" android:layout_alignParentBottom="true"/>
+    </RelativeLayout>
+    <LinearLayout android:id="@7F0A033D" android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="862.000000px" android:layout_height="84.000000px" android:layout_below="@7F0A00CB">
+      <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:id="@7F0A00DE" android:background="@drawable/lg_glass_button" android:layout_width="0.000000dip" android:layout_height="-1" android:text="취소" android:layout_weight="1.000000"/>
+      <View android:id="@7F0A0312" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <View android:id="@7F0A0313" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginBottom="2.000000px"/>
+      <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:id="@7F0A0332" android:background="@drawable/lg_glass_button" android:layout_width="0.000000dip" android:layout_height="-1" android:text="확인" android:layout_weight="1.000000"/>
+    </LinearLayout>
+  </RelativeLayout>
+</RelativeLayout>

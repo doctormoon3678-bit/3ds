@@ -1,0 +1,9 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A0235" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_width="-1" android:layout_height="543.000000px" android:layout_alignParentBottom="true">
+    <RelativeLayout android:id="@7F0A0236" android:background="@drawable/lg_glass_panel" android:layout_width="-1" android:layout_height="-1"/>
+    <View android:id="@7F0A0237" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+    <View android:id="@7F0A0238" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+    <View android:id="@7F0A0239" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+    <View android:id="@7F0A023A" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+  </RelativeLayout>
+</RelativeLayout>

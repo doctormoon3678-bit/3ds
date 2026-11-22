@@ -1,0 +1,32 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x00000001" android:id="@7F0A044B" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:layout_width="-1" android:layout_height="543.000000px" android:layout_alignParentBottom="true">
+    <RelativeLayout android:id="@7F0A044C" android:visibility="0" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="16777159.000000px"/>
+    <RelativeLayout android:id="@7F0A044D" android:visibility="2" android:layout_width="-1" android:layout_height="-1" android:layout_marginTop="16777159.000000px"/>
+    <RelativeLayout android:id="@7F0A044E" android:layout_width="-1" android:layout_height="-1">
+      <RelativeLayout android:id="@7F0A044F" android:layout_width="121.000000px" android:layout_height="-1" android:layout_marginLeft="7.000000px" android:layout_marginTop="6.000000px">
+        <RelativeLayout android:id="@7F0A044F" android:background="@7F020EBF" android:layout_width="88.000000px" android:layout_height="-1">
+          <Button android:id="@7F0A0450" android:background="@drawable/lg_glass_button_selector" android:padding="0.000000px" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="2.000000px" android:layout_marginTop="2.000000px"/>
+          <RelativeLayout android:id="@7F0A0451" android:background="@7F020EBE" android:layout_width="76.000000px" android:layout_height="-1" android:layout_marginLeft="6.000000px" android:layout_marginBottom="6.000000px" android:layout_below="@7F0A0450">
+            <Button android:id="@7F0A0452" android:focusable="false" android:layout_width="-1" android:layout_height="51.000000px"/>
+            <ListView android:id="@7F0A0453" android:focusable="false" android:layout_width="76.000000px" android:layout_height="360.000000px" android:listSelector="@android:0106000D" android:cacheColorHint="#00000000" android:divider="@android:0106000D" android:layout_below="@7F0A0452" android:headerDividersEnabled="false" android:footerDividersEnabled="true"/>
+            <Button android:id="@7F0A0454" android:focusable="false" android:layout_width="76.000000px" android:layout_height="51.000000px" android:layout_below="@7F0A0453"/>
+          </RelativeLayout>
+        </RelativeLayout>
+      </RelativeLayout>
+      <Button android:id="@7F0A0455" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:clickable="false" android:layout_width="121.000000px" android:layout_height="90.000000px" android:layout_marginTop="213.000000px"/>
+      <TextView android:textSize="26.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A0456" android:background="@7F020F5D" android:layout_width="838.000000px" android:layout_height="42.000000px" android:layout_marginLeft="100.000000px" android:layout_marginTop="6.000000px" android:text="주차장"/>
+      <RelativeLayout android:id="@7F0A0457" android:background="@7F020F5D" android:visibility="2" android:layout_width="600.000000px" android:layout_height="350.000000px" android:layout_centerInParent="true">
+        <TextView android:textSize="30.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A0458" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:layout_marginTop="40.000000px" android:text="텍스트1"/>
+        <TextView android:textSize="30.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0459" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:layout_marginTop="20.000000px" android:text="텍스트2" android:layout_below="@7F0A0458"/>
+        <TextView android:textSize="30.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A045A" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:layout_marginTop="20.000000px" android:text="텍스트3" android:layout_below="@7F0A0459"/>
+        <TextView android:textSize="30.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A045B" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:layout_marginTop="20.000000px" android:text="텍스트4" android:layout_below="@7F0A045A"/>
+        <TextView android:textSize="30.000000px" android:textColor="@7F08004D" android:id="@7F0A045C" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:layout_marginTop="20.000000px" android:text="텍스트5" android:layout_below="@7F0A045B"/>
+      </RelativeLayout>
+      <ImageButton android:id="@7F0A045D" android:background="@drawable/lg_glass_search_bar" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="944.000000px" android:layout_marginTop="6.000000px" android:src="@7F020552"/>
+      <Button android:id="@7F0A045E" android:background="@drawable/lg_glass_button_selector" android:layout_width="73.000000px" android:layout_height="73.000000px" android:layout_marginLeft="944.000000px" android:layout_marginTop="82.000000px"/>
+      <ImageButton android:id="@7F0A045F" android:background="@drawable/lg_glass_search_bar" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="944.000000px" android:layout_marginTop="158.000000px" android:src="@7F020552"/>
+      <ImageButton android:id="@7F0A0460" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="944.000000px" android:layout_marginTop="385.000000px"/>
+      <ImageButton android:id="@7F0A0461" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="944.000000px" android:layout_marginTop="463.000000px"/>
+    </RelativeLayout>
+  </RelativeLayout>
+</RelativeLayout>

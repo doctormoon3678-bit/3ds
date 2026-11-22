@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0474" android:background="@7F020371" android:visibility="2" android:layout_width="410.000000px" android:layout_height="543.000000px" android:layout_marginLeft="@7F0900AB" android:layout_marginTop="@7F0900AC">
+  <LinearLayout android:background="@7F02035C" android:clickable="true" android:layout_width="410.000000px" android:layout_height="68.000000px">
+    <ImageButton android:id="@7F0A0475" android:background="@drawable/lg_glass_badge" android:layout_width="70.000000px" android:layout_height="68.000000px" android:src="@7F020479"/>
+    <TextView android:textSize="30.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A00C7" android:layout_width="206.000000px" android:layout_height="68.000000px" android:text="회전정보"/>
+    <ImageButton android:id="@7F0A0476" android:background="@drawable/lg_glass_badge" android:layout_width="70.000000px" android:layout_height="68.000000px" android:src="@7F02047A"/>
+    <ImageButton android:id="@7F0A0315" android:background="@drawable/lg_glass_badge" android:layout_width="64.000000px" android:layout_height="68.000000px" android:src="@7F020474"/>
+  </LinearLayout>
+  <LinearLayout android:layout_width="410.000000px" android:layout_height="475.000000px">
+    <include android:id="@7F0A046D" android:visibility="2" layout="@7F030094"/>
+    <include android:id="@7F0A0477" android:visibility="2" layout="@7F030079"/>
+    <include android:id="@7F0A0478" android:visibility="2" layout="@7F030087"/>
+  </LinearLayout>
+</LinearLayout>

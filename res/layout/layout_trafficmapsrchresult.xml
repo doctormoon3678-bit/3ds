@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A04E6" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:id="@7F0A0172" android:layout_width="-1" android:layout_height="58.000000px" android:layout_marginLeft="20.000000px" android:layout_marginTop="20.000000px" android:layout_marginRight="20.000000px" android:layout_marginBottom="20.000000px">
+    <FrameLayout android:layout_width="-1" android:layout_height="58.000000px" android:layout_weight="1.000000">
+      <EditText android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A0173" android:background="@7F020BE1" android:paddingLeft="15.000000px" android:layout_width="-1" android:layout_height="58.000000px" android:hint="도로 명칭 또는 IC, JC 명칭을 입력하세요" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="17" android:capitalize="3" android:layout_weight="1.000000" android:privateImeOptions="defaultInputmode=kor;" android:imeOptions="0x10000000"/>
+      <Button android:layout_gravity="0x00000015" android:id="@7F0A0174" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="93.000000px"/>
+      <View android:layout_gravity="0x00000015" android:id="@7F0A0050" android:background="@drawable/lg_glass_panel" android:layout_width="1.000000px" android:layout_height="30.000000px" android:layout_marginRight="78.000000px"/>
+      <Button android:layout_gravity="0x00000015" android:id="@7F0A0175" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="21.000000px"/>
+    </FrameLayout>
+  </LinearLayout>
+  <LinearLayout android:background="@7F08001F" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+    <ListView android:id="@7F0A04E7" android:layout_width="-1" android:layout_height="-1" android:listSelector="@7F020CC3" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+  </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:gravity="0x00000011" android:orientation="1" android:id="@7F0A02F1" android:layout_width="-1" android:layout_height="80.000000px" android:minHeight="80.000000px">
+  <CheckBox android:gravity="0x00000011" android:id="@7F0A0517" android:focusable="false" android:layout_width="-1" android:layout_height="79.000000px" android:button="@7F02067D"/>
+</LinearLayout>

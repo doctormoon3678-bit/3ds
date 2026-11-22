@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A7" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="543.000000px" android:layout_alignParentBottom="true">
+    <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+      <LinearLayout android:orientation="1" android:layout_width="@7F090129" android:layout_height="-1">
+        <RelativeLayout android:id="@7F0A02A8" android:background="@7F021011" android:focusable="true" android:layout_width="@7F090129" android:layout_height="63.000000px">
+          <TextView android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A02A9" android:focusable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="62.000000px" android:text="전체"/>
+          <View android:id="@7F0A02AA" android:background="@drawable/lg_glass_divider" android:duplicateParentState="true" android:layout_width="121.000000px" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_below="@7F0A02A9"/>
+          <View android:id="@7F0A02AB" android:background="@drawable/lg_glass_divider" android:visibility="2" android:layout_width="121.000000px" android:layout_height="4.000000px" android:layout_marginLeft="18.000000px" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <RelativeLayout android:id="@7F0A02AC" android:background="@android:0106000D" android:layout_width="-1" android:layout_height="-1" android:layout_below="@7F0A02AD">
+          <ListView android:id="@7F0A02AE" android:background="@android:0106000D" android:layout_width="@7F090129" android:layout_height="-2" android:listSelector="@7F020CDC" android:cacheColorHint="#00000000" android:divider="@android:0106000D" android:dividerHeight="0.000000px" android:layout_below="@7F0A02AF" android:headerDividersEnabled="false" android:footerDividersEnabled="true"/>
+        </RelativeLayout>
+      </LinearLayout>
+      <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+        <RelativeLayout android:id="@7F0A02B0" android:background="@drawable/lg_glass_card" android:layout_width="@7F09012D" android:layout_height="63.000000px" android:layout_toRightOf="@7F0A02A8">
+          <TextView android:textSize="26.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A02B1" android:focusable="false" android:layout_width="417.000000px" android:layout_height="62.000000px" android:text="목적지" android:layout_centerVertical="true"/>
+          <View android:id="@7F0A02B2" android:background="@drawable/lg_glass_divider" android:focusable="false" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_toRightOf="@7F0A02B1" android:layout_centerVertical="true"/>
+          <TextView android:textSize="26.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A02B3" android:focusable="false" android:layout_width="@7F09012C" android:layout_height="62.000000px" android:text="날씨" android:layout_toRightOf="@7F0A02B2" android:layout_centerVertical="true"/>
+          <View android:id="@7F0A02B4" android:background="@drawable/lg_glass_divider" android:focusable="false" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_toRightOf="@7F0A02B3" android:layout_centerVertical="true"/>
+          <TextView android:textSize="26.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A02B5" android:focusable="false" android:layout_width="@7F09012C" android:layout_height="62.000000px" android:text="기온" android:layout_toRightOf="@7F0A02B4" android:layout_centerVertical="true"/>
+          <View android:id="@7F0A02B6" android:background="@drawable/lg_glass_divider" android:focusable="false" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_toRightOf="@7F0A02B5" android:layout_centerVertical="true"/>
+          <TextView android:textSize="26.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A02B7" android:focusable="false" android:layout_width="@7F09012C" android:layout_height="62.000000px" android:text="강수량" android:layout_toRightOf="@7F0A02B6" android:layout_centerVertical="true"/>
+          <View android:background="@7F08001C" android:layout_width="831.000000px" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_below="@7F0A02B1"/>
+        </RelativeLayout>
+        <ListView android:id="@7F0A02B8" android:background="@drawable/lg_glass_card" android:layout_width="@7F09012D" android:layout_height="-2" android:listSelector="@7F020CDC" android:cacheColorHint="#00000000" android:divider="@7F08009F" android:dividerHeight="0.000000px" android:headerDividersEnabled="false" android:footerDividersEnabled="true"/>
+      </LinearLayout>
+    </LinearLayout>
+    <include android:layout_width="-2" android:layout_height="-1" android:layout_marginLeft="157.000000px" layout="@7F030173"/>
+  </RelativeLayout>
+</RelativeLayout>

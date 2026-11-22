@@ -1,0 +1,12 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+  <include layout="@7F0300D4"/>
+  <include layout="@7F030065"/>
+  <include layout="@7F03007A"/>
+  <include layout="@7F030071"/>
+  <include layout="@7F03004D"/>
+  <include layout="@7F030096"/>
+  <include layout="@7F030111"/>
+  <include layout="@7F030142"/>
+  <include layout="@7F030110"/>
+  <include layout="@7F030076"/>
+</RelativeLayout>

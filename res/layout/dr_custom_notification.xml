@@ -1,0 +1,6 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:clickable="false" android:layout_width="-1" android:layout_height="-1">
+  <ImageView android:id="@7F0A032E" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="8.000000px" android:src="@7F020D48" android:layout_centerVertical="true" android:contentDescription="@7F070004"/>
+  <LinearLayout android:gravity="0x00000010" android:orientation="1" android:layout_width="-2" android:layout_height="-1" android:layout_margin="8.000000dip" android:layout_toRightOf="@7F0A032E" android:layout_alignParentBottom="false">
+    <TextView android:textSize="@7F090244" android:textColor="#FF202020" android:id="@7F0A012C" android:layout_width="-2" android:layout_height="-2" android:text="타이틀"/>
+  </LinearLayout>
+</RelativeLayout>

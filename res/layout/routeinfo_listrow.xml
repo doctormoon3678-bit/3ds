@@ -1,0 +1,9 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A07C6" android:layout_width="-1" android:layout_height="-1" android:minHeight="@7F090022">
+  <ImageView android:layout_gravity="0x00000010" android:id="@7F0A07C7" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true"/>
+  <TextView android:textColor="#FF1E1E1E" android:id="@7F0A07C8" android:layout_width="-2" android:layout_height="-2" android:text="No Item" android:layout_toRightOf="@7F0A07C7" android:layout_alignTop="@7F0A07C7"/>
+  <TextView android:textColor="#FF1E1E1E" android:id="@7F0A07C9" android:layout_width="-2" android:layout_height="-2" android:text="No Item" android:layout_below="@7F0A07C8" android:layout_alignLeft="@7F0A07C8"/>
+  <TextView android:textColor="#FF1E1E1E" android:id="@7F0A07CA" android:layout_width="-2" android:layout_height="-2" android:text="No Item" android:layout_alignParentRight="true"/>
+  <ImageView android:id="@7F0A07CB" android:layout_width="-2" android:layout_height="-2" android:layout_below="@7F0A07CA" android:layout_alignParentRight="true"/>
+  <ImageView android:id="@7F0A07CC" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@7F0A07CB" android:layout_below="@7F0A07CB"/>
+  <ImageView android:id="@7F0A07CC" android:layout_width="-2" android:layout_height="-2" android:layout_toLeftOf="@7F0A07CC" android:layout_below="@7F0A07CC"/>
+</RelativeLayout>

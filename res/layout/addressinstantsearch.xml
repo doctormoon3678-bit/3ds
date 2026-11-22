@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:background="@drawable/lg_glass_chip" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:id="@7F0A005A" android:layout_width="-1" android:layout_height="-1">
+    <LinearLayout android:gravity="0x00000010" android:orientation="0" android:id="@7F0A005B" android:layout_width="-1" android:layout_height="88.000000px" android:baselineAligned="false">
+      <RelativeLayout android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.000000dip" android:layout_marginRight="10.000000dip">
+        <EditText android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A005C" android:background="@7F020BE3" android:paddingLeft="16.000000px" android:paddingRight="16.000000px" android:longClickable="false" android:layout_width="-1" android:layout_height="-2" android:hint="" android:singleLine="true" android:privateImeOptions="defaultInputmode=kor;" android:imeOptions="0x10000003"/>
+        <Button android:id="@7F0A005D" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_marginRight="22.000000px" android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+      </RelativeLayout>
+    </LinearLayout>
+    <RelativeLayout android:layout_width="-1" android:layout_height="-1">
+      <ListView android:id="@7F0A005E" android:background="@drawable/lg_glass_card" android:layout_width="-2" android:layout_height="-1" android:listSelector="@7F020CC3" android:cacheColorHint="@android:0106000D" android:divider="@00000000" android:dividerHeight="0.000000px"/>
+      <ProgressBar android:id="@7F0A005F" android:visibility="0" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="25.000000dip" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+  </LinearLayout>
+  <RelativeLayout android:gravity="0x00000050" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@7F0A003C" android:layout_width="-1" android:layout_height="252.000000px"/>
+  </RelativeLayout>
+</RelativeLayout>

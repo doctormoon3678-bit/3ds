@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A042E" android:background="#FF505050" android:visibility="2" android:layout_width="512.000000px" android:layout_height="-2" android:layout_marginLeft="512.000000px" android:layout_marginTop="@7F0900AC">
+  <LinearLayout android:orientation="0" android:id="@7F0A042F" android:background="@drawable/lg_glass_panel_light" android:layout_width="410.000000px" android:layout_height="-2" android:layout_marginTop="5.000000px">
+    <LinearLayout android:orientation="1" android:background="@drawable/lg_glass_divider" android:paddingLeft="5.000000px" android:paddingTop="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="408.000000px" android:layout_height="-2" android:layout_marginLeft="1.000000px" android:layout_marginTop="1.000000px" android:layout_marginRight="1.000000px" android:layout_marginBottom="1.000000px">
+      <TextView android:textSize="20.000000px" android:id="@7F0A0233" android:layout_width="-2" android:layout_height="-2" android:text="거리:"/>
+      <TextView android:textSize="20.000000px" android:id="@7F0A0430" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.000000px" android:text="속도:"/>
+      <TextView android:textSize="20.000000px" android:id="@7F0A0431" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.000000px" android:text="각도:"/>
+      <TextView android:textSize="20.000000px" android:id="@7F0A0432" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="2.000000px" android:text="기압:"/>
+      <TextView android:textSize="16.000000px" android:textColor="@7F08004D" android:id="@7F0A0433" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="5.000000px" android:text="Info"/>
+    </LinearLayout>
+  </LinearLayout>
+  <Button android:textSize="26.000000px" android:id="@7F0A0434" android:layout_width="100.000000px" android:layout_height="60.000000px" android:layout_marginTop="5.000000px" android:text="닫기" android:layout_alignParentRight="true"/>
+  <Button android:textSize="26.000000px" android:id="@7F0A0435" android:visibility="2" android:layout_width="100.000000px" android:layout_height="60.000000px" android:layout_marginTop="65.000000px" android:text="확인" android:layout_alignParentRight="true"/>
+  <LinearLayout android:orientation="0" android:id="@7F0A0436" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.000000px" android:layout_below="@7F0A042F">
+    <EditText android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0437" android:background="@7F020BE3" android:paddingLeft="5.000000px" android:longClickable="false" android:layout_width="300.000000px" android:layout_height="60.000000px" android:hint="파일명 입력:" android:singleLine="true" android:selectAllOnFocus="true" android:maxLength="20" android:capitalize="3" android:textIsSelectable="false"/>
+    <Button android:textSize="26.000000px" android:id="@7F0A0438" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:layout_width="190.000000px" android:layout_height="60.000000px" android:layout_marginLeft="10.000000px" android:text="삭제"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:id="@7F0A0439" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="10.000000px" android:layout_below="@7F0A0436">
+    <Button android:textSize="26.000000px" android:id="@7F0A043A" android:paddingLeft="10.000000px" android:paddingRight="10.000000px" android:layout_width="200.000000px" android:layout_height="60.000000px" android:layout_marginRight="5.000000px" android:text="시작"/>
+    <Button android:textSize="26.000000px" android:id="@7F0A043B" android:paddingLeft="10.000000px" android:paddingRight="10.000000px" android:layout_width="200.000000px" android:layout_height="60.000000px" android:text="종료"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:id="@7F0A043C" android:layout_width="-1" android:layout_height="50.000000px" android:layout_marginTop="10.000000px" android:layout_below="@7F0A0439">
+    <RadioGroup android:orientation="0" android:id="@7F0A043D" android:layout_width="-2" android:layout_height="-2">
+      <RadioButton android:textSize="@7F09024C" android:layout_gravity="0x00000011" android:id="@7F0A043E" android:layout_height="50.000000px" android:text=" 지하(B)"/>
+      <RadioButton android:textSize="@7F09024C" android:layout_gravity="0x00000011" android:id="@7F0A043F" android:layout_height="50.000000px" android:layout_marginLeft="10.000000px" android:text=" 지상(F)"/>
+    </RadioGroup>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:id="@7F0A0440" android:layout_width="-1" android:layout_height="80.000000px" android:layout_marginTop="10.000000px" android:layout_below="@7F0A043C">
+    <Button android:textSize="24.000000px" android:id="@7F0A0441" android:paddingLeft="10.000000px" android:paddingRight="10.000000px" android:layout_width="70.000000px" android:layout_height="-1" android:text="진입"/>
+    <Button android:textSize="24.000000px" android:id="@7F0A00DE" android:layout_width="60.000000px" android:layout_height="-1" android:layout_marginLeft="10.000000px" android:text="1"/>
+    <Button android:textSize="24.000000px" android:id="@7F0A0332" android:layout_width="60.000000px" android:layout_height="-1" android:text="2"/>
+    <Button android:textSize="24.000000px" android:id="@7F0A033E" android:layout_width="60.000000px" android:layout_height="-1" android:text="3"/>
+    <Button android:textSize="24.000000px" android:id="@7F0A033F" android:layout_width="60.000000px" android:layout_height="-1" android:text="4"/>
+    <Button android:textSize="24.000000px" android:id="@7F0A0442" android:layout_width="60.000000px" android:layout_height="-1" android:text="5"/>
+    <Button android:textSize="24.000000px" android:id="@7F0A0443" android:layout_width="60.000000px" android:layout_height="-1" android:text="6"/>
+    <Button android:textSize="24.000000px" android:id="@7F0A0444" android:layout_width="60.000000px" android:layout_height="-1" android:text="7"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:id="@7F0A0445" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="10.000000px" android:layout_below="@7F0A0440">
+    <Button android:textSize="26.000000px" android:id="@7F0A0446" android:paddingLeft="10.000000px" android:paddingRight="10.000000px" android:layout_width="170.000000px" android:layout_height="70.000000px" android:text="데이터 생성"/>
+    <Button android:textSize="26.000000px" android:id="@7F0A0447" android:paddingLeft="10.000000px" android:paddingRight="10.000000px" android:layout_width="80.000000px" android:layout_height="70.000000px" android:text="F1"/>
+    <Button android:textSize="26.000000px" android:id="@7F0A0448" android:paddingLeft="10.000000px" android:paddingRight="10.000000px" android:layout_width="80.000000px" android:layout_height="70.000000px" android:text="F2"/>
+    <Button android:textSize="26.000000px" android:id="@7F0A0449" android:paddingLeft="10.000000px" android:paddingRight="10.000000px" android:layout_width="80.000000px" android:layout_height="70.000000px" android:text="F3"/>
+    <Button android:textSize="26.000000px" android:id="@7F0A044A" android:paddingLeft="10.000000px" android:paddingRight="10.000000px" android:layout_width="80.000000px" android:layout_height="70.000000px" android:text="F4"/>
+  </LinearLayout>
+</RelativeLayout>

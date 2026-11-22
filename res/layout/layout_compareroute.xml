@@ -1,0 +1,134 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A03DD" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:id="@7F0A03DE" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+    <TextView android:textSize="28.000000px" android:textColor="#FF8E8E93" android:gravity="0x00000010" android:id="@7F0A03DF" android:layout_width="-1" android:layout_height="-1" android:text="경로비교" android:layout_weight="1.000000"/>
+    <View android:layout_gravity="0x00000010" android:id="@7F0A013B" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="30.000000px" android:layout_weight="0.000000" android:layout_centerVertical="true"/>
+    <LinearLayout android:gravity="0x00000010" android:layout_gravity="0x00000010" android:id="@7F0A03E0" android:background="@7F020F62" android:paddingLeft="15.000000px" android:paddingRight="15.000000px" android:focusable="true" android:clickable="true" android:layout_width="-2" android:layout_height="-1" android:layout_weight="0.000000">
+      <TextView android:textSize="24.000000px" android:textColor="@7F0203DB" android:gravity="0x00000010" android:id="@7F0A03E1" android:layout_width="-2" android:layout_height="-2" android:text="탑승설정 ("/>
+      <TextView android:textSize="22.000000px" android:textColor="@7F0203DB" android:gravity="0x00000010" android:id="@7F0A03E2" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="5.000000px" android:text="3인이상 )"/>
+    </LinearLayout>
+  </LinearLayout>
+  <LinearLayout android:orientation="1" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="-1" android:layout_below="@7F0A03DE">
+    <RelativeLayout android:id="@7F0A03E3" android:layout_width="875.000000px" android:layout_height="80.000000px" android:layout_below="@7F0A03E4">
+      <TextView android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A03E5" android:layout_width="177.000000px" android:layout_height="79.000000px" android:text="탐색옵션"/>
+      <View android:id="@7F0A03E6" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A03E5" android:layout_centerVertical="true"/>
+      <TextView android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A03E7" android:layout_width="164.000000px" android:layout_height="79.000000px" android:text="도로비율" android:layout_toRightOf="@7F0A03E6"/>
+      <View android:id="@7F0A03E8" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A03E7" android:layout_centerVertical="true"/>
+      <TextView android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A03E9" android:layout_width="199.000000px" android:layout_height="79.000000px" android:text="요금" android:layout_toRightOf="@7F0A03E8"/>
+      <View android:id="@7F0A03EA" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A03E9" android:layout_centerVertical="true"/>
+      <TextView android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A03EB" android:layout_width="179.000000px" android:layout_height="79.000000px" android:text="소요거리" android:layout_toRightOf="@7F0A03EA"/>
+      <View android:id="@7F0A03EC" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A03EB" android:layout_centerVertical="true"/>
+      <TextView android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A03ED" android:layout_width="152.000000px" android:layout_height="79.000000px" android:text="소요시간" android:layout_toRightOf="@7F0A03EC"/>
+      <View android:id="@7F0A03EE" android:background="@drawable/lg_glass_panel" android:layout_width="-1" android:layout_height="1.000000px" android:layout_weight="0.000000" android:layout_alignParentBottom="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A03EF" android:layout_width="875.000000px" android:layout_height="80.000000px" android:layout_below="@7F0A03E3">
+      <FrameLayout android:gravity="0x00000011" android:id="@7F0A03F0" android:layout_width="177.000000px" android:layout_height="79.000000px">
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@7F0A03F1" android:background="@7F020540" android:padding="0.000000px" android:focusable="true" android:clickable="true" android:layout_width="165.000000px" android:layout_height="68.000000px">
+          <Button android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A03F2" android:background="@drawable/lg_glass_button_selector" android:paddingLeft="7.000000px" android:paddingRight="21.000000px" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1" android:text="무료" android:drawableLeft="@7F020C21"/>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@7F0A03F3" android:background="@7F0205A4" android:padding="0.000000px" android:focusable="true" android:clickable="true" android:layout_width="165.000000px" android:layout_height="68.000000px">
+          <ImageButton android:id="@7F0A03F4" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1" android:src="@7F020C28"/>
+        </FrameLayout>
+      </FrameLayout>
+      <View android:id="@7F0A03E6" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A03F0" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A03F5" android:layout_width="164.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03E6">
+        <com.thinkware.sundo.inavi3d.ui.component.RoadRate android:id="@7F0A03F6" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true"/>
+      </LinearLayout>
+      <View android:id="@7F0A03E8" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A03F5" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A03F7" android:layout_width="199.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03E8">
+        <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A03F8" android:layout_width="-2" android:layout_height="-2" android:text="25,800" android:drawableLeft="@7F020C34"/>
+      </LinearLayout>
+      <View android:id="@7F0A03EA" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A03F7" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A03F9" android:layout_width="179.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03EA">
+        <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A03FA" android:layout_width="-2" android:layout_height="-2" android:text="5.2" android:drawableRight="@7F020BE7"/>
+      </LinearLayout>
+      <View android:id="@7F0A03EC" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A03F9" android:layout_centerVertical="true"/>
+      <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A03FB" android:layout_width="152.000000px" android:layout_height="79.000000px" android:text="00:38" android:layout_toRightOf="@7F0A03EC"/>
+      <View android:id="@7F0A03EE" android:background="@drawable/lg_glass_panel" android:layout_width="-1" android:layout_height="1.000000px" android:layout_weight="0.000000" android:layout_alignParentBottom="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A03FC" android:layout_width="875.000000px" android:layout_height="80.000000px" android:layout_below="@7F0A03EF">
+      <FrameLayout android:gravity="0x00000011" android:id="@7F0A03FD" android:layout_width="177.000000px" android:layout_height="79.000000px">
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@7F0A03FE" android:background="@7F0203EB" android:padding="0.000000px" android:focusable="true" android:clickable="true" android:layout_width="165.000000px" android:layout_height="68.000000px">
+          <Button android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A03FF" android:background="@drawable/lg_glass_button_selector" android:paddingLeft="7.000000px" android:paddingRight="21.000000px" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1" android:text="무료" android:drawableLeft="@7F020C21"/>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@7F0A0400" android:background="@7F0205A4" android:padding="0.000000px" android:focusable="true" android:clickable="true" android:layout_width="165.000000px" android:layout_height="68.000000px">
+          <ImageButton android:id="@7F0A0401" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1" android:src="@7F020C25"/>
+        </FrameLayout>
+      </FrameLayout>
+      <View android:id="@7F0A03E6" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A03FD" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A0402" android:layout_width="164.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03E6">
+        <com.thinkware.sundo.inavi3d.ui.component.RoadRate android:id="@7F0A0403" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true"/>
+      </LinearLayout>
+      <View android:id="@7F0A03E8" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A0402" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A0404" android:layout_width="199.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03E8">
+        <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0405" android:layout_width="-2" android:layout_height="-2" android:text="25,800" android:drawableLeft="@7F020C34"/>
+      </LinearLayout>
+      <View android:id="@7F0A03EA" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A0404" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A0406" android:layout_width="179.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03EA">
+        <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0407" android:layout_width="-2" android:layout_height="-2" android:text="5.2" android:drawableRight="@7F020BE7"/>
+      </LinearLayout>
+      <View android:id="@7F0A03EC" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A0406" android:layout_centerVertical="true"/>
+      <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0408" android:layout_width="152.000000px" android:layout_height="79.000000px" android:text="00:38" android:layout_toRightOf="@7F0A03EC"/>
+      <View android:id="@7F0A03EE" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="1.000000px" android:layout_weight="0.000000" android:layout_alignParentBottom="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0409" android:layout_width="875.000000px" android:layout_height="80.000000px" android:layout_below="@7F0A03FC">
+      <FrameLayout android:gravity="0x00000011" android:id="@7F0A040A" android:layout_width="177.000000px" android:layout_height="79.000000px">
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@7F0A040B" android:background="@7F02046A" android:padding="0.000000px" android:focusable="true" android:clickable="true" android:layout_width="165.000000px" android:layout_height="68.000000px">
+          <Button android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A040C" android:background="@drawable/lg_glass_button_selector" android:paddingLeft="7.000000px" android:paddingRight="21.000000px" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1" android:text="무료" android:drawableLeft="@7F020C21"/>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@7F0A040D" android:background="@7F0205A4" android:padding="0.000000px" android:focusable="true" android:clickable="true" android:layout_width="165.000000px" android:layout_height="68.000000px">
+          <ImageButton android:id="@7F0A040E" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1" android:src="@7F020C26"/>
+        </FrameLayout>
+      </FrameLayout>
+      <View android:id="@7F0A03E6" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A040A" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A040F" android:layout_width="164.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03E6">
+        <com.thinkware.sundo.inavi3d.ui.component.RoadRate android:id="@7F0A0410" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true"/>
+      </LinearLayout>
+      <View android:id="@7F0A03E8" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A040F" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A0411" android:layout_width="199.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03E8">
+        <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0412" android:layout_width="-2" android:layout_height="-2" android:text="25,800" android:drawableLeft="@7F020C34"/>
+      </LinearLayout>
+      <View android:id="@7F0A03EA" android:background="@drawable/lg_glass_panel" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A0411" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A0413" android:layout_width="179.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03EA">
+        <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0414" android:layout_width="-2" android:layout_height="-2" android:text="5.2" android:drawableRight="@7F020BE7"/>
+      </LinearLayout>
+      <View android:id="@7F0A03EC" android:background="@drawable/lg_glass_panel" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A0413" android:layout_centerVertical="true"/>
+      <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0415" android:layout_width="152.000000px" android:layout_height="79.000000px" android:text="00:38" android:layout_toRightOf="@7F0A03EC"/>
+      <View android:id="@7F0A03EE" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="1.000000px" android:layout_weight="0.000000" android:layout_alignParentBottom="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0416" android:layout_width="875.000000px" android:layout_height="80.000000px" android:layout_below="@7F0A0409">
+      <FrameLayout android:gravity="0x00000011" android:id="@7F0A0417" android:layout_width="177.000000px" android:layout_height="79.000000px">
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@7F0A0418" android:background="@7F0205AD" android:padding="0.000000px" android:focusable="true" android:clickable="true" android:layout_width="165.000000px" android:layout_height="68.000000px">
+          <Button android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A0419" android:background="@drawable/lg_glass_button_selector" android:paddingLeft="7.000000px" android:paddingRight="21.000000px" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1" android:text="무료" android:drawableLeft="@7F020C21"/>
+        </FrameLayout>
+        <FrameLayout android:layout_gravity="0x00000011" android:id="@7F0A041A" android:background="@7F0205A4" android:padding="0.000000px" android:focusable="true" android:clickable="true" android:layout_width="165.000000px" android:layout_height="68.000000px">
+          <ImageButton android:id="@7F0A041B" android:background="@drawable/lg_glass_button_selector" android:focusable="false" android:clickable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1" android:src="@7F020C29"/>
+        </FrameLayout>
+      </FrameLayout>
+      <View android:id="@7F0A03E6" android:background="@drawable/lg_glass_panel" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A0417" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A041C" android:layout_width="164.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03E6">
+        <com.thinkware.sundo.inavi3d.ui.component.RoadRate android:id="@7F0A041D" android:layout_width="-2" android:layout_height="-2" android:layout_centerVertical="true"/>
+      </LinearLayout>
+      <View android:id="@7F0A03E8" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A041C" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A041E" android:layout_width="199.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03E8">
+        <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A041F" android:layout_width="-2" android:layout_height="-2" android:text="25,800" android:drawableLeft="@7F020C34"/>
+      </LinearLayout>
+      <View android:id="@7F0A03EA" android:background="@drawable/lg_glass_panel" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A041E" android:layout_centerVertical="true"/>
+      <LinearLayout android:gravity="0x00000011" android:id="@7F0A0420" android:layout_width="179.000000px" android:layout_height="79.000000px" android:layout_toRightOf="@7F0A03EA">
+        <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0421" android:layout_width="-2" android:layout_height="-2" android:text="5.2" android:drawableRight="@7F020BE7"/>
+      </LinearLayout>
+      <View android:id="@7F0A03EC" android:background="@drawable/lg_glass_divider" android:layout_width="1.000000px" android:layout_height="36.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A0420" android:layout_centerVertical="true"/>
+      <TextView android:textSize="32.000000px" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0422" android:layout_width="152.000000px" android:layout_height="79.000000px" android:text="00:38" android:layout_toRightOf="@7F0A03EC"/>
+      <View android:id="@7F0A03EE" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="1.000000px" android:layout_weight="0.000000" android:layout_alignParentBottom="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0423" android:layout_width="875.000000px" android:layout_height="80.000000px" android:layout_below="@7F0A0416">
+      <TextView android:textSize="@7F09024E" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A0424" android:layout_width="177.000000px" android:layout_height="79.000000px" android:text="도로구성비율" android:layout_centerVertical="true"/>
+      <View android:id="@7F0A013B" android:background="@drawable/lg_glass_panel" android:layout_width="1.000000px" android:layout_height="18.000000px" android:layout_weight="0.000000" android:layout_toRightOf="@7F0A0424" android:layout_centerVertical="true"/>
+      <TextView android:textSize="@7F090249" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0425" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="36.000000px" android:text="고속도로" android:drawableLeft="@7F020C3B" android:drawablePadding="8.000000px" android:layout_toRightOf="@7F0A013B" android:layout_alignBaseline="@7F0A0424" android:layout_centerVertical="true"/>
+      <TextView android:textSize="@7F090249" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0426" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="33.000000px" android:text="도시고속화" android:drawableLeft="@7F020C3D" android:drawablePadding="8.000000px" android:layout_toRightOf="@7F0A0425" android:layout_alignBaseline="@7F0A0424" android:layout_centerVertical="true"/>
+      <TextView android:textSize="@7F090249" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0427" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="33.000000px" android:text="국도/지방도" android:drawableLeft="@7F020C3C" android:drawablePadding="8.000000px" android:layout_toRightOf="@7F0A0426" android:layout_alignBaseline="@7F0A0424" android:layout_centerVertical="true"/>
+      <TextView android:textSize="@7F090249" android:textColor="#FFB0C4DE" android:gravity="0x00000011" android:id="@7F0A0428" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="33.000000px" android:text="일반도로" android:drawableLeft="@7F020C3A" android:drawablePadding="8.000000px" android:layout_toRightOf="@7F0A0427" android:layout_alignBaseline="@7F0A0424" android:layout_centerVertical="true"/>
+      <View android:id="@7F0A03EE" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="1.000000px" android:layout_weight="0.000000" android:layout_alignParentBottom="true" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+  </LinearLayout>
+  <include android:id="@7F0A0429" android:layout_width="135.000000px" android:layout_height="472.000000px" android:layout_marginLeft="889.000000px" android:layout_marginTop="65.000000px" layout="@7F03007D"/>
+</RelativeLayout>

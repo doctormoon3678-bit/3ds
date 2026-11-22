@@ -1,0 +1,10 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A09A9" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="0" android:background="#774876FF" android:layout_width="-1" android:layout_height="-2">
+    <TextView android:layout_width="-2" android:layout_height="-2" android:text="교통관심구간"/>
+    <EditText android:id="@7F0A09AA" android:layout_width="-1" android:layout_height="-2" android:layout_weight="1.000000" android:privateImeOptions="defaultInputmode=kor;" android:imeOptions="0x10000000"/>
+    <Button android:id="@7F0A09AB" android:layout_width="-2" android:layout_height="-2" android:text="검색"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-1">
+    <ListView android:id="@7F0A09AC" android:layout_width="-1" android:layout_height="-1"/>
+  </LinearLayout>
+</LinearLayout>

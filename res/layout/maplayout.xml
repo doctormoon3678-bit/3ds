@@ -1,0 +1,18 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A000C" android:background="#00000000" android:layout_width="-1" android:layout_height="-1">
+  <include layout="@7F03000D"/>
+  <FrameLayout android:id="@7F0A05E3" android:layout_width="-1" android:layout_height="-1">
+    <FrameLayout android:id="@7F0A05E4" android:layout_width="-1" android:layout_height="-1"/>
+    <include android:layout_width="334.000000px" android:layout_height="263.000000px" android:layout_marginLeft="86.000000px" android:layout_marginTop="63.000000px" layout="@7F030101"/>
+    <RelativeLayout android:id="@7F0A05E5" android:visibility="2" android:layout_width="-1" android:layout_height="-1">
+      <com.thinkware.sundo.inavi3d.ui.component.QuickMotionView android:id="@7F0A05E6" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+      <com.thinkware.sundo.inavi3d.ui.component.QuickMotionView android:id="@7F0A05E7" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+      <com.thinkware.sundo.inavi3d.ui.component.QuickMotionView android:id="@7F0A05E8" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+      <com.thinkware.sundo.inavi3d.ui.component.QuickMotionView android:id="@7F0A05E9" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+      <com.thinkware.sundo.inavi3d.ui.component.QuickMotionView android:id="@7F0A05EA" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+      <com.thinkware.sundo.inavi3d.ui.component.QuickMotionView android:id="@7F0A05EB" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+      <com.thinkware.sundo.inavi3d.ui.component.QuickMotionView android:id="@7F0A05EC" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+      <com.thinkware.sundo.inavi3d.ui.component.QuickMotionView android:id="@7F0A05ED" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+    </RelativeLayout>
+    <ImageButton android:layout_gravity="0x00000011" android:id="@7F0A05EE" android:background="@drawable/lg_glass_button_selector" android:visibility="2" android:layout_width="-2" android:layout_height="-2"/>
+  </FrameLayout>
+</FrameLayout>

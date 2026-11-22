@@ -1,0 +1,20 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:background="#64000000" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:background="@7F02068B" android:layout_width="474.000000px" android:layout_height="484.000000px" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <TextView android:textSize="28.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A00F3" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="24.000000px" android:layout_marginTop="23.000000px" android:text="한남대교 북단"/>
+    <TextView android:textSize="22.000000px" android:textColor="#FF00CCFF" android:id="@7F0A09B4" android:layout_width="-2" android:layout_height="-2" android:text="올림픽대로" android:layout_below="@7F0A00F3" android:layout_alignLeft="@7F0A00F3"/>
+    <Button android:id="@7F0A00E2" android:background="@drawable/lg_glass_button_selector" android:focusable="true" android:layout_width="50.000000px" android:layout_height="50.000000px" android:layout_marginLeft="401.000000px" android:layout_marginTop="24.000000px"/>
+    <View android:background="@7F020E7C" android:layout_width="2.000000px" android:layout_height="46.000000px" android:layout_marginLeft="388.000000px" android:layout_marginTop="26.000000px"/>
+    <RelativeLayout android:id="@7F0A00F4" android:focusable="true" android:clickable="true" android:layout_width="50.000000px" android:layout_height="50.000000px" android:layout_marginLeft="328.000000px" android:layout_marginTop="24.000000px">
+      <CheckBox android:id="@7F0A00F5" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:button="@7F020E7E" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A09B5" android:background="@7F020CCE" android:focusable="true" android:layout_width="441.000000px" android:layout_height="331.000000px" android:layout_marginLeft="17.000000px" android:layout_marginTop="98.000000px">
+      <VideoView android:id="@7F0A00F7" android:focusable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1"/>
+      <View android:id="@7F0A00F8" android:background="@7F0203EE" android:focusable="false" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="-1"/>
+      <ProgressBar android:id="@7F0A00F9" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:layout_centerInParent="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A09B6" android:background="#00000000" android:visibility="2" android:layout_width="-1" android:layout_height="55.000000px" android:layout_below="@7F0A09B5">
+      <TextView android:textSize="18.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A09B7" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:layout_marginTop="11.000000px" android:text="PM 02:17"/>
+      <TextView android:textSize="18.000000px" android:textColor="#FF9BB0C5" android:id="@7F0A00FB" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="11.000000px" android:layout_marginRight="20.000000px" android:text="제공처: 서울시설공단" android:layout_alignParentRight="true"/>
+    </RelativeLayout>
+  </RelativeLayout>
+</RelativeLayout>

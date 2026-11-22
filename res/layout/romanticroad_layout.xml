@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0778" android:background="@7F020E82" android:visibility="2" android:layout_width="525.000000px" android:layout_height="306.000000px" android:layout_marginLeft="86.000000px" android:layout_marginTop="63.000000px">
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="32.000000dip">
+    <TextView android:textSize="@7F090248" android:textColor="#FF7ED2FF" android:ellipsize="3" android:gravity="0x00000011" android:id="@7F0A0779" android:layout_width="-1" android:layout_height="-2" android:layout_marginTop="1.000000dip" android:text="낭만가도" android:singleLine="true"/>
+  </LinearLayout>
+  <LinearLayout android:orientation="0" android:layout_width="-1" android:layout_height="-2">
+    <ImageView android:id="@7F0A077A" android:visibility="1" android:layout_width="130.000000dip" android:layout_height="150.000000dip" android:layout_marginLeft="20.000000px"/>
+    <LinearLayout android:orientation="1" android:layout_width="-1" android:layout_height="-1" android:layout_marginLeft="10.000000dip" android:layout_marginTop="1.000000dip">
+      <LinearLayout android:orientation="0" android:visibility="2" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="@7F090248" android:textColor="#FFE7E7E7" android:id="@7F0A077B" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.000000dip" android:text="목적지명"/>
+      </LinearLayout>
+      <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="@7F090244" android:textColor="#FFE7E7E7" android:id="@7F0A077C" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.000000dip" android:layout_marginTop="7.000000dip" android:text="경유지  까지  &#10;거리:8.5Km,시간:45분"/>
+      </LinearLayout>
+      <LinearLayout android:orientation="0" android:layout_width="-2" android:layout_height="-2">
+        <TextView android:textSize="@7F090244" android:textColor="#FFE7E7E7" android:id="@7F0A077D" android:layout_width="-1" android:layout_height="-2" android:layout_marginLeft="10.000000dip" android:layout_marginTop="7.000000dip" android:text="경유지를 포함 목적지 &#10;거리:28km,시간:45분"/>
+      </LinearLayout>
+      <LinearLayout android:gravity="0x00000011" android:layout_gravity="0x00000011" android:id="@7F0A077E" android:background="@drawable/lg_glass_menu_item_selector" android:focusable="true" android:clickable="true" android:layout_width="150.000000dip" android:layout_height="30.000000dip" android:layout_marginTop="20.000000dip">
+        <TextView android:textSize="16.000000px" android:textColor="#FFD5D5D5" android:gravity="0x00000015" android:focusable="false" android:focusableInTouchMode="false" android:duplicateParentState="true" android:layout_width="-2" android:layout_height="-2" android:text="안내 시작" android:singleLine="true"/>
+      </LinearLayout>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

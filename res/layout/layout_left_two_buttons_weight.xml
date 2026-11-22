@@ -1,0 +1,6 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0484" android:background="@7F020432" android:paddingTop="0.000000px" android:layout_width="-2" android:layout_height="-2">
+  <Button android:textSize="@7F090250" android:textColor="@color/lg_text_secondary" android:id="@7F0A0485" android:background="@drawable/lg_glass_button_selector" android:paddingLeft="20.000000px" android:layout_width="135.000000px" android:layout_height="206.000000px" android:text="ⓘ 정보"/>
+  <View android:background="#E6141416" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="32.000000px" android:layout_marginRight="10.000000px"/>
+  <View android:background="#26C0C9E7" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="32.000000px" android:layout_marginRight="10.000000px"/>
+  <Button android:textSize="@7F090250" android:textColor="@color/lg_text_secondary" android:textColorLink="@7F0800AA" android:id="@7F0A0486" android:background="@drawable/lg_glass_button_selector" android:paddingLeft="20.000000px" android:layout_width="135.000000px" android:layout_height="206.000000px" android:text="위치보기"/>
+</LinearLayout>

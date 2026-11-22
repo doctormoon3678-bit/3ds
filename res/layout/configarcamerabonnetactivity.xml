@@ -1,0 +1,28 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A000C" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A00FF" android:background="@drawable/lg_glass_tab_selector" android:layout_width="-1" android:layout_height="-1">
+    <RelativeLayout android:id="@7F0A0100" android:background="@drawable/lg_glass_bottom_bar" android:paddingLeft="@7F090149" android:paddingRight="@7F09014A" android:layout_width="-1" android:layout_height="@7F090148">
+      <TextView android:textSize="@7F090250" android:textColor="@color/lg_text_primary" android:id="@7F0A0101" android:layout_width="-2" android:layout_height="-2" android:text="보닛 라인 설정" android:layout_centerVertical="true"/>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A0102" android:layout_width="1024.000000px" android:layout_height="403.000000px" android:layout_below="@7F0A0100">
+      <RelativeLayout android:id="@7F0A0103" android:background="@7F020064" android:layout_width="340.000000px" android:layout_height="369.000000px" android:layout_marginLeft="29.000000px" android:layout_marginTop="18.000000px">
+        <ImageView android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="76.000000px" android:src="@7F020BCB" android:layout_centerHorizontal="true"/>
+        <LinearLayout android:gravity="0x00000011" android:orientation="1" android:layout_width="-2" android:layout_height="64.000000px" android:layout_marginTop="146.000000px" android:layout_centerHorizontal="true">
+          <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0104" android:layout_width="-2" android:layout_height="-2" android:text="안내선을 차량의 보닛 끝이"/>
+          <TextView android:textSize="22.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A0105" android:layout_width="-2" android:layout_height="-2" android:text="보이지 않도록 맞춰주세요."/>
+        </LinearLayout>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A0106" android:background="@7F020064" android:layout_width="485.000000px" android:layout_height="369.000000px" android:layout_marginLeft="392.000000px" android:layout_marginTop="18.000000px"/>
+      <RelativeLayout android:padding="7.000000px" android:layout_width="485.000000px" android:layout_height="369.000000px" android:layout_marginLeft="392.000000px" android:layout_marginTop="18.000000px">
+        <View android:id="@7F0A0107" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="2.000000px"/>
+      </RelativeLayout>
+      <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="885.000000px" android:layout_marginTop="262.000000px">
+        <ImageButton android:id="@7F0A0108" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="107.000000px" android:layout_height="57.000000px" android:src="@7F020C8E"/>
+        <ImageButton android:id="@7F0A0109" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="107.000000px" android:layout_height="57.000000px" android:layout_marginTop="10.000000px" android:src="@7F020BCA"/>
+      </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@7F0A010A" android:background="@7F020065" android:layout_width="-1" android:layout_height="77.000000px" android:layout_below="@7F0A0102">
+      <Button android:textSize="26.000000px" android:textColor="#FFCCEAFA" android:id="@7F0A010B" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="347.000000px" android:layout_height="59.000000px" android:layout_marginLeft="156.000000px" android:layout_marginTop="10.000000px" android:text="취소"/>
+      <Button android:textSize="26.000000px" android:textColor="#FFCCEAFA" android:id="@7F0A00D7" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="347.000000px" android:layout_height="59.000000px" android:layout_marginLeft="17.000000px" android:text="확인" android:layout_toRightOf="@7F0A010B" android:layout_alignTop="@7F0A010B"/>
+    </RelativeLayout>
+  </RelativeLayout>
+</RelativeLayout>

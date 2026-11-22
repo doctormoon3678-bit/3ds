@@ -1,0 +1,17 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:id="@7F0A0924" android:background="@7F080050" android:visibility="2" android:layout_width="@7F0900DA" android:layout_height="@7F0900DB">
+  <LinearLayout android:orientation="1" android:id="@7F0A0925" android:layout_width="-2" android:layout_height="-2">
+    <Button android:id="@7F0A0926" android:background="@drawable/lg_glass_button_selector" android:nextFocusLeft="@7F0A0926" android:nextFocusRight="@7F0A0926" android:nextFocusUp="@7F0A0926" android:nextFocusDown="@7F0A0927" android:layout_width="-2" android:layout_height="-2"/>
+    <Button android:id="@7F0A0927" android:background="@drawable/lg_glass_button_selector" android:nextFocusLeft="@7F0A0927" android:nextFocusRight="@7F0A0927" android:nextFocusUp="@7F0A0926" android:nextFocusDown="@7F0A0928" android:layout_width="-2" android:layout_height="-2"/>
+    <TextView android:textSize="28.000000px" android:textColor="#FF1ABAE9" android:gravity="0x00000011" android:id="@7F0A0929" android:layout_width="@7F0900DD" android:layout_height="@7F0900DE" android:text="50"/>
+    <Button android:id="@7F0A0928" android:background="@drawable/lg_glass_button_selector" android:nextFocusLeft="@7F0A0928" android:nextFocusRight="@7F0A0928" android:nextFocusUp="@7F0A0927" android:nextFocusDown="@7F0A0856" android:layout_width="-2" android:layout_height="-2"/>
+    <View android:background="@drawable/lg_glass_panel" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="8.000000px" android:layout_marginRight="8.000000px"/>
+    <Button android:id="@7F0A0856" android:background="@drawable/lg_glass_button_selector" android:nextFocusLeft="@7F0A0856" android:nextFocusRight="@7F0A0856" android:nextFocusUp="@7F0A0928" android:layout_width="-2" android:layout_height="-2"/>
+    <Button android:id="@7F0A092A" android:background="@drawable/lg_glass_button_selector" android:visibility="2" android:nextFocusLeft="@7F0A092A" android:nextFocusRight="@7F0A092A" android:nextFocusUp="@7F0A0928" android:layout_width="-2" android:layout_height="-2"/>
+  </LinearLayout>
+  <RelativeLayout android:id="@7F0A092B" android:background="@drawable/lg_glass_panel" android:layout_width="1.000000px" android:layout_height="-1" android:layout_marginTop="18.000000px" android:layout_marginBottom="18.000000px" android:layout_toRightOf="@7F0A0925" android:layout_centerVertical="true"/>
+  <RelativeLayout android:id="@7F0A092C" android:layout_width="@7F0900DC" android:layout_height="@7F0900DB" android:layout_toRightOf="@7F0A092B" android:layout_alignTop="@7F0A0925">
+    <Button android:id="@7F0A092D" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_below="@7F0A092E" android:layout_centerHorizontal="true"/>
+    <Button android:id="@7F0A092F" android:background="@drawable/lg_glass_button_selector" android:layout_width="-2" android:layout_height="-2" android:layout_above="@7F0A092E" android:layout_centerHorizontal="true"/>
+    <com.thinkware.sundo.inavi3d.ui.component.simulateprograss android:id="@7F0A092E" android:layout_width="-1" android:layout_height="@7F0900DF" android:layout_centerInParent="true"/>
+  </RelativeLayout>
+</RelativeLayout>

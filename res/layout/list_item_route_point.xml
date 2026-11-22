@@ -1,0 +1,11 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_gravity="0x00000030" android:id="@7F0A057B" android:layout_width="-1" android:layout_height="68.000000px">
+  <RelativeLayout android:layout_gravity="0x00000030" android:id="@7F0A0559" android:focusable="false" android:layout_width="-1" android:layout_height="-2">
+    <View android:id="@7F0A00DA" android:background="@drawable/lg_glass_list_item_pressed" android:visibility="2" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="68.000000px"/>
+    <ImageView android:id="@7F0A055A" android:paddingLeft="18.000000px" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:src="@7F0207D5" android:layout_centerVertical="true"/>
+    <TextView android:textSize="26.000000px" android:textColor="@7F020CBD" android:ellipsize="3" android:gravity="0x00000010" android:id="@7F0A055B" android:paddingLeft="15.000000px" android:paddingRight="20.000000px" android:focusable="false" android:layout_width="-1" android:layout_height="68.000000px" android:singleLine="true" android:layout_toRightOf="@7F0A055A"/>
+    <ImageView android:id="@7F0A055C" android:focusable="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@7F020BB3" android:layout_alignParentTop="true" android:layout_centerHorizontal="true"/>
+    <ImageView android:id="@7F0A055D" android:focusable="false" android:visibility="2" android:layout_width="-2" android:layout_height="-2" android:src="@7F020BAF" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    <View android:id="@7F0A057C" android:background="@drawable/lg_glass_divider" android:visibility="2" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+    <View android:id="@7F0A02F6" android:background="@drawable/lg_glass_list_item" android:visibility="2" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="68.000000px"/>
+  </RelativeLayout>
+</FrameLayout>

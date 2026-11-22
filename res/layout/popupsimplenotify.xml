@@ -1,0 +1,8 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" android:orientation="1" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:gravity="0x00000011" android:background="@drawable/lg_glass_popup" android:layout_width="-1" android:layout_height="-1" android:layout_weight="1.000000">
+    <TextView android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:gravity="0x00000011" android:id="@7F0A06E4" android:layout_width="-2" android:layout_height="-2"/>
+  </LinearLayout>
+  <LinearLayout android:gravity="0x00000011" android:background="@drawable/lg_glass_popup_button_area" android:layout_width="-1" android:layout_height="74.000000px">
+    <Button android:textSize="@7F09024C" android:textColor="#FFFFFFFF" android:id="@7F0A06E5" android:background="@drawable/lg_glass_menu_item_selector" android:layout_width="-1" android:layout_height="-1" android:text="확인"/>
+  </LinearLayout>
+</LinearLayout>

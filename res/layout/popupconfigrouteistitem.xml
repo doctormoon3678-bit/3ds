@@ -1,0 +1,8 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="-1" android:layout_height="-2">
+  <RelativeLayout android:id="@7F0A052E" android:visibility="0" android:layout_width="-2" android:layout_height="80.000000px">
+    <RelativeLayout android:id="@7F0A0679" android:background="@drawable/lg_glass_divider" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="@7F0900F8" android:layout_marginRight="@7F0900F8" android:layout_alignParentBottom="true"/>
+    <RadioButton android:textColor="@color/lg_button_text" android:id="@7F0A035F" android:focusable="false" android:clickable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="20.000000px" android:button="@7F0205F8" android:layout_centerVertical="true"/>
+    <TextView android:textSize="24.000000px" android:textColor="#FFFFFFFF" android:id="@7F0A00E1" android:visibility="0" android:duplicateParentState="true" android:layout_width="284.000000px" android:layout_height="-2" android:layout_marginLeft="70.000000px" android:text="1종(승합:10인승)" android:layout_centerVertical="true"/>
+    <TextView android:textSize="22.000000px" android:textColor="#FFE5E5EA" android:id="@7F0A067A" android:visibility="0" android:duplicateParentState="true" android:layout_width="553.000000px" android:layout_height="-2" android:layout_marginRight="25.000000px" android:text="거리가 짧은 도로를 우선 탐색합니다." android:layout_alignParentRight="true" android:layout_centerVertical="true"/>
+  </RelativeLayout>
+</RelativeLayout>

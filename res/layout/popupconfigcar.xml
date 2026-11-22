@@ -1,0 +1,33 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A02A0" android:background="@drawable/lg_glass_scrim" android:layout_width="-1" android:layout_height="-1">
+  <LinearLayout android:orientation="1" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+    <LinearLayout android:orientation="1" android:background="@drawable/lg_glass_popup" android:padding="0.000000px" android:layout_width="-2" android:layout_height="-2" android:layout_centerHorizontal="true" android:layout_centerVertical="true">
+      <RelativeLayout android:id="@7F0A0335" android:layout_width="662.000000px" android:layout_height="76.000000px">
+        <TextView android:textSize="@7F09014F" android:textColor="@color/lg_text_secondary" android:id="@7F0A0619" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="30.000000px" android:text="자동차 아이콘" android:layout_centerVertical="true"/>
+        <RelativeLayout android:background="@drawable/lg_glass_divider_horizontal" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="7.000000px" android:layout_marginRight="7.000000px" android:layout_alignParentBottom="true"/>
+      </RelativeLayout>
+      <RelativeLayout android:id="@7F0A00CB" android:layout_width="662.000000px" android:layout_height="229.000000px">
+        <ImageView android:background="@7F020C04" android:layout_width="2.000000px" android:layout_height="78.000000px" android:layout_marginLeft="151.000000px" android:layout_marginTop="18.000000px"/>
+        <ImageView android:background="@7F020C04" android:layout_width="2.000000px" android:layout_height="78.000000px" android:layout_marginLeft="270.000000px" android:layout_marginTop="18.000000px"/>
+        <ImageView android:background="@7F020C04" android:layout_width="2.000000px" android:layout_height="78.000000px" android:layout_marginLeft="389.000000px" android:layout_marginTop="18.000000px"/>
+        <ImageView android:background="@7F020C04" android:layout_width="2.000000px" android:layout_height="78.000000px" android:layout_marginLeft="508.000000px" android:layout_marginTop="18.000000px"/>
+        <ImageView android:background="@7F020C04" android:layout_width="2.000000px" android:layout_height="78.000000px" android:layout_marginLeft="151.000000px" android:layout_marginTop="134.000000px"/>
+        <ImageView android:background="@7F020C04" android:layout_width="2.000000px" android:layout_height="78.000000px" android:layout_marginLeft="270.000000px" android:layout_marginTop="134.000000px"/>
+        <ImageView android:background="@7F020C04" android:layout_width="2.000000px" android:layout_height="78.000000px" android:layout_marginLeft="389.000000px" android:layout_marginTop="134.000000px"/>
+        <ImageView android:background="@7F020C04" android:layout_width="2.000000px" android:layout_height="78.000000px" android:layout_marginLeft="508.000000px" android:layout_marginTop="134.000000px"/>
+        <ImageView android:id="@7F0A0664" android:background="@7F020E83" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="34.000000px" android:layout_marginTop="0.000000px" android:src="@7F0207B3"/>
+        <ImageView android:id="@7F0A0665" android:background="@7F020E83" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="153.000000px" android:layout_marginTop="0.000000px" android:src="@7F0207B4"/>
+        <ImageView android:id="@7F0A0666" android:background="@7F020E83" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="272.000000px" android:layout_marginTop="0.000000px" android:src="@7F0207B5"/>
+        <ImageView android:id="@7F0A0667" android:background="@7F020E83" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="391.000000px" android:layout_marginTop="0.000000px" android:src="@7F0207B6"/>
+        <ImageView android:id="@7F0A0668" android:background="@7F020E83" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="510.000000px" android:layout_marginTop="0.000000px" android:src="@7F0207B7"/>
+        <ImageView android:id="@7F0A0669" android:background="@7F020E83" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="34.000000px" android:layout_marginTop="116.000000px" android:src="@7F0207B8"/>
+        <ImageView android:id="@7F0A066A" android:background="@7F020E83" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="153.000000px" android:layout_marginTop="116.000000px" android:src="@7F0207B9"/>
+        <ImageView android:id="@7F0A066B" android:background="@7F020E83" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="272.000000px" android:layout_marginTop="116.000000px" android:src="@7F0207BA"/>
+        <ImageView android:id="@7F0A066C" android:background="@7F020E83" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="391.000000px" android:layout_marginTop="116.000000px" android:src="@7F0207BB"/>
+        <ImageView android:id="@7F0A066D" android:background="@7F020E83" android:focusable="true" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="510.000000px" android:layout_marginTop="116.000000px" android:src="@7F0207BC"/>
+      </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="0" android:id="@7F0A033D" android:background="@drawable/lg_glass_popup_button_area" android:paddingLeft="5.000000px" android:paddingRight="5.000000px" android:paddingBottom="5.000000px" android:layout_width="662.000000px" android:layout_height="84.000000px">
+      <Button android:textSize="@7F090150" android:textColor="@color/lg_button_text" android:id="@7F0A00DE" android:background="@drawable/lg_glass_button" android:layout_width="-1" android:layout_height="-1" android:text="취소"/>
+    </LinearLayout>
+  </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" android:id="@7F0A050F" android:layout_width="-1" android:layout_height="-1">
+  <RelativeLayout android:id="@7F0A0510" android:background="@7F020CD6" android:layout_width="-1" android:layout_height="80.000000px">
+    <ImageView android:layout_gravity="0x00000011" android:id="@7F0A0511" android:paddingLeft="2.000000px" android:focusable="false" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="60.000000px" android:src="@7F0207C6" android:layout_alignParentLeft="true" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@7F090250" android:textColor="#FFE5E5EA" android:id="@7F0A00C8" android:layout_width="-2" android:layout_height="-2" android:layout_marginLeft="6.000000px" android:text="타이틀" android:layout_toRightOf="@7F0A0511" android:layout_centerVertical="true"/>
+    <TextView android:textSize="@7F09024E" android:textColor="#FFE5E5EA" android:id="@7F0A0512" android:layout_width="-2" android:layout_height="-2" android:layout_marginTop="16.000000px" android:text="" android:layout_toRightOf="@7F0A00C8"/>
+  </RelativeLayout>
+  <View android:id="@7F0A0193" android:background="@drawable/lg_glass_divider" android:visibility="0" android:duplicateParentState="true" android:layout_width="-1" android:layout_height="1.000000px" android:layout_marginLeft="18.000000px" android:layout_marginRight="18.000000px" android:layout_alignParentBottom="true"/>
+</RelativeLayout>
